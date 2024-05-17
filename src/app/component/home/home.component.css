@@ -38,6 +38,7 @@ body {
     padding-top: 150px;
 }
 
+
 .background {
     background-image: url('/assets/Background.png');
     background-size: 100% 100%;
@@ -159,9 +160,11 @@ body {
     top: -160px;
     right: 140px;
 }
+
 .containerE:hover .img {
     transform: translateY(0) scale(1.2);
 }
+
 /*---------------------------------------------------*/
 .img1 {
     left: 50px;
@@ -282,7 +285,7 @@ body {
 }
 
 .containerB {
-    margin: 0 auto; 
+    margin: 0 auto;
     max-width: 1140px;
     margin-bottom: 40px;
 }
@@ -330,9 +333,13 @@ body {
 }
 
 .carousel-inner img {
-    width: 100%;
+    width: 95%;
     height: auto;
     object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+
 }
 
 .line-image {
