@@ -1,0 +1,66 @@
+.containerA {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.facebook-icon {
+    height: auto;
+    width: 60px;
+}
+
+
+.follow-us {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.social-icon-image {
+    width: 40px;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .contact-info {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    background-color: #627583;
+    padding: 30px 0;
+}
+
+.contact-info {
+    padding-right: 20px;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-item {
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.contact-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.contact-item-container img {
+    margin-right: 10px;
+}
