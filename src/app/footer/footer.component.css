@@ -4,26 +4,6 @@
     max-width: 1140px;
 }
 
-.social-icons {
-    margin-top: 10px;
-}
-
-.facebook-icon {
-    height: auto;
-    width: 60px;
-}
-
-
-.follow-us {
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.social-icon-image {
-    width: 40px;
-    height: auto;
-}
-
 @media (max-width: 767px) {
     .contact-info {
         padding-right: 0;
@@ -58,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0px;
+    margin-bottom: 10px; 
 }
 
 .contact-item-container img {

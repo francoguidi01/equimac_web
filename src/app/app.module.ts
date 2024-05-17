@@ -11,6 +11,7 @@ import { ProductViewComponent } from './component/product-view/product-view.comp
 import { ContactComponent } from './component/contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { OverlappingComponent } from './component/overlapping/overlapping.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     ProductViewComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    OverlappingComponent
   ],
   imports: [
     BrowserModule,

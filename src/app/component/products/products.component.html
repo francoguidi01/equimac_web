@@ -1,8 +1,15 @@
-<app-navbar></app-navbar>
-<button (click)="create_a_product()">HELLO???</button>
-<button (click)="get_all()">ME DEVUELVE LOS PRODUCTOS BROTHER?</button>
-<div *ngIf="listProduct">
-    <p *ngFor="let product of listProduct">
-        {{product.name}}
-    </p>
-</div>
+<app-header></app-header>
+
+<body>
+    <app-navbar></app-navbar>
+
+
+    <button style="margin-top: 10%;" (click)="create_a_product()">HELLO???</button>
+    <button (click)="get_all()">ME DEVUELVE LOS PRODUCTOS BROTHER?</button>
+    <div *ngIf="listProduct">
+        <p *ngFor="let product of listProduct">
+            {{product.name}}
+        </p>
+    </div>
+
+</body>
