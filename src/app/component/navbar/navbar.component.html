@@ -1,5 +1,42 @@
-<nav><button [routerLink]="['']" routerLinkActive="active" href="#">HOME</button>
-    <button [routerLink]="['/about-us']" routerLinkActive="active" href="#">ABOUT US</button>
-    <button [routerLink]="['/products']" routerLinkActive="active" href="#">PRODUCTS</button>
-    <button [routerLink]="['/contact']" routerLinkActive="active" href="#">CONTACT</button>
+<nav class="navbar navbar-expand-lg" style="background-color: #627583;">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <img src="assets/Equimac.png" alt="Logo" style="width: 120px; margin-top: 20px; margin-left:35%; height: auto;">
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto" style="display: flex; align-items: center;">
+                <li class="nav-item" style="padding-right: 30px;">
+                    <a class="nav-link" [routerLink]="['']" routerLinkActive="active" href="#" style="text-decoration: none; color: #E4DDD3;">
+                        <img src="assets/Home.png" alt="Imagen" style="width: 42px; height: 42px;">
+                        <strong> INICIO</strong>
+                    </a>
+                </li>
+
+                <li style="padding-right: 30px;">
+                    <a [routerLink]="['/about-us']" routerLinkActive="active" href="#" style="text-decoration: none; color: #E4DDD3;">
+                    <img src="assets/AboutUs.png" alt="Imagen" style="width: 42px; height: 42px;">
+                    <strong> NOSOTROS</strong>
+                    </a>
+                </li>
+
+                <li style="padding-right: 30px;">
+                    <a [routerLink]="['/products']" routerLinkActive="active" href="#" style="text-decoration: none; color: #E4DDD3;">
+                    <img src="assets/Products.png" alt="Imagen" style="width: 42px; height: 42px;">
+                    <strong> PRODUCTOS</strong>
+                    </a>
+                </li>
+
+                <li style="padding-right: 30px;">
+                    <a [routerLink]="['/contact']" routerLinkActive="active" href="#" style="text-decoration: none; color: #E4DDD3;">
+                    <img src="assets/Contact.png" alt="Imagen" style="width: 42px; height: 42px;">
+                    <strong> CONTACTO</strong>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
 </nav>

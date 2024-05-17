@@ -1,2 +1,191 @@
-<app-navbar></app-navbar>
-<p>home works!</p>
+
+<header class="animate__animated animate__fadeIn" style="color: #E4DDD3;">
+<div>
+    <p style="color: black; text-align: center;">HEADER</p>
+</div>
+</header>
+
+<body>
+    <app-navbar class="animate__animated animate__fadeIn"></app-navbar>
+
+    <!--Inicio-->
+
+    <div class="animate__animated animate__fadeIn" style="margin-bottom: 10%; margin-top: 5%;">
+        <div class="object">
+            <div class="container">
+                <img class="img img1" src="assets/Machine.png">
+            </div>
+            <div class="profileContainer">
+                <div class="profileText">
+                    <div class="name">"Tus distribuidores de confianza"</div>
+                    <div class="title text-center"><strong>"En Distribuidora
+                            Gastronómica, nos dedicamos a proporcionar equipos de alta calidad para la industria de la
+                            gastronomía. Desde hornos industriales hasta utensilios especializados, ofrecemos soluciones
+                            confiables y eficientes para cocinas comerciales.
+                            Con más de veinte años de experiencia, nuestro compromiso es brindar productos de primera
+                            calidad y un servicio excepcional. Ya sea que esté buscando equipar su cocina o mejorar su
+                            equipo existente, en Distribuidora Gastronómica encontrará las soluciones que necesita para
+                            impulsar su negocio hacia el éxito gastronómico."</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Products Carousel-->
+    <div class="otherTitle" style="margin-bottom: 6%;">ALGUNOS PRODUCTOS</div>
+    <div class="carousel-container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="width: 450px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#" style="text-decoration: none; color: #E4DDD3;">
+                        <img src="assets/Machine2.jpg" alt="Imagen">
+                    </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#" style="text-decoration: none; color: #E4DDD3;">
+                        <img src="assets/Machine3.jpg" alt="Imagen">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Extra-->
+
+    <div class="containerA animate__animated animate__fadeIn" style="margin-bottom: 10%;">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <img src="assets/Ship.png" alt="Logo" class="logo img-fluid">
+                    <p class="icon-text"><strong>ENVIOS A TODO EL PAIS</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <img src="assets/Payment.png" alt="Logo" class="logo img-fluid">
+                    <p class="icon-text"><strong>PRECIOS NEGOCIABLES</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <img src="assets/CustomerSupport.png" alt="Logo" class="logo img-fluid">
+                    <p class="icon-text"><strong>ATENCION PERSONALIZADA</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Infinite Carousel companies-->
+
+    <div class="animate__animated animate__fadeIn" style="margin-bottom: 10%;">
+        <div class="otherTitle" style="margin-bottom: 3%;">NUESTROS CLIENTES</div>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Map-->
+    <div class="containerB animate__animated animate__fadeIn">
+        <div class="otherTitleB">DONDE ENCONTRARNOS</div>
+        <iframe class="maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4445.510719696317!2d-57.5850286944935!3d-38.01326933652778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dec5764e9291%3A0x7e759bb07ace8e4d!2sDe%20los%20Inmigrantes%20219%2C%20B7608EEE%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715915465055!5m2!1ses-419!2sar"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+</body>
+
+<!--Footer-->
+
+<footer class="footer animate__animated animate__fadeIn">
+    <div class="containerA">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-4 contact-info text-center">
+                <div class="contact-item-container">
+                    <img src="assets/Maps.png" alt="Mapa" style="height: auto; width: 40px;">
+                    <p class="contact-item" style="color: #E4DDD3;"> De los Inmigrantes 219</p>
+                </div>
+                <div class="contact-item-container">
+                    <img src="assets/Gmail.png" alt="Mapa" style="height: auto; width: 40px;">
+                    <p class="contact-item" style="color: #E4DDD3;">equimacmardelplata@gmail.com</p>
+                </div>
+                <div class="contact-item-container">
+                    <img src="assets/Mobile.png" alt="Mapa" style="height: auto; width: 40px;">
+                    <p class="contact-item" style="color: #E4DDD3;"> +54 9 223 6404800789</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="assets/Equimac.png" alt="Logo" class="logo img-fluid"
+                    style="width: 150px; height: auto; margin-left: 30%;">
+            </div>
+            <div class="col-md-4 social-icons text-center">
+                <div style="margin-left: 70%;">
+                    <span class="follow-us" style="color: #E4DDD3;">Seguinos en:</span>
+                    <a href="https://www.facebook.com/p/Equimaq-100057389442709/" target="_blank"
+                        rel="noopener noreferrer" class="social-icon">
+                        <img src="assets/facebook.png" alt="Facebook" class="facebook-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
