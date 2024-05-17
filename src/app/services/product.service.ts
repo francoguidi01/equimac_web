@@ -6,6 +6,7 @@ import { Product } from '../models/product';
 })
 export class ProductService {
   private productList = new Array<Product>();
+ 
   constructor() {
     this.productList.push(
       { id: 1, name: 'Product 1', description: 'Description of Product 1' },
@@ -18,6 +19,7 @@ export class ProductService {
       { id: 8, name: 'Product 8', description: 'Description of Product 8' },
       { id: 9, name: 'Product 9', description: 'Description of Product 9' },
       { id: 10, name: 'Product 10', description: 'Description of Product 10' })
+  
   }
 
 

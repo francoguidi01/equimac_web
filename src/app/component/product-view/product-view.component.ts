@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Product } from 'src/app/models/product';
+import { ProductService } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-product-view',
@@ -7,4 +10,13 @@ import { Component } from '@angular/core';
 })
 export class ProductViewComponent {
 
+  product: Product | null = new Product();
+  constructor(private service: ProductService, private route: ActivatedRoute) {
+
+  }
+  ngOnInit(): void {
+    let productId = Number(this.route.snapshot.paramMap.get('id'));
+    this.product = this.service.getById(productId);
+    console.log(this.product)
+  }
 }

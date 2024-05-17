@@ -1,8 +1,21 @@
 <app-navbar></app-navbar>
-<button (click)="create_a_product()">HELLO???</button>
-<button (click)="get_all()">ME DEVUELVE LOS PRODUCTOS BROTHER?</button>
 <div *ngIf="listProduct">
-    <p *ngFor="let product of listProduct">
-        {{product.name}}
-    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>PRODUCT NAME</th>
+                <th>DESCRIPTION</th>
+                <th>VIEW HIGHER JOI JOI</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of listProduct">
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.description}}</td>
+                <td><button [routerLink]="['/products/view/', product.id ]">VIEW</button></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
