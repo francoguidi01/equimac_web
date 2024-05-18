@@ -37,7 +37,7 @@
 .contact-item-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:left;
     margin-bottom: 10px; 
 }
 
@@ -69,4 +69,20 @@
 
 .containerE:hover .img {
     transform: translateY(0) scale(1.2);
+}
+
+
+.seccion-izquierda {
+    float: left;
+    width: 33.33%;
+}
+
+.seccion-central {
+    text-align: center;
+}
+
+.seccion-derecha {
+    float: right;
+    width: 33.33%;
+    text-align: center;
 }
