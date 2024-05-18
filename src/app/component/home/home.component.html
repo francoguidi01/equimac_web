@@ -3,7 +3,7 @@
 
 <body>
     <app-navbar></app-navbar>
-    <!--Inicio-->
+    <!--------------------------------Inicio------------------------------->
 
     <div class="animate__animated animate__fadeIn" style="margin-bottom: 0%; margin-top: 5%;">
         
@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <!--Products Carousel-->
+    <!------------------------------Products Carousel------------------------------>
 
     <div class="otherTitle animate__animated animate__fadeIn"
         style="display: flex; align-items: center; justify-content: center;">
@@ -36,30 +36,69 @@
         <img src="assets/Line.png" alt="Línea" class="line-image">
     </div>
 
-    <div class="carousel-container animate__animated animate__fadeIn">
-        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel"
-            style="width: 450px;">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
-                    <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
-                        style="text-decoration: none; color: #E4DDD3;">
-                        <img src="assets/Machine2.jpg" alt="Imagen">
-                    </a>
+    <div class="carousels-wrapper">
+        <div class="carousel-row">
+            <div class="carousel-container large-carousel">
+                <div id="carouselExampleInterval1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3500">
+                            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
+                                style="text-decoration: none; color: #E4DDD3;">
+                                <img src="assets/Machine2.jpg" alt="Imagen">
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3200">
+                            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
+                                style="text-decoration: none; color: #E4DDD3;">
+                                <img src="assets/Machine3.jpg" alt="Imagen">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
-                        style="text-decoration: none; color: #E4DDD3;">
-                        <img src="assets/Machine3.jpg" alt="Imagen">
-                    </a>
+            </div>
+            <div class="carousel-container large-carousel">
+                <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3800">
+                            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
+                                style="text-decoration: none; color: #E4DDD3;">
+                                <img src="assets/Machine2.jpg" alt="Imagen">
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3500">
+                            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
+                                style="text-decoration: none; color: #E4DDD3;">
+                                <img src="assets/Machine3.jpg" alt="Imagen">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-container large-carousel">
+                <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3200">
+                            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
+                                style="text-decoration: none; color: #E4DDD3;">
+                                <img src="assets/Machine2.jpg" alt="Imagen">
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3700">
+                            <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#"
+                                style="text-decoration: none; color: #E4DDD3;">
+                                <img src="assets/Machine3.jpg" alt="Imagen">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
 
+    <!--------------------------------Extra-------------------------------->
 
-    <!--Extra-->
-
-    <div class="containerD animate__animated animate__fadeIn" style="margin-bottom: 10%;">
+    <div class="containerD animate__animated animate__fadeIn" style="margin-bottom: 5%;">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-4 text-center">
                 <div class="icon containerE">
@@ -83,7 +122,7 @@
     </div>
 
 
-    <!--Infinite Carousel companies-->
+    <!--------------------------------Infinite Carousel companies-------------------------------->
 
     <div class="animate__animated animate__fadeIn" style="margin-bottom: 5%;">
         <div class="otherTitle" style=" margin-bottom: 5%; align-items: center; justify-content: center;">
@@ -153,7 +192,7 @@
         </div>
     </div>
 
-    <!--Map-->
+    <!--------------------------------Map-------------------------------->
     <div class="containerB animate__animated animate__fadeIn" style="text-align: center;">
         <div class="otherTitleB" style="display: flex; align-items: center; justify-content: center;">
             <img src="assets/Line.png" alt="Línea" class="line-image">
@@ -168,7 +207,5 @@
 
 
 </body>
-
-<!--Footer-->
 
 <app-footer></app-footer>
