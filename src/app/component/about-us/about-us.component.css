@@ -3,3 +3,85 @@ body {
     padding-top: 150px;
 }
 
+.company-card {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    min-height: 300px;
+    display: block;
+    margin: 8vh auto;
+    border-radius: 8px;
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.company-card[data-company="quienes-somos"] {
+    background-image: url('/assets/background.jpg') ;
+}
+
+.company-card__overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgba(98, 117, 131, .2) 0%, #27242a 60%, #27242a 100%);
+    background-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.company-card__content {
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    float: right;
+    padding-right: 1.2em;
+    padding-bottom: 1em;
+}
+
+.company-card__header {
+    margin-bottom: 2em;
+}
+
+.company-card__title {
+    color: #E4DDD3;
+    margin-bottom: .25em;
+    opacity: .75;
+}
+
+.company-card__info {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8em;
+    color: var(--secondary-color);
+    line-height: 1;
+    margin: 0;
+    font-weight: 700;
+    opacity: .5;
+    color: #E4DDD3;
+}
+
+.company-card__desc {
+    font-weight: 300;
+    opacity: .84;
+    margin-bottom: 2em;
+    color: #E4DDD3;
+}
+
+h1{
+    font-family: var(--font-stack-header);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+
+/*-------------------------------------------*/
