@@ -1,34 +1,79 @@
+<nav class="navbar navbar-expand-lg navbar-dark animate__animated animate__fadeIn">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['']" routerLinkActive="active" href="#">
+                        <img src="assets/Home.png" alt="Inicio" class="nav-icon">
+                        <strong>INICIO</strong>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/about-us']" routerLinkActive="active" href="#">
+                        <img src="assets/AboutUs.png" alt="Nosotros" class="nav-icon">
+                        <strong>NOSOTROS</strong>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active" href="#">
+                        <img src="assets/Products.png" alt="Productos" class="nav-icon">
+                        <strong>PRODUCTOS</strong>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active" href="#">
+                        <img src="assets/Contact.png" alt="Contacto" class="nav-icon">
+                        <strong>CONTACTO</strong>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!--
+
+
 <nav class="navbar navbar-expand-lg  animate__animated animate__fadeIn">
     <div class="container-fluid">
-        
+
         <div class="collapse navbar-collapse" id="navbarNav">
 
             <ul class="navbar-nav mx-auto" style="display: flex; align-items: center;">
                 <li class="nav-item" style="padding-right: 30px;">
-                    <a class="nav-link" [routerLink]="['']" routerLinkActive="active" href="#" style="text-decoration: none; color: #D8D8D8;">
+                    <a class="nav-link" [routerLink]="['']" routerLinkActive="active" href="#"
+                        style="text-decoration: none; color: #D8D8D8;">
                         <img src="assets/Home.png" alt="Imagen" style="width: 42px; height: 42px;">
                         <strong> INICIO</strong>
                     </a>
                 </li>
 
                 <li style="padding-right: 30px;">
-                    <a [routerLink]="['/about-us']" routerLinkActive="active" href="#" style="text-decoration: none; color: #D8D8D8;">
-                    <img src="assets/AboutUs.png" alt="Imagen" style="width: 42px; height: 42px;">
-                    <strong> NOSOTROS</strong>
+                    <a [routerLink]="['/about-us']" routerLinkActive="active" href="#"
+                        style="text-decoration: none; color: #D8D8D8;">
+                        <img src="assets/AboutUs.png" alt="Imagen" style="width: 42px; height: 42px;">
+                        <strong> NOSOTROS</strong>
                     </a>
                 </li>
 
                 <li style="padding-right: 30px;">
-                    <a [routerLink]="['/products']" routerLinkActive="active" href="#" style="text-decoration: none; color: #D8D8D8;">
-                    <img src="assets/Products.png" alt="Imagen" style="width: 42px; height: 42px;">
-                    <strong> PRODUCTOS</strong>
+                    <a [routerLink]="['/products']" routerLinkActive="active" href="#"
+                        style="text-decoration: none; color: #D8D8D8;">
+                        <img src="assets/Products.png" alt="Imagen" style="width: 42px; height: 42px;">
+                        <strong> PRODUCTOS</strong>
                     </a>
                 </li>
 
                 <li style="padding-right: 30px;">
-                    <a [routerLink]="['/contact']" routerLinkActive="active" href="#" style="text-decoration: none; color: #D8D8D8;">
-                    <img src="assets/Contact.png" alt="Imagen" style="width: 42px; height: 42px;">
-                    <strong> CONTACTO</strong>
+                    <a [routerLink]="['/contact']" routerLinkActive="active" href="#"
+                        style="text-decoration: none; color: #D8D8D8;">
+                        <img src="assets/Contact.png" alt="Imagen" style="width: 42px; height: 42px;">
+                        <strong> CONTACTO</strong>
                     </a>
                 </li>
 
@@ -36,3 +81,5 @@
         </div>
     </div>
 </nav>
+
+-->

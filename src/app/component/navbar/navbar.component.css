@@ -1,7 +1,27 @@
 .navbar {
-    background-color: /*#627583*/ #531D26;
+    background-color: #531D26;
     position: fixed;
     top: 108px;
     width: 100%;
     z-index: 999;
+}
+.navbar-nav .nav-item {
+    padding-right: 30px;
+}
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #D8D8D8;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link .nav-icon {
+    width: 42px;
+    height: 42px;
+    margin-right: 8px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    color: #D8D8D8;
 }

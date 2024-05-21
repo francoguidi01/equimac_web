@@ -9,16 +9,16 @@ export class ProductService {
  
   constructor() {
     this.productList.push(
-      { id: 1, name: 'Product 1', description: 'Description of Product 1' },
-      { id: 2, name: 'Product 2', description: 'Description of Product 2' },
-      { id: 3, name: 'Product 3', description: 'Description of Product 3' },
-      { id: 4, name: 'Product 4', description: 'Description of Product 4' },
-      { id: 5, name: 'Product 5', description: 'Description of Product 5' },
-      { id: 6, name: 'Product 6', description: 'Description of Product 6' },
-      { id: 7, name: 'Product 7', description: 'Description of Product 7' },
-      { id: 8, name: 'Product 8', description: 'Description of Product 8' },
-      { id: 9, name: 'Product 9', description: 'Description of Product 9' },
-      { id: 10, name: 'Product 10', description: 'Description of Product 10' })
+      { id: 1, name: 'Product 1', image: '/assets/Machine3.jpg' },
+      { id: 2, name: 'Product 2', image: '/assets/Machine2.jpg' },
+      { id: 3, name: 'Product 3', image: '/assets/Machine3.jpg' },
+      { id: 4, name: 'Product 4', image: '/assets/Machine3.jpg' },
+      { id: 5, name: 'Product 5', image: '/assets/Machine2.jpg' },
+      { id: 6, name: 'Product 6', image: '/assets/Machine3.jpg' },
+      { id: 7, name: 'Product 7', image: '/assets/Machine3.jpg' },
+      { id: 8, name: 'Product 8', image: '/assets/Machine2.jpg' },
+      { id: 9, name: 'Product 9', image: '/assets/Machine2.jpg' },
+      { id: 10, name: 'Product 10', image: '/assets/Machine3.jpg' })
   
   }
 
