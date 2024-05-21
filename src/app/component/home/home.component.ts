@@ -16,6 +16,10 @@ import { ProductService } from 'src/app/services/product.service';
 export class HomeComponent {
   product: Product | null = new Product();
   listProduct: any;
+  listProduct1: any;
+  listProduct2: any;
+  listProduct3: any;
+
   constructor(private service: ProductService, private route: ActivatedRoute) {
   }
   ngOnInit(): void {
@@ -27,8 +31,15 @@ export class HomeComponent {
   get_all() {
     this.listProduct = this.service.getAll();
     this.listProduct.sort(() => Math.random() - 0.5);
-    this.listProduct.splice(3);
-    console.log(this.listProduct)
-  }
 
+    const third = Math.floor(this.listProduct.length / 3);
+    this.listProduct1 = this.listProduct.slice(0, third);
+    this.listProduct2 = this.listProduct.slice(third, 2 * third);
+    this.listProduct3 = this.listProduct.slice(2 * third, this.listProduct.length);
+
+    console.log(this.listProduct1);
+    console.log(this.listProduct2);
+    console.log(this.listProduct3);
+
+  }
 }

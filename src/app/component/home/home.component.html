@@ -36,45 +36,45 @@
         <img src="assets/Line.png" alt="Línea" class="line-image">
     </div>
 
-    <div class="carousels-wrapper">
+    <div class="carousels-wrapper animate__animated animate__fadeIn">
         <div class="carousel-row">
             <div class="carousel-container large-carousel">
                 <div id="carouselExampleInterval1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div *ngFor="let product of listProduct">
-                            <div class="carousel-item active" data-bs-interval="100">
+                        <div *ngFor="let product of listProduct1">
+                            <div class="carousel-item active" data-bs-interval="2600">
                                 <a class="nav-link" [routerLink]="['/products/view/', product.id]"
                                     routerLinkActive="active" href="#" style="text-decoration: none;">
-                                    <img [src]="product.image" alt="Imagen">
+                                    <img [src]="product.images[0]" alt="Imagen">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-container large-carousel">
-                    <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div *ngFor="let product of listProduct">
-                                <div class="carousel-item active" data-bs-interval="100">
-                                    <a class="nav-link" [routerLink]="['/products/view/', product.id]"
-                                        routerLinkActive="active" href="#" style="text-decoration: none;">
-                                        <img [src]="product.image" alt="Imagen">
-                                    </a>
-                                </div>
+            </div>
+            <div class="carousel-container large-carousel">
+                <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div *ngFor="let product of listProduct2">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <a class="nav-link" [routerLink]="['/products/view/', product.id]"
+                                    routerLinkActive="active" href="#" style="text-decoration: none;">
+                                    <img [src]="product.images[0]" alt="Imagen">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-container large-carousel">
-                    <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div *ngFor="let product of listProduct">
-                                <div class="carousel-item active" data-bs-interval="100">
-                                    <a class="nav-link" [routerLink]="['/products/view/', product.id]"
-                                        routerLinkActive="active" href="#" style="text-decoration: none;">
-                                        <img [src]="product.image" alt="Imagen">
-                                    </a>
-                                </div>
+            </div>
+            <div class="carousel-container large-carousel">
+                <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div *ngFor="let product of listProduct3">
+                            <div class="carousel-item active" data-bs-interval="2400">
+                                <a class="nav-link" [routerLink]="['/products/view/', product.id]"
+                                    routerLinkActive="active" href="#" style="text-decoration: none;">
+                                    <img [src]="product.images[0]" alt="Imagen">
+                                </a>
                             </div>
                         </div>
                     </div>

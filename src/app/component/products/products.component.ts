@@ -22,10 +22,10 @@ export class ProductsComponent {
   }
 
 
-  create_a_product(): void {
+  /*create_a_product(): void {
     const product: Product = new Product(1, 'Product 1', 'Description of Product 1');
     console.log(product);
-  }
+  }*/
 
 
 }

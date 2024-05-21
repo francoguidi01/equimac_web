@@ -2,18 +2,58 @@
 
 <body>
     <app-navbar></app-navbar>
-    <div *ngIf="product else rastaBlanco">
-        HOLA
-        {{product.id}}
-        {{product.name}}
-        {{product.image}}
-    </div>
+
+    <div  id="project-wrapper" *ngIf="product; else rastaBlanco">
+
+        <div id="project-container">
+            <div class="animate__animated animate__fadeInLeft" id="left">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div *ngFor="let image of product.images; let i = index" class="carousel-item" [class.active]="i === 0">
+                            <img [src]="image" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        
+            <div class="animate__animated animate__fadeInRight" id="right">
+                <h2><strong>{{ product.name }}</strong></h2>
+                <div id="details-description">
+                    <ul>
+                        <li *ngFor="let detail of product.details">{{ detail }}</li>
+                    </ul>
+                    <p>{{ product.description }}</p>
+                </div>
+                <button class="purchase" [routerLink]="['/contact']" routerLinkActive="active" href="#">CONTACTARNOS
+                </button>
+            </div>
+        </div>
+        
+        
+
+
+
+
+    </div>   
+
+
+
     <ng-template #rastaBlanco>
         <div class="center-content">
             <a href="#" style="text-decoration: none;">
                 <img style="width: 500px; height: auto;" src="/assets/error-404.png" alt="">
                 <h1 class="error_text"><strong>ERROR JOI JOI</strong></h1>
             </a>
-        </div>        
+        </div>
     </ng-template>
 </body>
+
+<app-footer></app-footer>
