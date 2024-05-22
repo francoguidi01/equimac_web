@@ -4,32 +4,21 @@
     max-width: 1140px;
 }
 
-@media (max-width: 767px) {
-    .contact-info {
-        padding-right: 0;
-        margin-bottom: 20px;
-    }
-}
 
 .footer {
     background-color: #531D26;
-    padding: 30px 0;
-}
-
-.contact-info {
-    padding-right: 20px;
-}
+    padding: 20px 0;}
 
 .contact-title {
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center;
+    font-size: 16px;
+    margin-bottom: 3px;
+        text-align: center;
 }
 
 .contact-item {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 10px;
     text-align: center;
 }
@@ -42,7 +31,7 @@
 }
 
 .contact-item-container img {
-    margin-right: 10px;
+    margin-right: 8px; 
 }
 
 /*-------------------------------------------*/

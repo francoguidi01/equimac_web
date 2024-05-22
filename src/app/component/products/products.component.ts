@@ -11,6 +11,7 @@ export class ProductsComponent {
 
   constructor(private service: ProductService) { }
   listProduct: any;
+  
   ngOnInit(): void {
     this.get_all()
   }

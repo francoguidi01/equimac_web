@@ -120,4 +120,19 @@ export class ProductService {
     let products = this.productList.filter(product => { return product.id == productId })
     return (products.length > 0) ? products[0] : null;
   }
+
+  private normalize(text: string): string {
+    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  }
+
+  searchProducts(query: string) {
+    const normalizedQuery = this.normalize(query);
+    return this.productList.filter(product =>
+      this.normalize(product.name).startsWith(normalizedQuery)
+    );
+  }
+
+  
 }
+
+

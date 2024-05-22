@@ -6,9 +6,8 @@
     height: 50px;
     padding: 0 20px;
     position: sticky;
-    top: 520px;
+    top: 200px;
     background-color: transparent;
-    z-index: 1000;
 }
 
 .button {
@@ -17,7 +16,6 @@
     cursor: pointer;
     height: 60px; 
     width: 60px; 
-    margin-bottom: 20px; 
 }
 
 .button img {

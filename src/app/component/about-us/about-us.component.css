@@ -21,12 +21,12 @@ body {
 }
 
 .left{
-    margin-inline-start: -30%;
+    margin-inline-start: -20%;
 }
 
 .right
 {
-    margin-inline-start: 30%;
+    margin-inline-start: 20%;
 }
 
 .company-card[data-company="quienes-somos"] {

@@ -2,7 +2,9 @@
 <app-header></app-header>
 
 <body>
-    <app-navbar></app-navbar>
+
+        <app-navbar></app-navbar>
+        
     <!--------------------------------Inicio------------------------------->
 
     <div class="animate__animated animate__fadeIn" style="margin-bottom: 0%; margin-top: 5%;">
@@ -42,7 +44,7 @@
                 <div id="carouselExampleInterval1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div *ngFor="let product of listProduct1">
-                            <div class="carousel-item active" data-bs-interval="2600">
+                            <div class="carousel-item active" data-bs-interval="2500">
                                 <a class="nav-link" [routerLink]="['/products/view/', product.id]"
                                     routerLinkActive="active" href="#" style="text-decoration: none;">
                                     <img [src]="product.images[0]" alt="Imagen">
@@ -70,7 +72,7 @@
                 <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div *ngFor="let product of listProduct3">
-                            <div class="carousel-item active" data-bs-interval="2400">
+                            <div class="carousel-item active" data-bs-interval="2500">
                                 <a class="nav-link" [routerLink]="['/products/view/', product.id]"
                                     routerLinkActive="active" href="#" style="text-decoration: none;">
                                     <img [src]="product.images[0]" alt="Imagen">

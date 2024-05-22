@@ -1,35 +1,10 @@
 @media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
-    }
-
-    .img {
-        width: 80px;
-        /* Ajusta el tamaño de la imagen para dispositivos móviles */
-    }
-
-    .object {
-        margin-left: 0;
-        /* Elimina el margen izquierdo en dispositivos móviles */
-    }
+   
 
 }
 
 @media screen and (min-width: 601px) {
-    .container {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .img {
-        width: 80px;
-        /* Ajusta el tamaño de la imagen para dispositivos móviles */
-    }
-
-    .object {
-        margin-left: 0;
-        /* Elimina el margen izquierdo en dispositivos móviles */
-    }
+  
 
 }
 
