@@ -8,6 +8,8 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 
 export class AboutUsComponent {
 
-
+  ngOnInit(): void {
+    window.scrollTo(0, 0); 
+  }
 
 }

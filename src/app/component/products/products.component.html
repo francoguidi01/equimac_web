@@ -3,25 +3,30 @@
 
 <body>
     <app-navbar></app-navbar>
-    
-    <div *ngIf="listProduct">
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>PRODUCT NAME</th>
-                    <th>DESCRIPTION</th>
-                    <th>VIEW HIGHER JOI JOI</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let product of listProduct">
-                    <td>{{product.id}}</td>
-                    <td>{{product.name}}</td>
-                    <td>{{product.description}}</td>
-                    <td><button [routerLink]="['/products/view/', product.id ]">VIEW</button></td>
-                </tr>
-            </tbody>
-        </table>
+
+
+    <div class="main">
+        <ul class="cards">
+            <li class="cards_item  animate__animated animate__zoomIn" *ngFor="let product of listProduct">
+                <div class="card">
+                    <div class="card_image"><img src="{{product.images[0]}}"></div>
+                    <div class="card_content">
+                        <h2 class="card_title"><strong>{{product.name}}</strong></h2>
+                        <br>
+                        <p class="card_text">-{{product.details}}</p>
+                        <a class="nav-link" [routerLink]="['/products/view/', product.id]" routerLinkActive="active"
+                            href="#">
+                            <button class="btn card_btn containerE">LEER MAS</button>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
+
+
+  
+    
 </body>
+<app-footer></app-footer>
+

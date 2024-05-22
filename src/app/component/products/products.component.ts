@@ -10,10 +10,14 @@ import { ProductService } from 'src/app/services/product.service';
 export class ProductsComponent {
 
   constructor(private service: ProductService) { }
+
   listProduct: any;
-  
+
   ngOnInit(): void {
+    window.scrollTo(0, 0); 
+    
     this.get_all()
+    
   }
 
 

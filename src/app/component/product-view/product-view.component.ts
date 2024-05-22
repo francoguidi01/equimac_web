@@ -20,6 +20,9 @@ export class ProductViewComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+
+    window.scrollTo(0, 0); 
+
     // Suscribirse a los cambios en la ruta para detectar cuando se cambie el ID del producto
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
@@ -33,6 +36,9 @@ export class ProductViewComponent implements OnInit {
     // Cargar los datos del producto cuando se inicializa el componente
     let productId = Number(this.route.snapshot.paramMap.get('id'));
     this.product = this.productService.getById(productId);
+
+     
+
   }
 
 }

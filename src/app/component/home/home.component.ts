@@ -23,6 +23,8 @@ export class HomeComponent {
   constructor(private service: ProductService, private route: ActivatedRoute) {
   }
   ngOnInit(): void {
+    
+    window.scrollTo(0, 0); 
     let productId = Number(this.route.snapshot.paramMap.get('id'));
     this.product = this.service.getById(productId);
     console.log(this.product)
