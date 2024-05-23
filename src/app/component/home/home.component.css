@@ -10,7 +10,7 @@
 
 body {
     background-color: white;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 
@@ -26,13 +26,6 @@ body {
     z-index: -1;
 }
 
-.profileContainer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 400px;
-
-}
 
 .profilePhoto {
     margin-bottom: 10px;
@@ -49,7 +42,7 @@ body {
 }
 
 .profileText {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-top: -55px;
     margin-left: 70px;
 }
@@ -165,7 +158,7 @@ body {
 }
 
 .title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #1A1A1A;
     font-size: 30px;
     font-weight: 600;
@@ -177,8 +170,8 @@ body {
     color: #1A1A1A;
     font-family: arial;
     font-size: 18px;
-    font-style: italic;
-margin-inline-end: auto;}
+margin-inline-end: auto;
+}
 
 
 /*-----------------------infinite Carousel with autoplay------------------------------*/

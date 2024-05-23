@@ -4,15 +4,19 @@
 <body>
     <app-navbar></app-navbar>
 
-
+    <div class="containerE">
+        <h1>Explora la Excelencia en<br><span data-shadow-text="Text-Shadow">NUESTROS PRODUCTOS</span>
+            <br> y Encuentra lo que Necesitas
+        </h1>
+    </div>
+    
     <div class="main">
         <ul class="cards">
-            <li class="cards_item  animate__animated animate__zoomIn" *ngFor="let product of listProduct">
+            <li class="cards_item animate__animated animate__zoomIn" *ngFor="let product of listProduct">
                 <div class="card">
                     <div class="card_image"><img src="{{product.images[0]}}"></div>
                     <div class="card_content">
                         <h2 class="card_title"><strong>{{product.name}}</strong></h2>
-                        <br>
                         <p class="card_text">-{{product.details}}</p>
                         <a class="nav-link" [routerLink]="['/products/view/', product.id]" routerLinkActive="active"
                             href="#">
@@ -23,10 +27,9 @@
             </li>
         </ul>
     </div>
-
-
-
     
+
+
+
 </body>
 <app-footer></app-footer>
-
