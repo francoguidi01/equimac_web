@@ -14,7 +14,10 @@
 
             <section class="section2 clearfix">
                 <div class="col2 column1 first">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4445.510719696317!2d-57.5850286944935!3d-38.01326933652778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dec5764e9291%3A0x7e759bb07ace8e4d!2sDe%20los%20Inmigrantes%20219%2C%20B7608EEE%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715915465055!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:100%; height:550px; border:0;"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4445.510719696317!2d-57.5850286944935!3d-38.01326933652778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dec5764e9291%3A0x7e759bb07ace8e4d!2sDe%20los%20Inmigrantes%20219%2C%20B7608EEE%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715915465055!5m2!1ses-419!2sar"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        style="width:100%; height:550px; border:0;"></iframe>
                 </div>
                 <div class="col2 column2 last">
                     <div class="sec2innercont">
@@ -22,27 +25,62 @@
                             <p><strong>De los Inmigrantes 219, Mar del plata</strong></p>
                             <p><span class="collig">Numero :</span>+54 0223 482-5135</p>
                             <p><span class="collig">Email :</span>equimaq.mail@gmail.com</p>
-                            
+
                         </div>
                     </div>
                     <div class="sec2contactform">
-                        <h3 class="sec2frmtitle">Queres saber mas? Envianos un Gmail</h3>
-                        <form action="">
+                        <h3 class="sec2frmtitle">¿Queres saber mas? Envianos un Gmail</h3>
+                        <form [formGroup]="contactForm" action="javascript:void(0)" (submit)="send()">
                             <div class="clearfix">
-                                <input class="col2 first" type="text" placeholder="Nombre">
-                                <input class="col2 last" type="text" placeholder="Apellido">
+                                <input class="col2 first" type="text" placeholder="Nombre" formControlName="name">
+                                <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['required']" class="error">El nombre es requerido.</div>
+                                <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['maxlength']" class="error">Ingrese un nombre valido.</div>
+
+                                <input class="col2 last" type="text" placeholder="Apellido" formControlName="lastName">
+                                <div *ngIf="contactForm.get('lastName')?.touched && contactForm.get('lastName')?.errors?.['required']" class="error">El apellido es requerido.</div>
+                                <div *ngIf="contactForm.get('lastName')?.touched && contactForm.get('lastName')?.errors?.['maxlength']" class="error">Ingrese un apellido valido.</div>
                             </div>
                             <div class="clearfix">
-                                <input class="col2 first" type="email" placeholder="Email">
-                                <input class="col2 last" type="text" placeholder="Numero de contacto">
+                                <input class="col2 first" type="email" placeholder="Email" formControlName="email">
+                                <div *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.invalid" class="error">
+                                    <div *ngIf="contactForm.get('email')?.errors?.['required']">El email es requerido.
+                                    </div>
+                                    <div *ngIf="contactForm.get('email')?.errors?.['email']">El email no es válido.
+                                    </div>
+                                    <div *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.errors?.['maxlength']" class="error">El email no es valido.</div>
+                                </div>
+                                <input class="col2 last" type="text" placeholder="Numero de contacto"
+                                    formControlName="telephone">
+                                <div *ngIf="contactForm.get('telephone')?.touched && contactForm.get('telephone')?.invalid"
+                                    class="error">
+                                    <div *ngIf="contactForm.get('telephone')?.errors?.['required']">El teléfono es
+                                        requerido.</div>
+                                    <div *ngIf="contactForm.get('telephone')?.errors?.['pattern']">El teléfono debe
+                                        contener solo números.</div>
+                                    <div *ngIf="contactForm.get('telephone')?.errors?.['minlength']">Ingrese un
+                                        telefono/celular valido.</div>
+                                    <div *ngIf="contactForm.get('telephone')?.errors?.['maxlength']">Ingrese un
+                                        telefono/celular valido.</div>
+                                </div>
                             </div>
                             <div class="clearfix">
-                                <textarea name="textarea" cols="30" rows="7">Por que razon nos contactas?</textarea>
+                                <textarea name="consulta" cols="30" rows="7" placeholder="¿Por qué razón nos contactas?"
+                                    formControlName="message"></textarea>
+                                <div *ngIf="contactForm.get('message')?.touched && contactForm.get('message')?.invalid"
+                                    class="error">
+                                    <div *ngIf="contactForm.get('message')?.errors?.['required']">El mensaje es
+                                        requerido.</div>
+                                    <div *ngIf="contactForm.get('message')?.errors?.['maxlength']">El mensaje no puede
+                                        exceder 500 caracteres.</div>
+                                </div>
                             </div>
                             <div class="clearfix">
                                 <input class="btn-hover color-7" type="submit" value="ENVIAR">
                             </div>
+                            <input type="hidden" name="_next" value="http://localhost:4200/contact">
+                            <input type="hidden" name="_captcha" value="false">
                         </form>
+                        {{contactForm.value | json}}
                     </div>
                 </div>
             </section>
