@@ -1,59 +1,105 @@
-<footer class="footer animate__animated animate__fadeIn">
-
-    <div class="containerA">
-        <!--Seccion1-->
-        <div class="row align-items-center justify-content-center" style="margin-bottom: -2%;">
-
-            <div class="col-md-4 contact-info">
-                <div class="contact-item-container">
-                    <img src="assets/Gmail.png" alt="Gmail" style="height: auto; width: 35px;">
-                    <p class="contact-item" style="color: #D8D8D8;">equimaq.mail@gmail.com</p>
+<footer class="footer-section animate__animated animate__fadeIn">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta d-flex align-items-center">
+                        <img src="assets/Maps.png" style="height: auto; width: 40px;">
+                        <div class="cta-text">
+                            <h4>Direccion</h4>
+                            <span>De los Inmigrantes 219</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-item-container">
-                    <img src="assets/Maps.png" alt="Mapa" style="height: auto; width: 35px;">
-                    <p class="contact-item" style="color: #D8D8D8;">De los Inmigrantes 219</p>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta d-flex align-items-center">
+                        <img src="assets/Mobile.png" style="height: auto; width: 40px;">
+                        <div class="cta-text">
+                            <h4>Telefono</h4>
+                            <span>+54 0223 482-5135</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-item-container">
-                    <img src="assets/Mobile.png" alt="Teléfono" style="height: auto; width: 35px;">
-                    <p class="contact-item" style="color: #D8D8D8;">+54 0223 482-5135</p>
-                </div>
-                <div class="contact-item-container" style="margin-left: 3px;">
-                    <a href="https://www.facebook.com/p/Equimaq-100057389442709/" target="_blank"
-                        rel="noopener noreferrer" style="text-decoration: none;">
-                        <img src="assets/facebook.png" alt="facebook" style="height: auto; width: 30px;">
-                        <span class="contact-item" style="color: #D8D8D8;">Equimaq Facebook</span>
-                    </a>
-                </div>
-            </div>
-            <!--Seccion2-->
-            <div class="col-md-4 text-center">
-                <img src="assets/Equimac.png" alt="Logo" class="logo img-fluid" style="width: 150px; height: auto;">
-            </div>
-            <!--Seccion3-->
-            <div class="col-md-4 text-center containerE">
-                <img src="assets/Time.png" alt="Horario" style="height: auto; width: 35px; margin-bottom: 5px;">
-                <div class="contact-item-container justify-content-center">
-                    <p class="contact-item" style="color: #D8D8D8;">Lunes a Viernes: 8:30 - 16:30</p>
-                </div>
-                <div class="contact-item-container justify-content-center">
-                    <p class="contact-item" style="color: #D8D8D8; margin-top: -5px;">Sábado: 8:30 - 13:00</p>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta d-flex align-items-center">
+                        <img src="assets/Gmail.png" style="height: auto; width: 40px;">
+                        <div class="cta-text">
+                            <h4>Mail</h4>
+                            <span>equimaq.mail@gmail.com</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="assets/Equimac.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Seguinos</span>
+                            <a href="https://www.facebook.com/p/Equimaq-100057389442709/" target="_blank">
+                                <img src="assets/facebook.png" style="height: auto; width: 40px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Atajos</h3>
+                        </div>
+                        <ul>
+                            <li><a class="nav-link" [routerLink]="['']" routerLinkActive="active" href="#">Inicio</a>
+                            </li>
+                            <li><a class="nav-link" [routerLink]="['/about-us']" routerLinkActive="active"
+                                    href="#">Nosotros</a></li>
+                            <li><a class="nav-link" [routerLink]="['/products']" routerLinkActive="active"
+                                    href="#">Productos</a></li>
+                            <li><a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active"
+                                    href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Horarios</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <div class="contact-item-container justify-content-center">
+                                <p>Lunes a Viernes: 8:30 - 16:30</p>
+                            </div>
+                            <div class="contact-item-container justify-content-center">
+                                <p>Sábado: 8:30 - 13:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="text-center text-lg-left">
+                    <div class="copyright-text containerE">
+                        <p>Powered By
+                            <a href="https://www.linkedin.com/in/kevin-tolosa/" target="_blank"
+                                rel="noopener noreferrer" style="text-decoration: none;">
+                                <span class="contact-item" style="color: #D8D8D8;"><strong>KT</strong></span>
+                            </a>
+                            &
+                            <a href="https://www.linkedin.com/in/franco-guidi01/" target="_blank"
+                                rel="noopener noreferrer" style="text-decoration: none;">
+                                <span class="contact-item" style="color: #D8D8D8;"><strong>FG</strong></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-
-<div class="animate__animated animate__fadeIn" style="background-color: #1A1A1A; height: 50px; width: 100%; padding-top: 1%; text-align: center;">
-    <span class="contact-item" style="color: #D8D8D8;">Powered by</span>
-    <a href="https://www.linkedin.com/in/franco-guidi01/" target="_blank" rel="noopener noreferrer"
-        style="text-decoration: none;">
-        <span class="contact-item" style="color: #D8D8D8;"><strong>FG</strong></span>
-    </a>
-    <span class="contact-item" style="color: #D8D8D8;">&</span>
-    <a href="https://www.linkedin.com/in/kevin-tolosa/" target="_blank" rel="noopener noreferrer"
-        style="text-decoration: none;">
-        <span class="contact-item" style="color: #D8D8D8;"><strong>KT</strong></span>
-    </a>
-</div>

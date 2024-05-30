@@ -1,7 +1,7 @@
 .navbar {
     background-color: #531D26;
     position: fixed;
-    top: 108px;
+    top: 88px;
     width: 100%;
     z-index: 999;
 }
@@ -24,4 +24,26 @@
 }
 .navbar-toggler-icon {
     color: #D8D8D8;
+}
+
+.navbar ul li a:hover {
+    color: #5e3a40;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        top: 148px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        top: 146px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        top: 143px;
+    }
 }

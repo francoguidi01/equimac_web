@@ -9,7 +9,7 @@
             <br> y Encontra lo que Necesitas
         </h1>
     </div>
-    
+
     <div class="main">
         <ul class="cards">
             <li class="cards_item animate__animated animate__zoomIn" *ngFor="let product of listProduct">
@@ -17,7 +17,7 @@
                     <div class="card_image"><img src="{{product.images[0]}}"></div>
                     <div class="card_content">
                         <h2 class="card_title"><strong>{{product.name}}</strong></h2>
-                        <p class="card_text">-{{product.details}}</p>
+                        <p class="card_text">{{ truncateText(product.description, 60) }}</p>
                         <a class="nav-link" [routerLink]="['/products/view/', product.id]" routerLinkActive="active"
                             href="#">
                             <button class="btn card_btn containerE">LEER MAS</button>
@@ -27,7 +27,7 @@
             </li>
         </ul>
     </div>
-    
+
 
 
 

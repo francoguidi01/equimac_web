@@ -26,6 +26,12 @@ export class ProductsComponent {
     console.log(this.listProduct)
   }
 
+  truncateText(text: string, maxLength: number): string {
+    if (text.length > maxLength) {
+      return text.substring(0, maxLength) + ' ...';
+    }
+    return text;
+  }
 
   /*create_a_product(): void {
     const product: Product = new Product(1, 'Product 1', 'Description of Product 1');
