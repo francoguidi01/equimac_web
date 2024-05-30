@@ -2,7 +2,22 @@ body {
     background-color: white;
     padding-top: 180px;
     overflow: hidden;
+}
 
+.company-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8vh auto;
+    position: relative;
+}
+
+.company-card-container.left {
+    flex-direction: row;
+}
+
+.company-card-container.right {
+    flex-direction: row-reverse;
 }
 
 .company-card {
@@ -13,24 +28,20 @@ body {
     height: 100%;
     min-height: 300px;
     display: block;
-    margin: 8vh auto;
     border-radius: 8px;
     box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.60);
     position: static;
     overflow: hidden;
 }
 
-.left{
-    margin-inline-start: -20%;
-}
-
-.right
-{
-    margin-inline-start: 20%;
+.company-card__logo {
+    max-width: 160px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .company-card[data-company="quienes-somos"] {
-    background-image: url('/assets/background.jpg') ;
+    background-image: url('/assets/background.jpg');
     overflow: hidden;
 }
 
@@ -91,17 +102,13 @@ body {
     color: #D8D8D8;
 }
 
-h1{
+h1 {
     font-family: var(--font-stack-header);
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 1;
     font-weight: 400;
 }
-
-
-/*-------------------------------------------*/
-
 .containerE {
     transform: scale(1.0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -125,4 +132,67 @@ h1{
 
 .containerE:hover .img {
     transform: translateY(0) scale(1.2);
+}
+
+.containerA {
+    transform: scale(1.0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.containerA:after {
+    position: absolute;
+    top: 390px;
+}
+
+.containerA:hover {
+    transform: scale(1.02);
+}
+
+.containerA-inner {
+    position: relative;
+    transform-origin: 50%;
+    top: -160px;
+    right: 140px;
+}
+
+.containerA:hover .img {
+    transform: translateY(0) scale(1.2);
+}
+
+
+h2 {
+    font: 600 1.2em/1 'Raleway', sans-serif; /* Reducir el tamaño del texto */
+    color: #1a1a1abb;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    position: relative; /* Cambiar a relative para evitar la superposición */
+    margin-bottom: 20px; /* Agregar margen inferior para separación */
+}
+
+span, span:after {
+    font-weight: 900;
+    color: #531D26;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .1em;
+    padding: .2em 0 .25em 0;
+}
+
+span {
+    font-size: 3em; /* Reducir el tamaño del texto */
+    z-index: 100;
+    text-shadow: .04em .04em 0 #657572;
+}
+
+span:after {
+    content: attr(data-shadow-text);
+    color: rgba(0,0,0,.35);
+    text-shadow: none;
+    position: absolute;
+    left: .0875em;
+    top: .0875em;
+    z-index: -1;
+    mask-image: url(//f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
 }

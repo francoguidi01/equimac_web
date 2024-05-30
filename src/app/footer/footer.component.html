@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer-cta pt-5 pb-5">
             <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-4 mb-30 containerE">
                     <div class="single-cta d-flex align-items-center">
                         <img src="assets/Maps.png" style="height: auto; width: 40px;">
                         <div class="cta-text">
@@ -11,7 +11,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-4 mb-30 containerE">
                     <div class="single-cta d-flex align-items-center">
                         <img src="assets/Mobile.png" style="height: auto; width: 40px;">
                         <div class="cta-text">
@@ -20,14 +20,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta d-flex align-items-center">
-                        <img src="assets/Gmail.png" style="height: auto; width: 40px;">
-                        <div class="cta-text">
-                            <h4>Mail</h4>
-                            <span>equimaq.mail@gmail.com</span>
+                <div class="col-xl-4 col-md-4 mb-30 containerE">
+                    <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active" href="#">
+                        <div class="single-cta d-flex align-items-center">
+                            <img src="assets/Gmail.png" style="height: auto; width: 40px;">
+                            <div class="cta-text">
+                                <h4>Mail</h4>
+                                <span>equimaq.mail@gmail.com</span>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
