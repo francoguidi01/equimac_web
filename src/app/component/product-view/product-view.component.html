@@ -1,6 +1,6 @@
 <app-header></app-header>
 
-<body>
+<body [ngClass]="{ 'dark-mode': isDarkMode }">
     <app-navbar></app-navbar>
 
     <div  id="project-wrapper" *ngIf="product; else rastaBlanco">

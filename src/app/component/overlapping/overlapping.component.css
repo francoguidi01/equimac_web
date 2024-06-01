@@ -15,6 +15,10 @@
     width: 80px;
 }
 
+.dark-mode .wpp-image{
+    content: url('/assets/whatsapp2.png'); 
+
+}
 
 @media (max-width: 768px) {
     .buttons-container {

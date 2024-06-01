@@ -1,6 +1,6 @@
 <app-header></app-header>
 
-<body>
+<body [ngClass]="{ 'dark-mode': isDarkMode }">
     <app-navbar></app-navbar>
 
     <div class="containerA">
@@ -21,11 +21,11 @@
                     <p class="company-card__desc">Nuestras productos cumplen con los más altos estándares de calidad y seguridad, garantizando un rendimiento óptimo y duradero. Cada equipo es sometido a rigurosas pruebas antes de salir al mercado, asegurando así la satisfacción de nuestros clientes.</p>
                 </div>
             </div>
-            <img class="company-card__logo animate__animated animate__fadeInRight" src="/assets/Premium.png" alt="Premium Logo">
+            <img class="company-card__logo animate__animated animate__fadeInRight premium" src="/assets/Premium.png" alt="Premium Logo">
         </div>
 
         <div class="company-card-container containerE">
-            <img class="company-card__logo animate__animated animate__fadeInLeft" src="/assets/Innovation.png" alt="Innovation Logo">
+            <img class="company-card__logo animate__animated animate__fadeInLeft innovation" src="/assets/Innovation.png" alt="Innovation Logo">
             <div class="company-card animate__animated animate__fadeInRight" data-company="quienes-somos">
                 <div class="company-card__overlay"></div>
                 <div class="company-card__content">
@@ -49,11 +49,11 @@
                     <p class="company-card__desc">Ofrecemos un servicio de atención al cliente excepcional, con asesoría personalizada para cada necesidad. Nuestro equipo de expertos está siempre dispuesto a ayudar, proporcionando soporte técnico y orientación para asegurarse de que cada cliente encuentre la solución perfecta para su negocio.</p>
                 </div>
             </div>
-            <img class="company-card__logo animate__animated animate__fadeInRight" src="/assets/Service.png" alt="Service Logo">
+            <img class="company-card__logo animate__animated animate__fadeInRight service" src="/assets/Service.png" alt="Service Logo">
         </div>
 
         <div class="company-card-container containerE">
-            <img class="company-card__logo animate__animated animate__fadeInLeft" src="/assets/Experience.png" alt="Experience Logo">
+            <img class="company-card__logo animate__animated animate__fadeInLeft experience" src="/assets/Experience.png" alt="Experience Logo">
             <div class="company-card animate__animated animate__fadeInRight" data-company="quienes-somos">
                 <div class="company-card__overlay"></div>
                 <div class="company-card__content">

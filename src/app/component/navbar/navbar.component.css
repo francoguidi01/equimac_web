@@ -5,6 +5,10 @@
     width: 100%;
     z-index: 999;
 }
+
+.navbar.dark-mode {
+    background-color: #1a1a2e;
+}
 .navbar-nav .nav-item {
     padding-right: 30px;
 }
@@ -27,9 +31,12 @@
 }
 
 .navbar ul li a:hover {
-    color: #5e3a40;
+    color: #723a43;
 }
 
+.dark-mode.navbar ul li a:hover {
+    color: #5c5c8b;
+}
 @media (max-width: 992px) {
     .navbar {
         top: 148px;

@@ -1,20 +1,31 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
+import { DarkModeService } from '../../services/dark-mode.service';
+
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
+isDarkMode: boolean=false;
+
 
   ngOnInit(): void {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0); 
+
+    this.isDarkMode = this.darkModeService.getDarkMode();
+
+    this.darkModeService.darkMode$.subscribe((isDarkMode: boolean) => {
+      this.isDarkMode = isDarkMode;
+    });
   }
 
   contactForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private darkModeService: DarkModeService) {
     this.contactForm = this.formBuilder.group({
       name: new FormControl('', [Validators.required, Validators.maxLength(15)]),
       lastName: new FormControl('', [Validators.required, Validators.maxLength(15)]),
@@ -54,12 +65,6 @@ export class ContactComponent {
    asdhsadh@gmail.com
    action="https://formsubmit.co/kevintolosa2000@gmail.com" method="POST"
    service_3sw0g1c
-
-
-
-
-
-
 
 
 

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import { ProductService } from 'src/app/services/product.service';
+import { DarkModeService } from '../../services/dark-mode.service';
 
 @Component({
   selector: 'app-products',
@@ -9,15 +10,21 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class ProductsComponent {
 
-  constructor(private service: ProductService) { }
+  constructor(private service: ProductService, private darkModeService: DarkModeService) { }
 
   listProduct: any;
+  isDarkMode: boolean = false;
 
   ngOnInit(): void {
     window.scrollTo(0, 0); 
     
     this.get_all()
     
+    this.isDarkMode = this.darkModeService.getDarkMode();
+
+    this.darkModeService.darkMode$.subscribe((isDarkMode: boolean) => {
+      this.isDarkMode = isDarkMode;
+    });
   }
 
 

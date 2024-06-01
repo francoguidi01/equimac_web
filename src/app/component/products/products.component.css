@@ -18,6 +18,10 @@ body {
 
 }
 
+body.dark-mode{
+    background-color: #1A1A1A;
+}
+
 .main {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,6 +31,10 @@ h1 {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+}
+
+.dark-mode h1{
+    color: #d8d8d8;
 }
 
 img {
@@ -93,7 +101,12 @@ img {
 
 .card_content {
     padding: 1rem;
-    background: linear-gradient(to bottom left, #531D26 40%, #be3a50 100%);
+    background: linear-gradient(to bottom left, #531D26 40%, #b3364b 100%);
+}
+
+.dark-mode .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #1a1a2e 40%, #313179 100%);
 }
 
 .card_title {
@@ -180,4 +193,8 @@ span:after {
     top: .0875em;
     z-index: -1;
     mask-image: url(//f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
+}
+
+.dark-mode span, .dark-mode .span:after {
+    color: #313179;
 }

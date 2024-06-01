@@ -2,6 +2,7 @@ import { Component, Injectable } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/models/product';
 import { ProductService } from 'src/app/services/product.service';
+import { DarkModeService } from '../../services/dark-mode.service';
 
 @Component({
   selector: 'app-home',
@@ -19,18 +20,26 @@ export class HomeComponent {
   listProduct1: any;
   listProduct2: any;
   listProduct3: any;
+  isDarkMode: boolean = false;
 
-  constructor(private service: ProductService, private route: ActivatedRoute) {
+  constructor(private service: ProductService, private route: ActivatedRoute, private darkModeService: DarkModeService) {
   }
+  
   ngOnInit(): void {
-    
     window.scrollTo(0, 0); 
     
     let productId = Number(this.route.snapshot.paramMap.get('id'));
     this.product = this.service.getById(productId);
     console.log(this.product)
     this.get_all()
+
+    this.isDarkMode = this.darkModeService.getDarkMode();
+
+    this.darkModeService.darkMode$.subscribe((isDarkMode: boolean) => {
+      this.isDarkMode = isDarkMode;
+    });
   }
+  
   get_all() {
     this.listProduct = this.service.getAll();
     this.listProduct.sort(() => Math.random() - 0.5);
@@ -43,6 +52,5 @@ export class HomeComponent {
     console.log(this.listProduct1);
     console.log(this.listProduct2);
     console.log(this.listProduct3);
-
   }
 }

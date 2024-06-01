@@ -3,6 +3,11 @@ body {
     padding-top: 100px;
 }
 
+body.dark-mode{
+    background-color: #1A1A1A;
+}
+
+
 .center-content {
     display: flex;
     justify-content: center;
@@ -19,6 +24,10 @@ body {
     text-decoration: none;
 }
    
+.dark-mode .error_text{
+color: #D8D8D8;
+}
+
 #project-container {
     display: flex;
     align-items: center;
@@ -27,6 +36,10 @@ body {
     background: #f9f9f9;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.dark-mode #project-container{
+    background: #1A1A1A;
 }
 
 #left {
@@ -56,7 +69,7 @@ body {
 #right {
     flex: 1;
     max-width: 60%;
-    background: #531D26;
+    background: linear-gradient(to bottom left, #531D26 40%, #b3364b 100%);
     padding: 25px;
     box-shadow: 0px 3px 15px -1px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -65,6 +78,12 @@ body {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+}
+
+.dark-mode #right {
+    background: linear-gradient(to bottom left, #1a1a2e 40%, #313179 100%);
+    box-shadow: 0px 3px 15px -1px rgba(255, 255, 255, 0.2);
+
 }
 
 #right h2 {

@@ -1,7 +1,7 @@
 <app-overlapping></app-overlapping>
 <app-header></app-header>
 
-<body>
+<body [ngClass]="{ 'dark-mode': isDarkMode }">
 
         <app-navbar></app-navbar>
         
@@ -11,19 +11,21 @@
 
         <div class="object">
             <div class="container">
-                <img class="img img1" src="assets/Trust.png">
+                <img class="img trust-image" src="assets/Trust.png">
             </div>
             <div class="profileContainer">
                 <div class="profileText">
-                    <div class="title">"Tus distribuidores de confianza"</div>
-                    <div class="text text-center"><strong>En Distribuidora
+
+                    <div class="principal-Title" >Tus distribuidores <br> de confianza</div>
+
+                    <h2><strong>En Distribuidora
                             Gastronómica, nos dedicamos a proporcionar equipos de alta calidad para la industria de la
                             gastronomía. Desde hornos industriales hasta utensilios especializados, ofrecemos soluciones
                             confiables y eficientes para cocinas comerciales.
                             Con más de veinte años de experiencia, nuestro compromiso es brindar productos de primera
                             calidad y un servicio excepcional. Ya sea que esté buscando equipar su cocina o mejorar su
                             equipo existente, en Distribuidora Gastronómica encontrará las soluciones que necesita para
-                            impulsar su negocio hacia el éxito gastronómico.</strong></div>
+                            impulsar su negocio hacia el éxito gastronómico.</strong></h2>
                 </div>
             </div>
         </div>
@@ -92,19 +94,19 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-md-4 text-center">
                 <div class="icon containerE">
-                    <img src="assets/Ship.png" alt="Logo" class="logoP  img-fluid">
+                    <img src="assets/Ship.png" alt="Logo" class="logoP  img-fluid ship">
                     <p class="icon-text"><strong>ENVIOS A TODO EL PAIS</strong></p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="icon containerE">
-                    <img src="assets/Payment.png" alt="Logo" class="logoP img-fluid">
+                    <img src="assets/Payment.png" alt="Logo" class="logoP img-fluid payment">
                     <p class="icon-text"><strong>PRECIOS NEGOCIABLES</strong></p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="icon containerE">
-                    <img src="assets/CustomerSupport.png" alt="Logo" class="logoP img-fluid">
+                    <img src="assets/CustomerSupport.png" alt="Logo" class="logoP img-fluid customerSupport">
                     <p class="icon-text"><strong>ATENCION PERSONALIZADA</strong></p>
                 </div>
             </div>

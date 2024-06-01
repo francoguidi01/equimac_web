@@ -1,4 +1,4 @@
-<footer class="footer-section animate__animated animate__fadeIn">
+<footer class="footer-section animate__animated animate__fadeIn" [ngClass]="{ 'dark-mode': isDarkMode }">
     <div class="container">
         <div class="footer-cta pt-5 pb-5">
             <div class="row">
@@ -91,12 +91,12 @@
                         <p>Powered By
                             <a href="https://www.linkedin.com/in/kevin-tolosa/" target="_blank"
                                 rel="noopener noreferrer" style="text-decoration: none;">
-                                <span class="contact-item" style="color: #D8D8D8;"><strong>KT</strong></span>
+                                <span class="linkedin"><strong>KT</strong></span>
                             </a>
                             &
                             <a href="https://www.linkedin.com/in/franco-guidi01/" target="_blank"
                                 rel="noopener noreferrer" style="text-decoration: none;">
-                                <span class="contact-item" style="color: #D8D8D8;"><strong>FG</strong></span>
+                                <span class="linkedin" ><strong> FG</strong></span>
                             </a>
                         </p>
                     </div>
