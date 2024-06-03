@@ -188,7 +188,7 @@ h3:after {
     font-weight: normal;
     margin: 20px 0;
     margin-top: 30px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #D8D8D8;
     padding-bottom: 19px;
     color: #531D26;
 }
@@ -268,13 +268,13 @@ h3:after {
 }
 
 h1 {
-    font: 600 1.2em/1 'Raleway', sans-serif; /* Reducir el tamaño del texto */
+    font: 600 1.2em/1 'Raleway', sans-serif; 
     color: #1a1a1abb;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    position: relative; /* Cambiar a relative para evitar la superposición */
-    margin-bottom: 20px; /* Agregar margen inferior para separación */
+    position: relative;
+    margin-bottom: 20px;
 }
 
 span, span:after {
@@ -319,3 +319,44 @@ span:after {
 .dark-mode h3 {
     color: #d8d8d8;
 }
+
+
+.card-body{
+    color: #1A1A1A;
+}
+
+  .gradient-border {
+    --borderWidth: 6px;
+    background: #d8d8d8;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .dark-mode .gradient-border {
+    background: #d8d8d8;
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #531D26, #a03c4c, #e56068, #ed543d, #ec2984, #9450c9, #ae58dd, #313179);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+

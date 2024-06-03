@@ -11,7 +11,8 @@ import { DarkModeService } from '../../services/dark-mode.service';
 })
 export class ContactComponent {
 isDarkMode: boolean=false;
-
+collapseMessage: string = '';
+animationState: string = '';
 
   ngOnInit(): void {
     window.scrollTo(0, 0); 
@@ -35,12 +36,18 @@ isDarkMode: boolean=false;
     });
   }
 
+
+  
   async send() {
     if (this.contactForm.invalid) {
-      this.contactForm.markAllAsTouched(); // Marcar todos los campos como tocados para mostrar errores
+      this.contactForm.markAllAsTouched();
+      this.collapseMessage = 'Formulario incompleto. Por favor, rellene todos los campos correctamente.';
+      setTimeout(() => {
+        this.collapseMessage = '';
+      }, 6800);
       return;
     }
-
+  
     try {
       emailjs.init('2fZh7gGfm-fiwSFXe');
       let response = await emailjs.send('service_3sw0g1c', 'template_21w2kzg', {
@@ -50,11 +57,17 @@ isDarkMode: boolean=false;
         telephone: this.contactForm.value.telephone,
         message: this.contactForm.value.message
       });
-
-      alert('ENVIADO!!!');
+  
+      this.collapseMessage = '¡El correo electrónico se envió correctamente!';
       this.contactForm.reset();
+      setTimeout(() => {
+        this.collapseMessage = '';
+      }, 5900); 
     } catch (error) {
-      console.error('Error sending email:', error);
+      this.collapseMessage = '¡El correo electrónico no se pudo enviar! Por favor, inténtelo de nuevo más tarde.';
+      setTimeout(() => {
+        this.collapseMessage = '';
+      }, 5900); 
     }
   }
 }

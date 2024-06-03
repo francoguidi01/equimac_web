@@ -4,15 +4,12 @@
 <body [ngClass]="{ 'dark-mode': isDarkMode }">
     <app-navbar></app-navbar>
 
-
     <div class="container animate__animated animate__fadeIn">
         <div class="innerwrap">
             <section class="section1 containerA">
-
                 <h1>Encuentra como<br><span data-shadow-text="Text-Shadow">Contactarnos</span>
                     <br>y comentanos tus dudas
                 </h1>
-
             </section>
 
             <section class="section2 clearfix">
@@ -24,94 +21,95 @@
                 </div>
                 <div class="col2 column2 last">
                     <div class="sec2innercont">
-
                         <div class="sec2addr">
                             <p><strong>De los Inmigrantes 219, Mar del plata</strong></p>
                             <p><strong>Numero: +54 0223 482-5135</strong></p>
                             <p><strong>Email: equimaq.mail@gmail.com</strong></p>
-
                         </div>
-
                     </div>
                     <div class="sec2contactform">
                         <h3>¿Queres saber más? Envíanos un Gmail</h3>
-                        <form [formGroup]="contactForm" action="javascript:void(0)" (submit)="send()">
+                        <form [formGroup]="contactForm" (ngSubmit)="send()">
                             <div class="clearfix">
                                 <div class="input-container col2 first">
                                     <input type="text" placeholder="Nombre" formControlName="name">
                                     <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['required']"
-                                        class="error-message">El nombre es requerido.</div>
+                                        class="error-message"><strong>El nombre es requerido.</strong></div>
                                     <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['maxlength']"
-                                        class="error-message">Ingrese un nombre válido.</div>
+                                        class="error-message"><strong>Ingrese un nombre válido.</strong></div>
                                 </div>
                                 <div class="input-container col2 last">
                                     <input type="text" placeholder="Apellido" formControlName="lastName">
                                     <div *ngIf="contactForm.get('lastName')?.touched && contactForm.get('lastName')?.errors?.['required']"
-                                        class="error-message">El apellido es requerido. </div>
+                                        class="error-message"><strong>El apellido es requerido.</strong></div>
                                     <div *ngIf="contactForm.get('lastName')?.touched && contactForm.get('lastName')?.errors?.['maxlength']"
-                                        class="error-message">Ingrese un apellido válido.</div>
+                                        class="error-message"><strong>Ingrese un apellido válido.</strong></div>
                                 </div>
                             </div>
-
                             <div class="clearfix">
                                 <div class="input-container col2 first">
                                     <input type="email" placeholder="Email" formControlName="email">
                                     <div *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.invalid"
                                         class="error-message">
-                                        <div *ngIf="contactForm.get('email')?.errors?.['required']">El email es
-                                            requerido.</div>
-                                        <div *ngIf="contactForm.get('email')?.errors?.['email']">El email no es válido.
+                                        <div *ngIf="contactForm.get('email')?.errors?.['required']"><strong>El email es
+                                            requerido.</strong></div>
+                                        <div *ngIf="contactForm.get('email')?.errors?.['email']"><strong>El email no es válido.</strong>
                                         </div>
                                         <div
                                             *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.errors?.['maxlength']">
-                                            El email es demasiado largo.</div>
+                                            <strong>El email es demasiado largo.</strong></div>
                                     </div>
                                 </div>
                                 <div class="input-container col2 last">
                                     <input type="text" placeholder="Número de contacto" formControlName="telephone">
                                     <div *ngIf="contactForm.get('telephone')?.touched && contactForm.get('telephone')?.invalid"
                                         class="error-message">
-                                        <div *ngIf="contactForm.get('telephone')?.errors?.['required']">El teléfono es
-                                            requerido.</div>
-                                        <div *ngIf="contactForm.get('telephone')?.errors?.['pattern']">El teléfono debe
-                                            contener solo números.<br></div>
-                                        <div *ngIf="contactForm.get('telephone')?.errors?.['minlength']">El teléfono es
-                                            demasiado corto.</div>
-                                        <div *ngIf="contactForm.get('telephone')?.errors?.['maxlength']">El teléfono es
-                                            demasiado largo.</div>
+                                        <div *ngIf="contactForm.get('telephone')?.errors?.['required']"><strong>El teléfono es
+                                            requerido.</strong></div>
+                                        <div *ngIf="contactForm.get('telephone')?.errors?.['pattern']"><strong>El teléfono debe
+                                            contener solo números.</strong><br></div>
+                                        <div *ngIf="contactForm.get('telephone')?.errors?.['minlength']"><strong>El teléfono es
+                                            demasiado corto.</strong></div>
+                                        <div *ngIf="contactForm.get('telephone')?.errors?.['maxlength']"><strong>El teléfono es
+                                            demasiado largo.</strong></div>
                                     </div>
                                 </div>
                             </div>
-
-
                             <div class="clearfix">
                                 <textarea style="border-radius: 5%;" name="consulta" cols="30" rows="7"
                                     placeholder="¿Por qué razón nos contactas?" formControlName="message"></textarea>
                                 <div *ngIf="contactForm.get('message')?.touched && contactForm.get('message')?.invalid"
                                     class="error">
                                     <div *ngIf="contactForm.get('message')?.errors?.['required']" class="error-message">
-                                        El mensaje es
-                                        requerido.</div>
-                                    <div *ngIf="contactForm.get('message')?.errors?.['maxlength']">El mensaje no puede
-                                        exceder 500 caracteres.</div>
+                                        <strong> El mensaje es requerido.</strong></div>
+                                    <div *ngIf="contactForm.get('message')?.errors?.['maxlength']"><strong>El mensaje no puede
+                                        exceder 500 caracteres.</strong></div>
                                 </div>
                             </div>
                             <div class="clearfix">
-                                <input class="btn-hover color-7" type="submit" value="ENVIAR">
+                                <p class="d-inline-flex gap-1">
+                                    <input class="btn-hover color-7" type="submit" value="ENVIAR"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                                        aria-expanded="false" aria-controls="collapseExample">
+                                </p>
                             </div>
                             <input type="hidden" name="_next" value="http://localhost:4200/contact">
                             <input type="hidden" name="_captcha" value="false">
+
+                            <div class="collapse  animate__animated animate__hinge animate__delay-5s" [ngClass]="{ 'show': collapseMessage }"  id="collapseExample">
+                                <div class="card card-body gradient-border">
+                                    <strong>
+                                        {{ collapseMessage }}
+                                    </strong>
+                                </div>
+                            </div>
+
+
                         </form>
-
-
-
-
                     </div>
                 </div>
             </section>
         </div>
     </div>
-
-
 </body>
 <app-footer></app-footer>
