@@ -20,7 +20,7 @@ export class ProductService {
                 'Funciones: Triturar, cortar, mezclar, amasar',
                 'Dimensiones: 1200mm x 800mm x 1600mm'
             ], 
-            images: ['/assets/Machine2.jpg', '/assets/Machine3.jpg', '/assets/Machine2.jpg'] 
+            images: ['/assets/Machine2.png', '/assets/Machine3.png', '/assets/Machine2.png'] 
         },
         { 
             id: 2, 
@@ -32,7 +32,7 @@ export class ProductService {
                 'Potencia: 20 kW',
                 'Dimensiones: 1200mm x 900mm x 1500mm'
             ], 
-            images: ['/assets/Machine3.jpg', '/assets/Machine2.jpg', '/assets/Machine3.jpg'] 
+            images: ['/assets/Machine3.png', '/assets/Machine2.png', '/assets/Machine3.png'] 
         },
         { 
             id: 3, 
@@ -44,7 +44,7 @@ export class ProductService {
                 'Velocidad de mezcla ajustable',
                 'Dimensiones: 1400mm x 1000mm x 1800mm'
             ], 
-            images: ['/assets/Machine2.jpg', '/assets/Machine3.jpg', '/assets/Machine2.jpg'] 
+            images: ['/assets/Machine2.png', '/assets/Machine3.png', '/assets/Machine2.png'] 
         },
         { 
             id: 4, 
@@ -56,7 +56,7 @@ export class ProductService {
                 'Control de temperatura: 120°C - 200°C',
                 'Sistema de filtrado automático'
             ], 
-            images: ['/assets/Machine3.jpg', '/assets/Machine2.jpg', '/assets/Machine3.jpg'] 
+            images: ['/assets/Machine3.png', '/assets/Machine2.png', '/assets/Machine3.png'] 
         },
         { 
             id: 5, 
@@ -68,7 +68,7 @@ export class ProductService {
                 'Incluye equipos de corte, freído y condimentado',
                 'Dimensiones: 15000mm x 2000mm x 2500mm'
             ], 
-            images: ['/assets/Machine2.jpg', '/assets/Machine3.jpg', '/assets/Machine2.jpg'] 
+            images: ['/assets/Machine2.png', '/assets/Machine3.png', '/assets/Machine2.png'] 
         },
         { 
             id: 6, 
@@ -80,7 +80,7 @@ export class ProductService {
                 'Control de velocidad y grosor del recubrimiento',
                 'Dimensiones: 1200mm x 1000mm x 1600mm'
             ], 
-            images: ['/assets/Machine3.jpg', '/assets/Machine2.jpg', '/assets/Machine3.jpg'] 
+            images: ['/assets/Machine3.png', '/assets/Machine2.png', '/assets/Machine3.png'] 
         },
         { 
             id: 7, 
@@ -92,7 +92,7 @@ export class ProductService {
                 'Control de sellado y vacío ajustable',
                 'Dimensiones: 1500mm x 800mm x 1200mm'
             ], 
-            images: ['/assets/Machine2.jpg', '/assets/Machine3.jpg', '/assets/Machine2.jpg'] 
+            images: ['/assets/Machine2.png', '/assets/Machine3.png', '/assets/Machine2.png'] 
         },
         { 
             id: 8, 
@@ -104,7 +104,7 @@ export class ProductService {
                 'Cuchillas ajustables para diferentes cortes',
                 'Dimensiones: 1400mm x 900mm x 1600mm'
             ], 
-            images: ['/assets/Machine3.jpg', '/assets/Machine2.jpg', '/assets/Machine3.jpg'] 
+            images: ['/assets/Machine3.png', '/assets/Machine2.png', '/assets/Machine3.png'] 
         }
     )
 

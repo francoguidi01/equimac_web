@@ -9,7 +9,7 @@
 }
 
 body {
-    color: white;
+    color: #d8d8d8;
     font-family: 'Quicksand', serif;
     font-style: normal;
     font-weight: 400;
@@ -91,14 +91,17 @@ img {
 
 .card {
     background-color: white;
-    border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.60);
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    border-radius: 5%;
-}
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 
+}
+.dark-mode .card{
+    box-shadow: 0px 8px 12px 0px rgba(255, 255, 255, 0.144);
+}
 .card_content {
     padding: 1rem;
     background: linear-gradient(to bottom left, #531D26 40%, #b3364b 100%);
