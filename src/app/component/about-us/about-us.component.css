@@ -9,19 +9,19 @@ body.dark-mode{
 }
 
 body.dark-mode .premium {
-    content: url('/assets/Premium2.png'); 
+    content: url('/assets/misc/premium2.png'); 
 }
 
 body.dark-mode .innovation {
-    content: url('/assets/Innovation2.png'); 
+    content: url('/assets/misc/innovation2.png'); 
 }
 
 body.dark-mode .service {
-    content: url('/assets/Service2.png'); 
+    content: url('/assets/misc/service2.png'); 
 }
 
 body.dark-mode .experience {
-    content: url('/assets/Experience2.png'); 
+    content: url('/assets/misc/experience2.png'); 
 }
 .company-card-container {
     display: flex;

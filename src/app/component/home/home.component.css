@@ -12,7 +12,7 @@ body {
 }
 
 .background {
-    background-image: url('/assets/Background.png');
+    background-image: url('/assets/misc/background.png');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,23 +164,23 @@ body.dark-mode .title, body.dark-mode .icon-text {
 }
 
 body.dark-mode .line-image {
-    content: url('/assets/Line2.png'); 
+    content: url('/assets/misc/line2.png'); 
 }
 
 body.dark-mode .trust-image {
-    content: url('/assets/Trust2.png'); 
+    content: url('/assets/misc/trust2.png'); 
 }
 
 body.dark-mode .ship {
-    content: url('/assets/Ship2.png'); 
+    content: url('/assets/misc/ship2.png'); 
 }
 
 body.dark-mode .payment {
-    content: url('/assets/Payment2.png'); 
+    content: url('/assets/misc/payment2.png'); 
 }
 
 body.dark-mode .customerSupport {
-    content: url('/assets/CustomerSupport2.png'); 
+    content: url('/assets/misc/customerSupport2.png'); 
 }
 
 .title {
