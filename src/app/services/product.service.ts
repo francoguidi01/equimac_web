@@ -10,6 +10,7 @@ export class ProductService {
   constructor() {
     this.productList.push(
       
+        
         {
             id: 1,
             name: 'Amasadora Mb',
@@ -28,171 +29,157 @@ export class ProductService {
         },
         {
             id: 2,
-            name: 'Amasadora MAEQUIP F 20/30/50 kg',
-            description: 'Amasadora de mesa MAEQUIP F, ideal para panaderías y pizzerías, con una capacidad de 20 a 50 kg de masa. Equipada con una batea de acero inoxidable de 25 litros y un motor de alta potencia para un rendimiento superior.',
+            name: 'Amasadoras MAEQUIP',
+            description: 'Amasadora de mesa MAEQUIP F, ideal para panaderías y pizzerías, con una capacidad de 20 a 50 kg de masa. Equipada con una batea de acero inoxidable y un motor de alta potencia para un rendimiento superior.',
             details: [
-                'Batea de acero inoxidable con diámetro de 40 cm y altura de 20 cm.',
+                'Batea de acero inoxidable.',
                 'Montada sobre rulemanes con plato para mayor estabilidad.',
-                'Capacidad de amasado: de 5 a 11 kilos de harina.',
                 'Batea sin tetón para una limpieza más fácil.',
-                'Motor de 3/4 HP con plaqueta de arranque.',
+                'Motor con plaqueta de arranque.',
                 'Transmisión por cadena para un funcionamiento robusto.',
                 'Estructura en caño resistente.',
-                'Chasis y refuerzos de chapa de 2 mm de espesor.'
+                'Chasis y refuerzos de chapa.',
+                'Modelos: 20 KG, 30KG, 50KG'
             ],
             images: []
         }
-,        
-{
-    id: 3,
-    name: 'Amasadora ALPAN 50/100 kg',
-    description: 'Amasadora convencional a horquilla ALPAN, diseñada para manejar grandes volúmenes de masa con una capacidad de hasta 100 kg. Equipada con batea de cono y rasqueta para una mezcla eficiente y un motor monofásico para un rendimiento confiable.',
-    details: [
-        'Diseñada para manejar hasta 50 kg de harina.',
-        'Amasadora a horquilla de fundación pesada.',
-        'Batea con cono y rasqueta para una mezcla uniforme.',
-        'Motor monofásico reacondicionado para un rendimiento optimizado.',
-        'Estructura robusta para durabilidad y estabilidad.'
-    ],
-    images: []
-}
-,
-{
-    id: 4,
-    name: 'Amasadora Rápida AE-25MF mono 1 vel VISA',
-    description: 'Amasadora rápida AE-25MF de VISA, diseñada para panaderías y pastelerías que requieren un equipo eficiente y robusto para sus procesos de mezcla. Con motor monofásico de una velocidad, garantiza un amasado rápido y homogéneo.',
-    details: [
-        'Motor monofásico de una velocidad para un funcionamiento eficiente.',
-        'Diseñada para un amasado rápido y homogéneo.',
-        'Estructura robusta y duradera para uso industrial.',
-        'Ideal para panaderías, pastelerías y negocios de repostería.',
-        'Fácil de limpiar y mantener.'
-    ],
-    images: []
-}
-,
-{
-    id: 5,
-    name: 'Amasadora Rápida SX50 SILCOOK',
-    description: 'Amasadora rápida SX50 de SILCOOK, diseñada para ofrecer un rendimiento superior en la preparación de masas. Con 2 velocidades, función de reversa, visor digital y panel Soft Touch, esta amasadora es ideal para panaderías y pastelerías que buscan eficiencia y precisión en su producción.',
-    details: [
-        'Potencia: 3 kW / 220V.',
-        'Dos velocidades + reversa para el quitado de amasijo.',
-        'Visor digital e indicador de temperatura de la masa.',
-        'Incluye timer y parada de emergencia para mayor seguridad.',
-        'Sistema de distribución a cinta (no a cadena) para un funcionamiento suave y silencioso.',
-        'Panel Soft Touch para un manejo intuitivo.',
-        'Dimensiones: Largo 57 cm, Profundidad 91 cm, Altura 109 cm.',
-        'Peso: 168 kg.'
-    ],
-    images: []
-}
-,
-{
-    id: 7,
-    name: 'Amasadora Rapida SH 20A/30A/40A/60A/60B CATANIA 8 kg h electromecanica',
-    description: 'Amasadora rápida a espiral SH-20A de CATANIA, diseñada para ofrecer un amasado eficiente y homogéneo. Con una capacidad de hasta 8 kg de harina y 12 kg de masa, esta amasadora electromecánica es ideal para panaderías y pastelerías que buscan un equipo robusto y confiable.',
-    details: [
-        'Amasadora rápida a espiral.',
-        'Modelo: SH-20A.',
-        'Marca: CATANIA.',
-        'Capacidad máxima de harina: 8 Kg.',
-        'Capacidad máxima de masa: 12 kg.',
-        'Construidas en Hierro fundido pintura epoxi.',
-        'Batea y espiral de acero inoxidable.',
-        'Tablero de control análogo.',
-        'Rejillas de protección elaboradas en acero con corte automático cuando se levanta la misma.',
-        'Dos velocidades.',
-        'Tiempo de amasado: 8 a 12 min.',
-        'Temporizador.',
-        'Potencia: 1,1 kW / 1,5 HP.',
-        'Voltaje: 220 V / 50 Hz Monofásica.',
-        'Capacidad de batea/bowl: 20 Lt.',
-        'Velocidad del gancho: 132/264 RPM.',
-        'Velocidad de la batea: 13/26 RPM.',
-        'Medidas: 70x50x77 cm (altura, ancho, largo).'
-    ],
-    images: []
-}
-,
-{
-    id: 8,
-    name: 'Batidora 4,6 lts. Mod. KMC 570 N KENWOOD',
-    description: 'Batidora Amasadora Kenwood KMC 570 de 4,6 litros, ideal para uso doméstico y profesional ligero. Equipada con los tres ganchos funcionales (amasador, batidor y mezclador) para una versatilidad completa en la preparación de alimentos.',
-    details: [
-        'Potencia de 1000 watts.',
-        'Bowl de acero inoxidable con capacidad de 4,6 litros.',
-        'Control automático de velocidad por pulso.',
-        'Mantiene velocidad y potencia constante para resultados óptimos.',
-        'Sistema de rotación planetaria para una mezcla uniforme.',
-        'Capacidad para hasta 2,7 kg de masa.',
-        'Ideal para uso doméstico y profesional ligero.'
-    ],
-    images: []
-}
-,
-{
-    id: 9,
-    name: 'Batidora Mixer-5/7 MORETTI',
-    description: 'Excelente para realizar tortas, alimentos de masa y más, la Batidora Mixer-5/7 de MORETTI trabaja de forma eficiente y suave. Equipada con un bowl de acero inoxidable y diseñada para manejar hasta 500 gramos de masa final.',
-    details: [
-        'Capacidad de 5 litros.',
-        'Capacidad de amasado: 500 gramos de masa final.',
-        '3 velocidades (55 – 280 rpm) para una variedad de aplicaciones.',
-        'Potencia de 300 watts.',
-        'Voltaje: 220V.'
-    ],
-    images: []
-}
-,
-{
-    id: 10,
-    name: 'Batidora CATANIA 7/10/15/20/30/40 lts.',
-    description: 'Batidora CATANIA con cuerpo de fundición de hierro, ideal para uso comercial e industrial. Equipada con accesorios (batidor, amasador minio y mezclador) en acero inoxidable y bowl de 30 litros también en acero inoxidable.',
-    details: [
-        'Capacidades disponibles: 7, 10, 15, 20, 30 y 40 litros.',
-        'Cuerpo de fundición de hierro para durabilidad y estabilidad.',
-        'Accesorios (batidor, amasador minio y mezclador) en acero inoxidable.',
-        'Bowl de 30 litros en acero inoxidable.',
-        '3 velocidades: 110/200/420 RPM para diferentes tipos de mezcla.',
-        'Transmisión a engranajes para un funcionamiento robusto.',
-        'Manivela para ascender y descender el bowl.',
-        'Potencia: 1,5 kW / 2 HP.',
-        'Voltaje: 380V (trifásica) opcional 220V/50Hz monofásica.',
-        'Rejilla protectora con corte automático de energía para seguridad.'
-    ],
-    images: []
-}
-,
-{
-    id: 11,
-    name: 'Batidora SILCOOK VIA CHEFF 10/20/30 lts.',
-    description: 'Batidora SILCOOK VIA CHEFF ideal para uso profesional, con capacidades de 10, 20 y 30 litros. Equipada con bowl de acero inoxidable de 20 litros y capacidad máxima de 5 kg de harina seca. Posee tres velocidades mecánicas y doble switch de seguridad para un funcionamiento seguro.',
-    details: [
-        'Voltaje: 220 V / 50 Hz.',
-        'Potencia: 1.1 kW.',
-        'Bowl de acero inoxidable con capacidad de 20 litros.',
-        'Capacidad máxima de harina seca: 5 kg.',
-        'Tres velocidades mecánicas para ajuste de mezcla.',
-        'Doble switch de seguridad para protección adicional.'
-    ],
-    images: []
-},
-{
-    id: 12,
-    name: 'Batidora INDUPAN 20/40 lts.',
-    description: 'Batidora INDUPAN con estructura de acero inoxidable y sistema planetario de rotación construido en fundición. Equipada con recipiente de trabajo de acero inoxidable y motor de dos velocidades más variador de polea móvil para ajustar el régimen de mezclado según la necesidad. Cuenta con sistema de elevación por palanca y protección para manos.',
-    details: [
-        'Estructura realizada en acero inoxidable.',
-        'Sistema planetario de rotación en fundición.',
-        'Recipiente de trabajo en acero inoxidable.',
-        'Motor de dos velocidades más variador de polea móvil.',
-        'Sistema de elevación de recipiente por palanca.',
-        'Protección para manos para seguridad adicional.'
-    ],
-    images: []
-}
-,
+        ,
+        {
+            id: 3,
+            name: 'Amasadoras ALPAN',
+            description: 'Amasadora convencional a horquilla ALPAN, diseñada para manejar grandes volúmenes de masa con una capacidad desde 50 hasta 100 kg  dependiendo el modelo. Equipada con batea de cono y rasqueta para una mezcla eficiente y un motor monofásico para un rendimiento confiable.',
+            details: [
+                'Diseñada para manejar desde 50 hasta 100kg de harina dependiendo el modelo.',
+                'Amasadora a horquilla de fundación pesada.',
+                'Batea con cono y rasqueta para una mezcla uniforme.',
+                'Motor monofásico reacondicionado para un rendimiento optimizado.',
+                'Estructura robusta para durabilidad y estabilidad.',
+                'Modelos: 50 KG, 100KG'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 4,
+            name: 'Amasadora AE-25MF',
+            description: 'Amasadora rápida AE-25MF de VISA, diseñada para panaderías y pastelerías que requieren un equipo eficiente y robusto para sus procesos de mezcla. Con motor monofásico de una velocidad, garantiza un amasado rápido y homogéneo.',
+            details: [
+                'Motor monofásico de una velocidad para un funcionamiento eficiente.',
+                'Diseñada para un amasado rápido y homogéneo.',
+                'Estructura robusta y duradera para uso industrial.',
+                'Ideal para panaderías, pastelerías y negocios de repostería.',
+                'Fácil de limpiar y mantener.'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 5,
+            name: 'Amasadora SX50 SILCOOK',
+            description: 'Amasadora rápida SX50 de SILCOOK, diseñada para ofrecer un rendimiento superior en la preparación de masas. Con 2 velocidades, función de reversa, visor digital y panel Soft Touch, esta amasadora es ideal para panaderías y pastelerías que buscan eficiencia y precisión en su producción.',
+            details: [
+                'Potencia: 3 kW / 220V.',
+                'Dos velocidades + reversa para el quitado de amasijo.',
+                'Visor digital e indicador de temperatura de la masa.',
+                'Incluye timer y parada de emergencia para mayor seguridad.',
+                'Sistema de distribución a cinta (no a cadena) para un funcionamiento suave y silencioso.',
+                'Panel Soft Touch para un manejo intuitivo.',
+                'Dimensiones: Largo 57 cm, Profundidad 91 cm, Altura 109 cm.',
+                'Peso: 168 kg.'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 7,
+            name: 'Amasadoras CATANIA',
+            description: 'Amasadoras rápidas a espiral de CATANIA, diseñada para ofrecer un amasado eficiente y homogéneo. Estas amasadoras electromecánicas son ideales para panaderías y pastelerías que buscan un equipo robusto y confiable.',
+            details: [
+                'Marca: CATANIA.',
+                'Construidas en Hierro fundido pintura epoxi.',
+                'Batea y espiral de acero inoxidable.',
+                'Tablero de control análogo.',
+                'Rejillas de protección elaboradas en acero con corte automático cuando se levanta la misma.',
+                'Tiempo de amasado: 8 a 12 min.',
+                'Con temporizador.',
+                'Modelos: SH 20A, SH 30A, SH 40A, SH 60A, SH 60B'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 8,
+            name: 'Batidora KMC 570 N KENWOOD',
+            description: 'Batidora Amasadora Kenwood KMC 570 de 4 o 6 litros, ideal para uso doméstico y profesional ligero. Equipada con los tres ganchos funcionales (amasador, batidor y mezclador) para una versatilidad completa en la preparación de alimentos.',
+            details: [
+                'Potencia de 1000 watts.',
+                'Bowl de acero inoxidable con capacidad de 4 o 6 litros.',
+                'Control automático de velocidad por pulso.',
+                'Mantiene velocidad y potencia constante para resultados óptimos.',
+                'Sistema de rotación planetaria para una mezcla uniforme.',
+                'Ideal para uso doméstico y profesional ligero.'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 9,
+            name: 'Batidoras Mixer MORETTI',
+            description: 'Excelentes para realizar tortas, alimentos de masa y más, las Batidoras Mixer de MORETTI trabajan de forma eficiente y suave. Equipadas con un bowl de acero inoxidable.',
+            details: [
+                'Capacidad: 5 o 7 litros.',
+                'Material del bowl: Acero inoxidable de alta durabilidad',
+                'Diseño compacto y elegante, ideal para cualquier cocina',
+                'Fácil de desmontar y limpiar, apta para lavavajillas'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 10,
+            name: 'Batidoras CATANIA',
+            description: 'Las Batidoras CATANIA, con cuerpo de fundición de hierro, son ideales para uso comercial e industrial. Equipadas con accesorios en acero inoxidable (batidor, amasador y mezclador) y bowls de diferentes capacidades también en acero inoxidable.',
+            details: [
+                'Capacidades disponibles: 7, 10, 15, 20, 30 y 40 litros.',
+                'Cuerpo de fundición de hierro para durabilidad y estabilidad.',
+                'Accesorios (batidor, amasador minio y mezclador) en acero inoxidable.',
+                '3 velocidades: 110/200/420 RPM para diferentes tipos de mezcla.',
+                'Transmisión a engranajes para un funcionamiento robusto.',
+                'Manivela para ascender y descender el bowl.',
+                'Rejilla protectora con corte automático de energía para seguridad.'
+            ],
+            images: []
+        }
+        ,
+        {
+            id: 11,
+            name: 'Batidora SILCOOK VIA CHEFF',
+            description: 'Batidoras SILCOOK VIA CHEFF ideales para uso profesional, con capacidades de 10, 20 y 30 litros. Equipadas con bowls de acero inoxidable. Poseen tres velocidades mecánicas y doble switch de seguridad para un funcionamiento seguro.',
+            details: [
+                'Capacidades disponibles: 10, 20 y 30 litros.',
+                'Bowl de acero inoxidable.',
+                'Tres velocidades mecánicas para ajuste de mezcla.',
+                'Doble switch de seguridad para protección adicional.'
+            ],
+            images: []
+        },            
+        {
+            id: 12,
+            name: 'Batidoras INDUPAN',
+            description: 'Batidoras INDUPAN con estructura de acero inoxidable y sistema planetario de rotación construido en fundición. Equipadas con recipientes de trabajo de acero inoxidable y motor de dos velocidades más variador de polea móvil para ajustar el régimen de mezclado según la necesidad. Cuentan con sistema de elevación por palanca y protección para manos.',
+            details: [
+                'Capacidades disponibles: 20 y 40 litros.',
+                'Estructura realizada en acero inoxidable.',
+                'Sistema planetario de rotación en fundición.',
+                'Recipiente de trabajo en acero inoxidable.',
+                'Motor de dos velocidades más variador de polea móvil.',
+                'Sistema de elevación de recipiente por palanca.',
+                'Protección para manos para seguridad adicional.'
+            ],
+            images: []
+        }
+        ,///HASTA ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA HAY QUE HACER EL SIGUIENTE
+        
 {
     id: 13,
     name: 'Batidora A muñeca MAEQUIP 20 lts.',
