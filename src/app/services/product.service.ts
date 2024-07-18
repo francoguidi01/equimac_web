@@ -10,7 +10,6 @@ export class ProductService {
   constructor() {
     this.productList.push(
       
-        
         {
             id: 1,
             name: 'Amasadora Mb',
@@ -178,12 +177,11 @@ export class ProductService {
             ],
             images: []
         }
-        ,///HASTA ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA HAY QUE HACER EL SIGUIENTE
-        
+        ,
 {
     id: 13,
-    name: 'Batidora A muñeca MAEQUIP 20 lts.',
-    description: 'Batidora A muñeca MAEQUIP ideal para crema pastelera, bizcochuelos, etc. Equipada con tacho de acero inoxidable de 20 litros (30 cm de diámetro x 30 cm de alto), motor de 3/4 HP y sistema de tres velocidades mediante cambio de polea. Construida completamente en fundición de hierro para robustez y durabilidad.',
+    name: 'Batidora MAEQUIP',
+    description: 'Batidora MAEQUIP ideal para crema pastelera, bizcochuelos, etc. Equipada con tacho de acero inoxidable de 20 litros (30 cm de diámetro x 30 cm de alto), motor de 3/4 HP y sistema de tres velocidades mediante cambio de polea. Construida completamente en fundición de hierro para robustez y durabilidad.',
     details: [
         'Ideal para crema pastelera, bizcochuelos, etc.',
         'Tacho de acero inoxidable de 20 litros (30 cm diámetro x 30 cm alto).',
@@ -197,17 +195,18 @@ export class ProductService {
 ,     
 {
     id: 14,
-    name: 'Sobadoras 450/500/600 de mesa',
-    description: 'Sobadoras disponibles en modelos de 450, 500 y 600 mm de ancho, con opción de mesa o pie. Marcas disponibles: MAEQUIP, FINESCHI, DINO en versiones trifásicas o monofásicas según la necesidad.',
+    name: 'Sobadoras de mesa',
+    description: 'Sobadoras disponibles en modelos de 450, 500 y 600 mm de ancho, con opción de mesa o pie con versiones trifásicas o monofásicas según la necesidad.',
     details: [
-        'Marcas disponibles: MAEQUIP, FINESCHI, DINO (trifásica o monofásica).'
+        'Marcas disponibles: MAEQUIP, FINESCHI, DINO (trifásica o monofásica).',
+        'Tamaños: 450mm, 500mm, 600mm '
     ],
     images: []
 }
 ,
 {
     id: 15,
-    name: 'Sobadora laminadora 450 mm de pie MAEQUIP',
+    name: 'Sobadora laminadora MAEQUIP',
     description: 'Sobadora laminadora eléctrica de pie MAEQUIP, ideal para pastelerías y panaderías. Capacidad para laminar hasta 15 kg de masa con una separación máxima entre rodillos de 25 mm. Equipada con rodillos de cromo para durabilidad y fácil limpieza.',
     details: [
         'Tipo: Sobadora laminadora eléctrica de pie.',
@@ -318,7 +317,7 @@ export class ProductService {
 ,
 {
     id: 23,
-    name: 'FM-20/30 automático MORELLI',
+    name: 'Freidora MORELLI',
     description: 'Freidora automática MORELLI disponible en capacidades de 20 litros o 30 litros, ideal para uso comercial y profesional.',
     details: [
         'Capacidades disponibles: 20 litros o 30 litros.',
@@ -330,7 +329,7 @@ export class ProductService {
 ,
 {
     id: 24,
-    name: 'Alta Recuperación 50 lts. MAEQUIP BAR',
+    name: 'Freidora MAEQUIP BAR',
     description: 'Freidora de alta recuperación MAEQUIP BAR con capacidad de 50 litros, ideal para cocinas industriales y grandes volúmenes.',
     details: [
         'Capacidad: 50 litros.',
@@ -342,7 +341,7 @@ export class ProductService {
 ,
 {
     id: 25,
-    name: 'Eléctrica 15 litros de pie -6 kw SPEEDY',
+    name: 'Freidora SPEEDY',
     description: 'Freidora eléctrica de 15 litros, disponible con o sin pie, marca SPEEDY. Potencia de 6 kW, ideal para diversos entornos comerciales.',
     details: [
         'Capacidad: 15 litros.',
@@ -379,7 +378,7 @@ export class ProductService {
 ,
 {
     id: 28,
-    name: 'Cheff 30 automático Minisit MORELLI',
+    name: 'Hervidor de pastas MORELLI',
     description: 'Hervidor de pasta automático Cheff 30 de la marca MORELLI. Equipado con grifería para reposición de agua y válvula de seguridad automática para un manejo seguro y eficiente.',
     details: [
         'Marca: MORELLI.',
@@ -392,7 +391,7 @@ export class ProductService {
 ,
 {
     id: 29,
-    name: 'Standard 30/50 litros MAEQUIP BAR',
+    name: 'Hervidor de pastas MAEQUIP BAR',
     description: 'Hervidor de pastas de 30 litros o 50 litros de la marca MAEQUIP BAR. Ideal para cocinas industriales sin canastos incluidos.',
     details: [
         'Capacidades disponibles: 30 litros o 50 litros.',
@@ -404,7 +403,7 @@ export class ProductService {
 ,
 {
     id: 30,
-    name: 'Freezer 130/550/700 lts. full Blanco INELRO ciego A++',
+    name: 'Freezer INELRO A++',
     description: 'Freezer INELRO con capacidades disponibles de 130 litros, 550 litros o 700 litros. Funciones de frío avanzadas, interior en chapa pre pintada blanca, desagote frontal y refrigerante R600a.',
     details: [
         'Capacidades disponibles: 130 litros, 550 litros o 700 litros.',
@@ -418,7 +417,7 @@ export class ProductService {
 ,
 {
     id: 31,
-    name: 'Freezer 130/270/350 lts. full Plata INELRO P+',
+    name: 'Freezer INELRO P++',
     description: 'Freezer INELRO con capacidades disponibles de 130 litros, 270 litros (P++) o 350 litros (P+). Funciones de frío, interior en chapa pre pintada plata, desagote frontal y refrigerante R600a.',
     details: [
         'Capacidades disponibles: 130 litros, 270 litros (P++) o 350 litros (P+).',
@@ -432,7 +431,7 @@ export class ProductService {
 ,
 {
     id: 32,
-    name: 'Freezer 270/350/550 lts. tapa vidrio plano inclinado INELRO',
+    name: 'Freezer exhibidor INELRO',
     description: 'Nuevo Freezer Exhibidor Horizontal INELRO con tapa de vidrio curvo plano inclinado. Ruedas dobles giratorias de alta resistencia.',
     details: [
         'Capacidades disponibles: 270 litros, 350 litros o 550 litros.',
@@ -444,10 +443,10 @@ export class ProductService {
 ,
 {
     id: 33,
-    name: 'Vertical INELRO mod. BT17/19 Exhibidor',
+    name: 'Exhibidora Vertical INELRO',
     description: 'Exhibidora Vertical de Baja Temperatura INELRO, sin cenefa, con condensación y evaporación forzada. Controlador inteligente con indicador de temperatura, cinco estantes móviles y puerta con paneles de vidrio calefaccionados.',
     details: [
-        'Modelo: BT17/19.',
+        'Modelo: BT17/BT19.',
         'Exhibidora Vertical de Baja Temperatura.',
         'Sin cenefa.',
         'Condensación y evaporación forzada.',
@@ -459,7 +458,7 @@ export class ProductService {
 ,
 {
     id: 34,
-    name: 'Freezer 550 lts. TVI tapa vidrio inclinada TEORA',
+    name: 'Freezer TEORA',
     description: 'Freezer TEORA con tapa de vidrio inclinada, capacidad de 550 litros. Equipado con canastos, condensación estática, evaporador de serpentina de cobre y termostato dual (enfriador/freezer).',
     details: [
         'Capacidad: 550 litros.',
@@ -474,7 +473,7 @@ export class ProductService {
 ,
 {
     id: 35,
-    name: 'Freezer 1.170 lts. Triple tapa ciega C720 BERCOMAR',
+    name: 'Freezer BERCOMAR',
     description: 'Freezer BERCOMAR con capacidad de 1.170 litros, triple tapa ciega. Gabinete exterior de chapa de acero prepintada, interior de chapa galvanizada, condensación forzada y temperatura regulable de -18ºC a -25ºC.',
     details: [
         'Capacidad: 1.170 litros.',
@@ -489,7 +488,7 @@ export class ProductService {
 ,
 {
     id: 36,
-    name: 'KIA mod. 420 lts',
+    name: 'Refrigerador KIA',
     description: 'Refrigerador KIA de 420 litros con luz interior de 15W y luz cenefa de plafón bajo consumo. Incluye 4 estantes ajustables y 2 patines ajustables para facilitar su colocación.',
     details: [
         'Capacidad: 420 litros.',
@@ -567,8 +566,8 @@ export class ProductService {
 ,
 {
     id: 41,
-    name: 'Selladora tipo cizalla C300/CC300/C400/CC400',
-    description: 'Selladora horizontal tipo cizalla para bolsas de polipropileno, SMS, friselina y similares. Gabinete de chapa esmaltada, regulación electrónica para diferentes espesores de bolsas.',
+    name: 'Selladoras tipo cizalla',
+    description: 'Selladoras horizontales tipo cizalla para bolsas de polipropileno, SMS, friselina y similares. Gabinetes de chapa esmaltada, regulación electrónica para diferentes espesores de bolsas.',
     details: [
         'Indicador luminoso de inicio y fin de operación.',
         'Producción recomendada: 300/400 sellados por hora.',
@@ -577,18 +576,18 @@ export class ProductService {
         'Tensión: 220 volts.',
         'Consumo eléctrico: 3.50A.',
         'Largo de sellado: 30 cm.',
-        'Ancho de sellado: 1.5 mm.'
+        'Ancho de sellado: 1.5 mm.',
+        'Modelos: C300, CC300, C400, CC400.'
     ],
     images: []
 }
 ,
 {
     id: 42,
-    name: 'Rollo de tinta para fechador FE791',
-    description: 'Repuesto de cinta térmica negra para fechador FE791 y Lipari Hot Stamping. Fabricada en polietileno y polipropileno para utilizar con equipos de hot stamping. Ideal para impresión térmica en diferentes materiales.',
+    name: 'Rollo de tinta FE791',
+    description: 'Repuesto de cinta térmica negra para fechador FE791 Lipari Hot Stamping. Fabricada en polietileno y polipropileno para utilizar con equipos de hot stamping. Ideal para impresión térmica en diferentes materiales.',
     details: [
         'Tipo: Polietileno y polipropileno.',
-        'Uso: Repuesto de cinta térmica para fechadores FE791 y Lipari Hot Stamping.',
         'Color: Negro.'
     ],
     images: []
@@ -596,7 +595,7 @@ export class ProductService {
 ,
 {
     id: 43,
-    name: 'Fechador térmico con soporte rebobinador FR333',
+    name: 'Fechador térmico FR333',
     description: 'Fechador térmico construido en acero inoxidable, diseñado para impresión seca e inviolable. Permite colocar 1, 2 o 3 líneas de impresión (fecha de envasado, vencimiento y número de lote) con un área máxima de 23 x 13 mm. Apto para imprimir sobre envases de polietileno, polipropileno, laminados OPP, papel, cartulina, etc. Utiliza un sistema que combina tinta con temperatura para transferir calor desde los cuños hacia la cinta, logrando una impresión nítida en el envase.',
     details: [
         'Construcción: Acero inoxidable.',
@@ -615,7 +614,7 @@ export class ProductService {
 ,
 {
     id: 44,
-    name: 'Selladora horizontal y vertical 40 cm H400 y V400',
+    name: 'Selladora horizontal H400 y vertical V400',
     description: 'Selladora de tipo impulso de pedal, diseñada para sellar materiales como polietileno y polipropileno. Ideal para aplicaciones tanto horizontales como verticales con un largo de sellado de 400 mm y un ancho de sellado de 3 mm.',
     details: [
         'Tipo de selladora: Impulso de pedal.',
@@ -623,14 +622,15 @@ export class ProductService {
         'Largo de sellado: 400 mm.',
         'Ancho de sellado: 3 mm.',
         'Potencia: 770 W.',
-        'Con apagado automático: No.'
+        'Con apagado automático: No.',
+        'Modelos: H400, V400.'
     ],
     images: []
 }
 ,
 {
     id: 45,
-    name: 'Selladora y refiladora vertical 40 cm. pie con pedal VR400',
+    name: 'Selladoras y refiladoras VR400',
     description: 'Selladora y refiladora vertical con pedal, modelo VR400. Ideal para sellar y refilar materiales como polietileno y polipropileno. Tiene un largo de sellado de 40 cm y un ancho de sellado de 3 mm con función de corte incorporada.',
     details: [
         'Modelo: VR400.',
@@ -644,7 +644,7 @@ export class ProductService {
 ,
 {
     id: 46,
-    name: 'Termoselladora para film PVC PROFESIONAL TS3500',
+    name: 'Termoselladora TS3500',
     description: 'Termo selladora para film línea profesional ST3500. La evolución del termosellado ofrece una solución óptima y eficiente de envasado para emprendedores y empresas, combinando estética, sustentabilidad y ahorro.',
     details: [
         'Ideal para sellado de film PVC.',
@@ -658,7 +658,7 @@ export class ProductService {
 ,
 {
     id: 47,
-    name: 'Dispenser porta rollo de film con corte 751',
+    name: 'Dispenser porta rollo',
     description: 'Dispenser porta rollo de film con corte manual incorporado, modelo 751. Ideal para rotiserías, cocinas profesionales y hogares. Apto para rollos de cocina como film de PC, papel aluminio, papel manteca, etc. Ancho aplicable de hasta 38 cm.',
     details: [
         'Medida: 42x15x5.5 cm (frente.profundo.alto).',
@@ -676,15 +676,15 @@ export class ProductService {
     name: 'Planchas lisas Speedy',
     description: 'Planchas lisas ideales para cocinar alimentos frisados directamente sin descongelar previamente, garantizando alta calidad de cocción y sabor. Equipadas con termostato incorporado y sistema de corte automático de temperatura. Gabinete en acero inoxidable esmerilado y superficie teflonada para facilitar la limpieza.',
     details: [
-        'Tensión: 220 V/380 v',
-       'Medidas dependiendo plancha: 30 cm x 40 cm,40x40, 70x50,100x50',
-       'Capacidad de hamburguesas: 12, 16, 30, 50'
+       'Tensión: 220 V y 380 v',
+       'Medidas dependiendo plancha: 30 cm x 40 cm, 40cm x 40cm, 70cm x 50cm y 100cm x 50cm.',
+       'Capacidad de hamburguesas: 12h, 16h, 30h y 50h.'
     ],
     images: []
 },
 {
     id: 49,
-    name: 'Cortadora de Papas Trinidad 250 Acero Inoxidable',
+    name: 'Cortadora de Papas Trinidad',
     description: 'La Cortadora de Papas Trinidad ofrece versatilidad y precisión para los entusiastas de la cocina y los profesionales gastronómicos. Equipada con tres discos horizontales o verticales según la configuración elegida, esta máquina facilita el corte de papas y otros alimentos de manera eficiente y uniforme. Fabricada por la reconocida marca Trinidad, cuenta con una cuchilla de acero inoxidable de alta calidad, motor eléctrico monofásico de 220 volts y potencia de 0.16 HP. Incluye afilador incorporado y es desarmable para facilitar la limpieza e higiene.',
     details: [
         'Gabinete: Acero inoxidable y aluminio anodizado.',
@@ -705,10 +705,10 @@ export class ProductService {
 ,
 {
     id: 50,
-    name: 'Reb. de pan de miga 60 y 55 cms ACERO INOX. MAEQUIP',
-    description: 'Cortadora de pan de miga grande, diseñada para rebanar pan de miga de 330 mm x 550 mm en diferentes grosores de 7 mm, 8 mm, 9 mm, 10 mm, 12 mm, etc. Eficiente, fuerte, silenciosa y rápida. Construida con materiales de primera calidad, motor trifásico de 1,5 HP. Dimensiones: 1,50 m (largo) x 0,85 m (ancho) x 1,60 m (alto). Peso aproximado: 400 kg.',
+    name: 'Cortadoras de pan MAEQUIP',
+    description: 'Cortadoras de pan de miga grandes, diseñadas para rebanar pan de miga en diferentes grosores de 7 mm, 8 mm, 9 mm, 10 mm, 12 mm, etc. Eficiente, fuerte, silenciosa y rápida. Construida con materiales de primera calidad, motor trifásico.',
     details: [
-        'Motor trifásico de 1,5 HP.',
+        'Motor trifásico.',
         'Dimensiones: 1,50 m x 0,85 m x 1,60 m.',
         'Peso aproximado: 400 kg.',
         'Capacidad de rebanado: 330 mm x 550 mm.'
@@ -718,8 +718,8 @@ export class ProductService {
 ,
 {
     id: 51,
-    name: 'Rebanadora lactal 41 y 30 cms MAEQUIP',
-    description: 'Rebanadora compacta de pan lactal con estructura de acero de aluminio revestida de acero inoxidable. Aprobada por la OMS, con capacidad para rebanar panes de hasta 360 mm de largo y 220 mm de alto. Cuenta con un motor de 370 W, operando a 220v / 50Hz y produciendo 252 rebanadas por minuto. Dimensiones: 78 cm (ancho) x 68 cm (profundidad) x 78 cm (altura). Peso: 52 kg.',
+    name: 'Rebanadoras MAEQUIP',
+    description: 'Rebanadoras compactas de pan lactal con estructura de acero de aluminio revestida de acero inoxidable. Aprobada por la OMS, con capacidad para rebanar panes de hasta 360 mm de largo y 220 mm de alto. Cuenta con un motor de 370 W, operando a 220v / 50Hz y produciendo 252 rebanadas por minuto.',
     details: [
         'Estructura compacta de acero de aluminio revestida de acero inoxidable.',
         'Grosor de rebanadas: 12 mm.',
@@ -728,14 +728,13 @@ export class ProductService {
         'Cantidad de piezas rebanadas por minuto: 252 rebanadas.',
         'Voltaje: 220v / 50Hz.',
         'Potencia: 370 W.',
-        'Peso: 52 kg.'
     ],
     images: []
 }
 ,
 {
     id: 52,
-    name: 'Descortezadora de pan de miga 040 MAEQUIP',
+    name: 'Descortezadora MAEQUIP',
     description: 'Máquina para sacar la corteza del pan de miga de forma rápida y sencilla. Equipada con mesa móvil y tope regulable para mayor seguridad. Trabaja con sierra sin-fin y cuenta con un motor de 1 HP. Dimensiones: 1,30 m (largo) x 1 m (ancho) x 1,90 m (alto).',
     details: [
         'Mesa móvil con tope regulable.',
@@ -748,7 +747,7 @@ export class ProductService {
 ,
 {
     id: 53,
-    name: 'Fabricadora de Hielo MODELO ZBY-40 y MODELO: ZBY-60',
+    name: 'Fabricadora de Hielo ZBY-40 y ZBY-60',
     description: 'La elegante máquina de hielo compacta produce 40 kg de hielo o 60 kg dependiendo del modelo en cubos cada 24 horas, con un amplio depósito de almacenamiento aislado. Construida íntegramente en acero inoxidable, su diseño compacto permite una fácil instalación debajo del mostrador o detrás de la barra. Con conexiones de agua y desagüe de red, opera las 24 horas del día para tener siempre hielo disponible. Los controles electrónicos inteligentes detienen la producción cuando el depósito está lleno y la reinician automáticamente al retirar hielo. Incluye ciclo de autolimpieza y filtro de aire incorporado para mantenimiento fácil y efectivo.',
     details: [
         'Producción de hielo: 40 kg (ZBY-40) o 60 kg (ZBY-60) en cubos cada 24 horas.',
@@ -757,7 +756,9 @@ export class ProductService {
         'Conexiones de agua y desagüe de red.',
         'Controles electrónicos inteligentes con función de paro automático y reinicio.',
         'Ciclo de autolimpieza y filtro de aire incorporado.',
-        'Tamaño compacto para instalación bajo mostrador o detrás de barra.'
+        'Tamaño compacto para instalación bajo mostrador o detrás de barra.',
+        'Modelos: ZBY-40 y ZBY-60'
+
     ],
     images: []
 }
@@ -781,7 +782,7 @@ export class ProductService {
 ,
 {
     id: 55,
-    name: 'Licuadora 2 lts. TURBOBLENDER TB50',
+    name: 'Licuadora TURBOBLENDER TB50',
     description: 'La Licuadora TURBOBLENDER TB50 de 2 litros es una potente máquina ideal para batidos, smoothies, licuados y tragos frozen. Equipada con un motor de 1500W (3 HP) y velocidad máxima de centrifugado de 25000 RPM, cuenta con vaso de Tritán BPA FREE de 2 litros. Sus medidas son 18 cm x 48 cm x 22 cm (Ancho x Alto x Profundo), pesa 4.7 kg y ofrece tecla ON/OFF con control de velocidad variable y función de pulso para operación libre. Incluye cuchilla de acero inoxidable de alta calidad con rodamientos para triturado rápido de hielo. Dispone de protección contra sobrecalentamiento, doble automática y sobre alimentación de corriente. Incluye bastón mezclador y opción de lavador rápido para jarras.',
     details: [
         'Potencia: 1500W - 3 HP.',
@@ -802,7 +803,7 @@ export class ProductService {
 ,
 {
     id: 56,
-    name: 'Licuadora 3 lts. Master Blend panel digital BL306/D SILCOOK VIA CHE',
+    name: 'Licuadora SILCOOK VIA CHE',
     description: 'La Licuadora Master Blend BL306/D es perfecta para cualquier receta gracias a su potencia de 1500W y velocidad de 28000 RPM. Con capacidad de jarra de 3 litros y cuchilla de acero con doble reten para picar hielo, asegura un entorno perfecto para licuar de forma rápida y suave. Operando a voltaje de 220-240V / 50-60 HZ, cuenta con switch de seguridad y panel digital para control preciso.',
     details: [
         'Potencia: 1500W.',
@@ -819,14 +820,15 @@ export class ProductService {
 ,
 {
     id: 57,
-    name: 'Fideero eléctrico/manual 300mm',
+    name: 'Fideero eléctrico/manual',
     description: 'Fideero con rodillos cortantes de acero inyectados en ABS de 300 mm. Calibración de cilindros mediante conjunto de leva excéntrica. Transmisión por engranajes. Corta tallarines de 2,5 mm y cintas de 7,5 mm de ancho. Incluye manija y prensas para facilitar la operación.',
     details: [
         'Rodillos cortantes de acero inyectados en ABS de 300 mm.',
         'Calibración de cilindros mediante conjunto de leva excéntrica.',
         'Transmisión por engranajes.',
         'Corta tallarines de 2,5 mm y cintas de 7,5 mm de ancho.',
-        'Incluye manija y prensas.'
+        'Incluye manija y prensas.',
+        'Modelos: Electrico y manual'
     ],
     images: []
 }
@@ -840,48 +842,47 @@ export class ProductService {
         'Transmisión por poleas y correa.',
         'Funciona con tecla de encendido.',
         'Revestido en acero inoxidable.',
-        'Incluye manija y prensas.'
+        'Incluye manija y prensas.',
+        'Modelos: Electrico y manual'
     ],
     images: []
 }
 ,
 {
     id: 59,
-    name: 'Raviolero eléctrico/manual 300mm',
+    name: 'Raviolero eléctrico/manual',
     description: 'Raviolero con cuerpo íntegro de acero inoxidable brillante. Rodillos ravioleros de acero inoxidable con revestimiento antiadherente ABS (Termoplástico Amorfo). Dimensiones: Ancho 400 mm, Alto 150 mm, Profundidad 160 mm, Peso aproximado 5 kg. Ideal para la producción de raviolis con facilidad de uso manual o eléctrico.',
     details: [
         'Cuerpo íntegro de acero inoxidable brillante.',
         'Rodillos ravioleros de acero inoxidable con revestimiento antiadherente ABS (Termoplástico Amorfo).',
         'Dimensiones: Ancho 400 mm, Alto 150 mm, Profundidad 160 mm, Peso aproximado 5 kg.',
         'Ideal para la producción de raviolis.',
-        'Funcionamiento eléctrico/manual.'
+        'Funcionamiento eléctrico/manual.',
+        'Modelos: Electrico y manual'
     ],
     images: []
 }
 ,
 {
     id: 60,
-    name: 'Sobadora eléctrica/manual 300mm/400mm/600mm',
+    name: 'Sobadora eléctrica/manual',
     description: 'Sobadora ideal para el sobado y estirado de todo tipo de masa, disponible en variantes eléctricas y manuales con diferentes anchos de rodillo (300 mm, 400 mm, 600 mm). Construida íntegramente en acero inoxidable brillante, con motor monofásico de 1/3 HP (1400 RPM). Apertura máxima de rodillos de 8 mm y apertura mínima de 1 mm. Incluye bandeja transportadora y manija con prensas para mayor comodidad.',
     details: [
         'Disponible en variantes de 300 mm, 400 mm, 600 mm de ancho de rodillo.',
         'Construida íntegramente en acero inoxidable brillante.',
-        'Motor monofásico 1/3 HP (1400 RPM).',
-        'Apertura máxima de rodillos de 8 mm y apertura mínima de 1 mm.',
         'Ideal para el sobado y estirado de todo tipo de masa.',
-        'Incluye bandeja transportadora de 300 x 400 mm.',
-        'Manija y prensas para facilitar la operación.'
+        'Manija y prensas para facilitar la operación.',
+        'Modelos: Electrico y manual'
     ],
     images: []
 }
 ,
 {
     id: 61,
-    name: 'Cutter 2,5/4/8 lt Metvisa ',
-    description: 'Procesadora Industrial Gastronómica Cutter Metvisa de 8 litros. Corta, tritura y mezcla alimentos sólidos sin líquido. Construcción robusta en acero inoxidable. Dimensiones: Altura 585 mm, Frente 305 mm, Hondo 300 mm. Peso 17.5 kg. Voltaje disponible en 127V/220V. Capacidad para procesar hasta 8 kg de alimentos.',
+    name: 'Procesadora Industrial Cutter Metvisa ',
+    description: 'Procesadora Industrial Gastronómica Cutter Metvisa. Corta, tritura y mezcla alimentos sólidos sin líquido. Construcción robusta en acero inoxidable.',
     details: [
-        'Voltaje: 127V/220V.',
-        'Capacidad: 2.5,4,8 litros.',
+        'Capacidad: 2.5 litros, 4 litros y 8 litros.',
         'Ideal para cortar, triturar y mezclar alimentos sólidos sin líquido.'
     ],
     images: []
@@ -889,13 +890,11 @@ export class ProductService {
 ,
 {
     id: 62,
-    name: 'Cutter 6/9 lt SILCOOK VIA CHEFF HP900',
-    description: 'Cutter con capacidad de 6 o 9 litros, potencia de motor de 750W, voltaje de 220V / 50 HZ y variador de velocidad de 1100 a 2800 RPM. Equipado con tapa visor, doble switch de seguridad y cuchilla de acero inoxidable. Ideal para procesar alimentos de manera eficiente en entornos gastronómicos.',
+    name: 'Cutter SILCOOK VIA CHEFF',
+    description: 'Cutter con capacidad de 6 o 9 litros, variadores de velocidad. Equipado con tapa visor, doble switch de seguridad y cuchilla de acero inoxidable. Ideal para procesar alimentos de manera eficiente en entornos gastronómicos.',
     details: [
-        'Capacidad: 6/9 litros.',
-        'Potencia de motor: 750W.',
-        'Voltaje: 220V / 50 HZ.',
-        'Variador de velocidad: 1100 - 2800 RPM.',
+        'Capacidad: 6 litros y 9 litros.',
+        'Variadore de velocidad.',
         'Tapa visor.',
         'Doble switch de seguridad.',
         'Cuchilla de acero inoxidable.'
@@ -905,20 +904,21 @@ export class ProductService {
 ,
 {
     id: 63,
-    name: 'Procesadora MORETTI/VISA VC65 1 hp / 1/2 hp',
-    description: 'Procesadora de acero inoxidable resistente y duradera. Corta, rebana y cubetea todo tipo de vegetales con variedad de discos accesorios intercambiables. Equipada con excelente sistema de seguridad durante la operación.',
+    name: 'Procesadoras MORETTI y VISA',
+    description: 'Procesadoras de acero inoxidable resistentes y duraderas. Corta, rebana y cubetea todo tipo de vegetales con variedad de discos accesorios intercambiables. Equipada con excelente sistema de seguridad durante la operación.',
     details: [
         'Material: Acero inoxidable.',
         'Ideal para cortar, rebanar y cubetear vegetales.',
         'Variedad de discos accesorios fácilmente intercambiables.',
-        'Excelente sistema de seguridad en operación.'
+        'Excelente sistema de seguridad en operación.',
+        'Marcas: Moretti y visa'
     ],
     images: []
 }
 ,
 {
     id: 64,
-    name: 'Cortalegumbres ANDI aluminio/acero 6 discos',
+    name: 'Cortalegumbres ANDI',
     description: 'Cortalegumbres con kit de 6 discos intercambiables para cortar rodajas, tiras, cubos, corte ondulado, juliana, rallado, etc. Fabricado en acero/aluminio inoxidable AISI 304 con discos de acero inoxidable AISI 420 templado. Motor monofásico de 0.5 HP con mandos eléctricos en baja tensión (24V) y dispositivos de seguridad.',
     details: [
         'Kit de 6 discos intercambiables.',
@@ -933,15 +933,12 @@ export class ProductService {
 ,
 {
     id: 65,
-    name: 'Mixer TURBOBLENDER Mix 350/750',
-    description: 'Mixer comercial de uso industrial con cuchilla de acero sólido de alta calidad. Potencia de 350 Watts y velocidad fija de 16,000 RPM. Capacidad de procesado de 20 a 40 litros. Diseño con brazo desmontable para facilitar la limpieza y el traslado. Incluye botón bloqueador y de seguridad para operación continua.',
+    name: 'Mixer TURBOBLENDER',
+    description: 'Mixer comercial de uso industrial con cuchilla de acero sólido de alta calidad.Con una capacidad de procesado de 20 a 40 litros. Diseño con brazo desmontable para facilitar la limpieza y el traslado. Incluye botón bloqueador y de seguridad para operación continua.',
     details: [
         'Uso: Comercial e industrial.',
         'Cuchilla de acero sólido de alta calidad.',
-        'Potencia: 350 Watts.',
-        'Velocidad fija: 16,000 RPM.',
         'Capacidad de procesado: 20 a 40 litros.',
-        'Brazo desmontable de 25 cm.',
         'Botón bloqueador y de seguridad para operación continua.'
     ],
     images: []
@@ -949,7 +946,7 @@ export class ProductService {
 ,
 {
     id: 66,
-    name: 'Balanza Electrónica Market con pilas MORETTI',
+    name: 'Balanza Market MORETTI',
     description: 'Balanza electrónica con alimentación a pilas y capacidad para 70 PLU. Dispone de 5 vendedores simultáneos, conexión a PC e impresor de tickets. Capacidad de pesaje hasta 30 kg con precisión de 10 g. Incluye display LCD backlight y teclado numérico con 25 teclas.',
     details: [
         'Capacidad: 30 kg x 10 g.',
@@ -967,7 +964,7 @@ export class ProductService {
 ,
 {
     id: 67,
-    name: 'Balanza Electrónica Delta 15 bat. 12 hs. autonomía KRETZ',
+    name: 'Balanza Delta KRETZ',
     description: 'Balanza electrónica alfanumérica con autonomía de batería hasta 100 horas según uso. Capacidad de 450 PLU con funciones avanzadas como pre-empaque, contador y alarma por peso. Incluye comunicación serial, gabinete ABS de alta resistencia y bandeja de acero inoxidable.',
     details: [
         'Capacidad: 0 kg a 6 kg x 2 g y de 6 kg a 15 kg x 5 g.',
@@ -985,7 +982,7 @@ export class ProductService {
 ,
 {
     id: 68,
-    name: 'Balanza Electrónica Report LT-232 alto 30 kg Vidrio Bajo/sin vidrio KRETZ',
+    name: 'Balanza Report KRETZ',
     description: 'Balanza electrónica con display digital para pesar con exactitud. Equipada con tecla Tara para restar el peso del recipiente y códigos PLU para simplificar operaciones de caja y control de inventario. Ideal para negocios que requieren precisión y eficiencia.',
     details: [
         'Tipo de pantalla: LCD.',
@@ -1000,7 +997,7 @@ export class ProductService {
 ,
 {
     id: 69,
-    name: 'Balanza Electrónica Master 150 Kg KRETZ con y sin columna',
+    name: 'Balanza Master KRETZ',
     description: 'Balanza electrónica robusta y confiable con capacidad de 150 kg y precisión de 50 g. Equipada con función contadora, suma de pesadas, indicador digital de peso y opción de funcionamiento a batería. Ideal para industrias y negocios que manejan grandes volúmenes de mercadería.',
     details: [
         'Capacidad: 150 kg x 50 g.',
@@ -1009,14 +1006,15 @@ export class ProductService {
         'Opción de funcionamiento a batería.',
         'Plataforma de acero inoxidable de 520 mm x 440 mm.',
         'Salida de comunicación: Puerto serie (RS-232).',
-        'Display digital para operador y cliente.'
+        'Display digital para operador y cliente.',
+        'Modelos: Con y sin columna'
     ],
     images: []
 }
 ,
 {
     id: 70,
-    name: 'Balanza Electrónica Rielera 600 (200gr) KRETZ',
+    name: 'Balanza Rielera KRETZ',
     description: 'Balanza electrónica tipo riel para uso en frigoríficos y carnicerías. Capacidad de 600 kg con división de 200 g. Incluye indicador digital de peso en gabinete de acero estanco, tecla de tara e impresión, y funciones avanzadas como conteo de pesadas y totales acumulados. Conexión RS-232 para PC.',
     details: [
         'Capacidad: 600 kg.',
@@ -1032,7 +1030,7 @@ export class ProductService {
 ,
 {
     id: 71,
-    name: 'Balanza Electrónica Cenit 31 c/RS-232 control remoto KRETZ',
+    name: 'Balanza Cenit KRETZ',
     description: 'Balanza electrónica con capacidad de 30 kg y precisión de 10 g. Equipada con doble visor para operador y cliente, plato de acero inoxidable, memoria de 120 PLU, y sistema antishock de protección. Permite suma de artículos pesables y no pesables, cálculo de vuelto y conexión RS-232 para impresores KRETZ.',
     details: [
         'Capacidad: 30 kg x 10 g.',
@@ -1052,18 +1050,18 @@ export class ProductService {
     name: 'Mezcladoras de carne FINESCHI LEGITIMA',
     description: 'Las mezcladoras de carne Fineschi Legítima son ideales para la preparación de embutidos, garantizando una mezcla perfecta y homogénea. Equipadas con una batea volcable de acero inoxidable que facilita su limpieza, estas mezcladoras están diseñadas para el uso profesional exigente. Su robusto chasis de hierro y las paletas de hierro aseguran durabilidad y eficiencia en cada proceso.',
     details: [
-        'Capacidad: 50/100 litros.',
+        'Capacidad: 50 y 100 litros.',
         'Batea y tapa en acero inoxidable.',
         'Paletas de hierro.',
         'Chasis de hierro.',
-        'Motor monofásico de ¾ / 1.5 HP (posibilidad de trifásico).'
+        'Motor monofásico (posibilidad de trifásico).'
     ],
     images: []
 }
 ,
 {
     id: 74,
-    name: 'Anafe 4 hornallas R-Fund MORELLI (101163)',
+    name: 'Anafe 4 hornallas R-Fund MORELLI',
     description: 'El Anafe 4 hornallas R-Fund MORELLI ahora Mr.Cheff combina diseño y funcionalidad excepcionales. Equipado con perillas de baquelita de alta resistencia, bandejas anti-derrame y mecheros de fundición de alto poder calorífico, este modelo garantiza una cocina eficiente y segura. Incluye patas de acero inoxidable y patines regulables para mayor estabilidad.',
     details: [
         'Ancho: 75.0 cm.',
@@ -1077,7 +1075,7 @@ export class ProductService {
 ,
 {
     id: 75,
-    name: 'Anafe 2 hornallas horizontal sin revestir con pie BAR',
+    name: 'Anafe 2 hornallas',
     description: 'El Anafe 2 hornallas horizontal sin revestir con pie BAR ofrece simplicidad y eficiencia. Con estructura de acero inoxidable y rejillas de fundición, este modelo es ideal para cocinas profesionales. Cuenta con dos hornallas, una de 1800 kcal y otra de 2200 kcal, siendo apto para uso con múltiples tipos de gas.',
     details: [
         'Medidas: Alto: 18 cm, Ancho: 61 cm, Profundo: 33 cm.',
@@ -1091,13 +1089,15 @@ export class ProductService {
 ,
 {
     id: 76,
-    name: 'Anafe 6 hornallas R-Fund 1100 antes Mr. CHEFF MORELLI/DEPAOLO (700350)',
+    name: 'Anafe 6 hornallas Mr. CHEFF, MORELLI y DEPAOLO',
     description: 'Los Anafes Morelli/DEPAOLO 1100 antes Mr. CHEFF son la elección ideal para chefs y profesionales exigentes. Con diseño modular y mecheros industriales de alto rendimiento, están fabricados en acero inoxidable con patas pintadas negras para una estética duradera. Disponibles en versiones Cheff y Basic para adaptarse a diversas necesidades.',
     details: [
         'Diseño modular.',
         'Mecheros industriales.',
         'Acero inoxidable.',
-        'Patas pintadas negras.'
+        'Patas pintadas negras.',
+        'Marcas:Mr. CHEFF, MORELLI y DEPAOLO '
+
     ],
     images: []
 }
