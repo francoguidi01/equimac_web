@@ -21,4 +21,7 @@ export class OverlappingComponent {
     });
   }
 
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }

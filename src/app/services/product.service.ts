@@ -69,7 +69,7 @@ export class ProductService {
                 'Ideal para panaderías, pastelerías y negocios de repostería.',
                 'Fácil de limpiar y mantener.'
             ],
-            images: []
+            images: ['assets/machines/Machine3.png']
         }
         ,
         {

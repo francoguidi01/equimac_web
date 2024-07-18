@@ -19,6 +19,38 @@
     content: url('/assets/misc/whatsapp2.png'); 
 
 }
+.scroll-top-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    z-index: 999;
+    background-color: transparent;
+}
+
+.scroll-top-btn img {
+    height: auto;
+    width: 80px;
+}
+
+.dark-mode .scroll-top-image{
+    content: url('/assets/misc/up2.png'); 
+
+}
+
+@media (max-width: 768px) {
+    .scroll-top-btn {
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .scroll-top-btn img {
+        width: 40px;
+    }
+}
 
 @media (max-width: 768px) {
     .buttons-container {
