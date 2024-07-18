@@ -1104,7 +1104,7 @@ export class ProductService {
 ,
 {
     id: 77,
-    name: 'Anafe 1 hornalla Dragon Power 24.000 cal',
+    name: 'Anafe 1 hornalla Dragon Power',
     description: 'El Anafe 1 hornalla Dragon Power 24.000 cal ofrece una potencia excepcional y resistencia estructural. Con estructura reforzada que soporta grandes pesos, está equipado con el mechero Dragon Power de 21.5 cm de diámetro, garantizando un alto rendimiento. Ideal para cocinas profesionales que requieren potencia y durabilidad.',
     details: [
         '1 Hornalla.',
@@ -1119,7 +1119,7 @@ export class ProductService {
 ,
 {
     id: 78,
-    name: 'Anafe de Acero 2/4/6 Hornallas Rejas de Fundición',
+    name: 'Anafe de Acero Rejas de Fundición',
     description: 'Anafe robusto y duradero con gabinete, base y laterales fabricados en acero inoxidable esmerilado. Equipado con bandeja antiderrame desmontable, rejas de fundición enlozadas y respaldo desmontable. Cuenta con 2/4/6 mecheros estrella de 9.000 Kcal/h cada uno y patas regulables para ajuste de altura.',
     details: [
         'Gabinete, base y laterales 100% acero inoxidable esmerilado.',
@@ -1127,19 +1127,21 @@ export class ProductService {
         'Rejas de fundición enlozadas.',
         'Respaldo desmontable.',
         '2/4/6 Mecheros estrella (9.000 Kcal/h cada uno).',
-        'Patas regulables.'
+        'Patas regulables.',
+        'Modelos Disponibles: 2 hornallas, 4 hornallas, 6 hornallas'
     ],
     images: []
 }
 ,
 {
     id: 79,
-    name: 'Anafe 2/4/6 hornallas estructural Sol Real economico El Gauchito',
+    name: 'Anafe estructural Sol Real economico El Gauchito',
     description: 'Anafe con estructura robusta Sol Real económico El Gauchito, ideal para uso intensivo. Equipado con rejas de fundición, bandeja antiderrame extraíble y base soporte reforzada desarmable para facilitar la limpieza y el mantenimiento.',
     details: [
         'Rejas de fundición.',
         'Bandeja antiderrame extraíble.',
-        'Base soporte reforzada desarmable.'
+        'Base soporte reforzada desarmable.',
+        'Modelos Disponibles: 2 hornallas, 4 hornallas, 6 hornallas'
     ],
     images: []
 }
@@ -1171,7 +1173,7 @@ export class ProductService {
 ,
 {
     id: 82,
-    name: 'Heladera Exhibidora EURO 1290*710*1250 MONDINO',
+    name: 'Heladera Exhibidora EURO MONDINO',
     description: 'Heladera exhibidora EURO Mondino con construcción interna en acero inoxidable y aislación de densidad 40 kgs/m3 espuma Bayer bajo norma ABNT. Equipada con frente de termo panel de cristal templado, laterales de termo panel recto de cristal templado y 2 estantes de vidrio iluminados por LED. Control digital de temperatura y sistema de circulación de aire forzado para mantener la temperatura homogénea.',
     details: [
         'Capacidad: 490 litros.',
@@ -1199,7 +1201,7 @@ export class ProductService {
 ,
 {
     id: 84,
-    name: 'Heladera Exhibidora BAKERY 1500*860*1340 MONDINO',
+    name: 'Heladera Exhibidora BAKERY MONDINO',
     description: 'Heladera exhibidora BAKERY Mondino modelo VTBR1500 con construcción interna en acero inoxidable AISI 430. Equipada con mesada superior de acero inoxidable, aislación de densidad 40 kgs/m3 espuma Bayer bajo norma ABNT y revestimiento de base en chapa color negra. Incluye puertas traseras corredizas, 3 estantes de vidrio y bandejas de acero inoxidable desmontables. Iluminación interior por LED, control digital de temperatura y unidad condensadora de 1/2 HP – R 404.',
     details: [
         'Medidas: 1500 x 860 x 1340 mm.',
@@ -1229,15 +1231,14 @@ export class ProductService {
 ,
 {
     id: 86,
-    name: 'Cocina industrial 4 Hornallas 55/60 MORELLI pta. acero r/fund FORZA',
+    name: 'Cocina industrial 4 Hornallas MORELLI pta. acero r/fund FORZA',
     description: 'Cocina industrial MORELLI FORZA con 4 hornallas y horno. Gabinete exterior construido en acero inoxidable AISI 430, horno con loza de fácil limpieza y sistema de rack desmontables. Equipada con parrilla de ladrillos refractarios, robinetes industriales y válvula de seguridad.',
     details: [
-        'Medidas: 87 x 85 x 62 cm.',
-        'Gabinete exterior en acero inoxidable AISI 430.',
         'Horno con loza de fácil limpieza y sistema de rack desmontables.',
         'Parrilla de ladrillos refractarios.',
         'Robinetes industriales.',
-        'Válvula de seguridad.'
+        'Válvula de seguridad.',
+        'Modelos diposibles: 55 MORELLI, 60 MORELLI'
     ],
     images: []
 }
@@ -1328,14 +1329,15 @@ export class ProductService {
         'Tiempo de cocción aproximado: 1 hora y 30 minutos.',
         'Quemadores infrarrojos a gas.',
         'Ruedas para facilitar el manejo.',
-        'Exterior de acero inoxidable AISI 430 brillante o esmerilado.'
+        'Exterior de acero inoxidable AISI 430 brillante o esmerilado.',
+        'Capacidad: 6, 12 o 24 (depende del modelo)'
     ],
     images: []
 }
 ,
 {
     id: 93,
-    name: 'Asador Criollo Chico 6-12 Pollos SOL REAL',
+    name: 'Asador Criollo Chico Pollos SOL REAL',
     description: 'Asador criollo con gabinete de acero inoxidable esmerilado. Techo desmontable y puerta simple de vidrio templado. Ideal para cocinar sin humo en interiores. Incluye sistema de rejas porta pollos con mango sujetador, doble mechero lateral con controles independientes de regulación de temperatura, bandeja inferior recolectora de grasa y válvula de seguridad.',
     details: [
         'Gabinete de acero inoxidable esmerilado.',
@@ -1346,7 +1348,7 @@ export class ProductService {
         'Doble mechero lateral con controles independientes.',
         'Bandeja inferior recolectora de grasa.',
         'Válvula de seguridad.',
-        'Capacidad: 6-12 pollos.'
+        'Capacidad: 6 o 12 pollos.(depende del modelo)'
     ],
     images: []
 }
@@ -1442,7 +1444,7 @@ export class ProductService {
 ,
 {
     id: 100,
-    name: 'Picadora de Carne Fineschi FL Mod. 32 Gabinete Acero Inox',
+    name: 'Picadora de Carne Fineschi Mod. 32',
     description: 'Picadora de carne Fineschi Legitima, motor monofásico de 1.5 HP. Calibre 32 con plato rectangular de 26x34 cm y mortero plástico. Conjunto picador de fundición interna y cromado externamente. Completamente desarmable para una fácil limpieza.',
     details: [
         'Marca: Fineschi Legitima',
@@ -1458,7 +1460,7 @@ export class ProductService {
 ,
 {
     id: 101,
-    name: 'Picadora de Carne Fineschi FL Gabinete Cuadrado Mod. 42 Acero Inox. 5.5 HP Trif',
+    name: 'Picadora de Carne Fineschi Mod. 42',
     description: 'Picadora de carne Fineschi Legitima, motor trifásico de 5.5 HP. Calibre 42 con cuerpo de acero inoxidable. Producción por hora de hasta 1100 kg. Cabezal, gusano y volante de fundición de hierro o acero inoxidable. Bandeja de acero inoxidable.',
     details: [
         'Marca: Fineschi Legitima',
@@ -1544,7 +1546,7 @@ export class ProductService {
 ,
 {
     id: 107,
-    name: 'Churrera 4 Kg. 3-5 Bocas con Cinta 0.70-1.5 y Caballete ROMA',
+    name: 'Churrera 4 Kg. Caballete ROMA',
     description: 'Churrera ROMA con recipiente cilindro de acero inoxidable, cabezal con 3-5 bocas de salida. Cuerpo de fundición de aluminio, cremallera de fundición de hierro. Accionamiento manual con cinta transportadora y caballete de hierro soldado.',
     details: [
         'Recipiente cilindro de Acero Inoxidable',
@@ -1553,7 +1555,8 @@ export class ProductService {
         'Cremallera de Fundición de Hierro',
         'Accionamiento a manija manual dos velocidades',
         'Cinta transportadora de 70 cm largo - 1.5 cm largo',
-        'Caballete base de Hierro Soldado'
+        'Caballete base de Hierro Soldado',
+        'Modelos Disponibles:  3 Bocas con Cinta 0.70, 5 Bocas con Cinta 1.5'
     ],
     images: []
 }
@@ -1608,7 +1611,7 @@ export class ProductService {
 ,
 {
     id: 111,
-    name: 'Heladera Bajo Barra 1,50 sin Cubre Equipo 2 Puertas Stefanelli ⅓',
+    name: 'Heladera Bajo Barra 1,50 Stefanelli ⅓',
     description: 'Heladera bajo barra de 1,50 metros sin cubre equipo con 2 puertas. Ideal para mantener alimentos y bebidas refrigerados en espacios reducidos. Equipada con controlador digital Eliwell EWPlus y sistema de condesación forzada.',
     details: [
         'Medidas Externas: Frente 150 cm, Profundidad 75 cm, Alto 87 cm',
@@ -1627,7 +1630,7 @@ export class ProductService {
 ,
 {
     id: 112,
-    name: 'Heladera Bajo Barra 2,00 sin Cubre Equipo 3 Puertas Stefanelli ⅓',
+    name: 'Heladera Bajo Barra 2,00 Stefanelli ⅓',
     description: 'Heladera bajo barra de 2,00 metros sin cubre equipo con 3 puertas. Adecuada para espacios que requieren mayor capacidad de almacenamiento refrigerado. Equipada con controlador digital Eliwell EWPlus y sistema de condesación forzada.',
     details: [
         'Medidas Externas: Frente 200 cm, Profundidad 75 cm, Alto 87 cm',
@@ -1646,7 +1649,7 @@ export class ProductService {
 ,
 {
     id: 113,
-    name: 'Heladera Bajo Barra 2,50 sin Cubre Equipo 4 Puertas Stefanelli ⅓',
+    name: 'Heladera Bajo Barra 2,50 Stefanelli ⅓',
     description: 'Heladera bajo barra de 2,50 metros sin cubre equipo con 4 puertas. Ideal para grandes necesidades de refrigeración en establecimientos comerciales. Equipada con controlador digital Eliwell EWPlus y sistema de condesación forzada.',
     details: [
         'Medidas Externas: Frente 250 cm, Profundidad 75 cm, Alto 87 cm',
@@ -1735,24 +1738,26 @@ export class ProductService {
 ,
 {
     id: 118,
-    name: 'Heladera Carnicera Frider Mod. 124/154 A 2,50/3,00 (2+2)',
+    name: 'Heladera Carnicera Frider',
     description: 'Heladera carneciera con interior galvanizado y piso en acero inoxidable. Exterior completo en acero inoxidable. Equipada con puertas batientes de alta calidad, patas de plástico reforzadas, y sistema de frío forzado.',
     details: [
         'Potencia: 1/2 HP',
         'Modelo: 124 y 154 Pies',
         '3 gancheras y choriceras con techo reforzado',
-        'Aislación: Terlgopor de alta densidad'
+        'Aislación: Terlgopor de alta densidad',
+        'Modelos Disponibles: 124 A 2.50, 154 A 3.00'
     ],
     images: []
 }
 ,
 {
     id: 119,
-    name: 'Heladera Carnicera Orlandos Mod. 73 y 93 1,50 y 2,00 (1+2)',
+    name: 'Heladera Carnicera Orlando',
     description: 'Heladera carneciera con gabinete de acero inoxidable AISI 430 y interior galvanizado. Equipada con ganchera de techo y cintura, y piso de acero inoxidable.',
     details: [
         'Potencia: 3/4 HP',
-        'Medidas (mm): 1700 x 900 x 2060 (Modelo 73), 2000 x 900 x 2060 (Modelo 93)'
+        'Medidas (mm): 1700 x 900 x 2060 (Modelo 73), 2000 x 900 x 2060 (Modelo 93)',
+        'Modelos Disponibles: 73 y 93 1,50 / 2,00'
     ],
     images: []
 }
@@ -1898,7 +1903,7 @@ export class ProductService {
 //RALLADORAS DE PAN/QUESO
 {
     id: 130,
-    name: 'Ralladora gigante motor 3hp',
+    name: 'Ralladora gigante',
     description: 'El equipo ideal para moler todo tipo de pan seco y convertirlo en pan rallado o moler productos dulces y reutilizarlos para galletitería o pastelería. Rápidamente, transforma su excedente de venta en un nuevo producto de fácil comercialización y con valor agregado.',
     details: [
         'Modelo industrial: Alto rendimiento y diseño de pie.',
@@ -1912,7 +1917,7 @@ export class ProductService {
 },
 {
     id: 131,
-    name: 'Ralladora 60 kg/h 1 hp Fineschi',
+    name: 'Rallador Fineschi',
     description: 'CARACTERÍSTICAS: Gabinete metálico recubierto con pintura epoxi. Marca: FL. Motor: 1 hp. Producción: 60kg/hora. Voltaje: 220V. Consumo: 1.5 kw/hora. Diámetro: 28cm. Alto: 62cm. Peso: 10.7kg.',
     details: [
         'Gabinete metálico: Recubierto con pintura epoxi.',
@@ -1950,15 +1955,14 @@ export class ProductService {
         'Rodillos de APM: Rodillos para grisines (de Ø 6, 8 o 10mm) o para panchos (de Ø18 mm).',
         'Rolos cortadores: 2 rolos cortadores de Ø 70 x 160 mm.',
         'Montaje robusto: Montada sobre bujes de bronce antifricción.',
-        'Alta producción: Producción aproximada de 25 a 30 kg de masa por hora.',
-        'Peso: 22 kg.'
+        'Alta producción: Producción aproximada de 25 a 30 kg de masa por hora.'
     ],
     images: []
 },
 //HORNOS ROTATIVOS CONVECTORES TUNEL
 {
     id: 134,
-    name: 'HEB1A 43*32 convector SILCOOK VIA CHEFF',
+    name: 'Horno Rotativo HEB1A 43*32 convector SILCOOK VIA CHEFF',
     description: 'Convector de alta eficiencia para uso profesional, ideal para cocinas comerciales y chefs exigentes.',
     details: [
         'Voltaje: 220V / 50Hz.',
@@ -1978,7 +1982,7 @@ export class ProductService {
 },
 {
     id: 135,
-    name: 'DORATO 4B 42*28,5 convector MORELLI',
+    name: 'Horno Rotativo DORATO 4B 42*28,5 convector MORELLI',
     description: 'El Horno Convector Morelli Dorato de 4 bandejas es el compañero ideal para el desarrollo de su proyecto gastronómico. Diseñado para un uso intensivo en pastelería, este producto puede cocinar ultracongelados sin ningún tipo de inconvenientes. Gracias a su potencia y el calor parejo otorgado por su gran turbina integrada en el interior, es capaz de cocinar en minutos dejándolo crocante por dentro y dorado por fuera.',
     details: [
         'Capacidad: 4 bandejas de 420 x 285 mm.',
@@ -1991,7 +1995,7 @@ export class ProductService {
 },
 {
     id: 136,
-    name: 'DELI 4B 43*32 convector MORETTI',
+    name: 'Horno Rotativo DELI 4B 43*32 convector MORETTI',
     description: 'Alta calidad de cocción gracias a su doble resistencia y ventilador. Muy simple de operar, instalar y mantener. Construido íntegramente de acero inoxidable.',
     details: [
         'Temperatura de Cocción: Máximo 300°C.',
@@ -2006,7 +2010,7 @@ export class ProductService {
 },
 {
     id: 137,
-    name: 'BAKERY 4B 60*40 convector MORETTI',
+    name: 'Horno Rotativo BAKERY 4B 60*40 convector MORETTI',
     description: 'Ideal para restaurantes, hoteles, estaciones de servicio y supermercados. Alta calidad de cocción gracias a su doble resistencia y ventilador. Muy simple de operar, instalar y mantener. Construido íntegramente de acero inoxidable. Función HUMIDIFICADOR de VAPOR y acción manual.',
     details: [
         'Temperatura de cocción: Máximo 300°C.',
@@ -2022,7 +2026,7 @@ export class ProductService {
 },
 {
     id: 138,
-    name: 'OVEN 70 5B 70*45 convector MORETTI',
+    name: 'Horno Rotativo OVEN 70 5B 70*45 convector MORETTI',
     description: 'Capacidad para 5 bandejas de 700×450 mm. Trifásico, con uniformidad en la cocción de todo tipo de alimentos. Panel de control programable con activación manual del forzador. Sistema de humidificación mediante pulsador de vapor. Gabinete exterior e interior en acero inoxidable de primera calidad. Regulación de termostato: 0°C a 300°C. Puerta de vidrio templado. Aislación térmica de fibra mineral.',
     details: [
         'Capacidad: 5 bandejas de 700×450 mm.',
@@ -2048,13 +2052,10 @@ export class ProductService {
     name: 'MICROPRO-25/34 microondas MORETTI',
     description: 'Microondas único en el mercado con capacidad de 25 litros. Totalmente construido en acero inoxidable y teclado de material de alto impacto para uso industrial riguroso. Dispone de funciones de uso manual y programable.',
     details: [
-        'Capacidad: 25 litros.',
+        'Capacidad: 25 o 34 litros.',
         'Material: Construido totalmente en acero inoxidable.',
         'Teclado: Material de alto impacto para uso industrial riguroso.',
         'Uso: Manual y programable.',
-        'Medidas: 51x43x31 cm.',
-        'Medidas embalaje: 58x48x38 cm.',
-        'Peso: 14.7 kg.',
         'Potencia: 1500 watts.',
         'Uso recomendado: Industrial.'
     ],
@@ -2062,43 +2063,44 @@ export class ProductService {
 },
 {
     id: 140,
-    name: 'PANING convector 6/10 bandejas ZONDA Convector 3B Digital HORNO CONVECTOR ELECTRICO 3 BANDEJAS DIGITAL ZONDA',
+    name: 'Horno Rotativo PANING',
     description: 'Horno convector modelo Macar Paning de 45x70, con capacidad para 10 bandejas de 45x70 cm. Puede operar con gas envasado o natural, y está disponible en versiones trifásica o monofásica.',
     details: [
         'Modelo: Macar Paning.',
         'Capacidad: 10 bandejas de 45x70 cm.',
         'Tipo de combustible: Gas envasado/natural.',
-        'Tipo de alimentación: Trifásico o monofásico.'
+        'Tipo de alimentación: Trifásico o monofásico.',
+        '3 o 6 o 10 bandejas'
     ],
     images: []
 },
 {
     id: 141,
-    name: 'ROT-CAR full 70*45 4/6/8/10 bandejas',
+    name: 'Horno Rotativo ROT-CAR',
     description: 'Horno ROT-CAR adecuado para la cocción de todo tipo de panes: francés, lactal, de sandwich, pan dulce, grisines, alfajores, vainillas, tostadas, bizcochos, pre-pizzas, etc. Los hornos alcanzan la temperatura deseada en 12 minutos. El consumo de gas y gasoil corresponde a una hora de uso continuo del quemador, pero para la cocción se necesitan 30 minutos de uso del quemador por hora, por lo tanto, el consumo consignado debe reducirse a la mitad.',
     details: [
         'Apto para la cocción de todo tipo de panes.',
         'Tiempo de alcanzar la temperatura deseada: 12 minutos.',
         'Consumo de gas y gasoil: Para la cocción se necesitan 30 minutos de uso del quemador por hora.',
-        'Capacidades disponibles: 4, 6, 8, 10 bandejas de tamaño 70x45.'
+        'Capacidades disponibles: 4, 6, 8, 10 bandejas de tamaño 70x45.',
     ],
     images: []
 },
 {
     id: 142,
-    name: 'Burner HC 45(30 doc)/105(60 doc)/125(75)/145(90)/165(110)',
+    name: 'Horno Rotativo Burner',
     description: 'Los hornos continuos Burner HC están fabricados totalmente en acero inoxidable. Poseen control digital de temperatura, encendido electrónico, variador de velocidad, quemador a gas automático con forzador y válvula solenoide de seguridad. La cinta está montada sobre planchuela, ambas fabricadas en acero inoxidable calidad 304.',
     details: [
-        'Capacidades: 45 (30 doc), 105 (60 doc), 125 (75), 145 (90), 165 (110) (las capacidades están expresadas en ancho de cinta en centímetros y número de docenas de productos por hora).',
         'Material: Fabricados totalmente en acero inoxidable calidad 304.',
-        'Características adicionales: Control digital de temperatura, encendido electrónico, variador de velocidad, quemador a gas automático con forzador y válvula solenoide de seguridad.'
+        'Características adicionales: Control digital de temperatura, encendido electrónico, variador de velocidad, quemador a gas automático con forzador y válvula solenoide de seguridad.',
+        'Modelos Diponibles: 45(30 docenas), 105(60 docenas), 125(75 docenas), 145(90 docenas), 165(110 docenas)'
     ],
     images: []
 },
 //QUEMADORES INDUSTRIALES
 {
     id: 143,
-    name: 'BALTUR mod. BTG 11 (85000)/BALTUR mod. BTG 66 (50000)',
+    name: 'Quemador BALTUR',
     description: 'Quemador de gas homologado por la CE según normativa europea EN676. Funcionamiento mono etapa con ajuste del aire comburente y de la cabeza de combustión. Toma de aire de combustión con mampara de mariposa y regulación manual del caudal de aire. Diseñado para fácil mantenimiento, permitiendo extraer el grupo pulverizador sin desmontar el quemador de la caldera. Brida de conexión corrediza para adaptarse a diferentes tipos de generadores de calor.',
     details: [
         'Homologación: CE conforme a EN676.',
@@ -2112,7 +2114,8 @@ export class ProductService {
         'Integración: Posibilidad de integrar con kit para la estanqueidad de las válvulas.',
         'Conector: Conector de 7 bornes para alimentación eléctrica y termostática.',
         'Control de llama: Mediante electrodo de ionización con predisposición para conexión del microamperímetro.',
-        'Protección: Tapa de protección fonoabsorbente en material plástico.'
+        'Protección: Tapa de protección fonoabsorbente en material plástico.',
+        'Modelos Disponibles: BTG 11 (85000), BTG 66 (50000)'
     ],
     images: []
 },
@@ -2122,7 +2125,6 @@ export class ProductService {
     name: 'Pastelero 12/18 moldes MORELLI',
     description: 'Este horno es una herramienta de alto rendimiento diseñada para grandes producciones y altas exigencias. Cuenta con un sistema de calor envolvente y circulación de aire interno para lograr una cocción pareja. Fabricado con materiales de alta calidad y características que aseguran seguridad y eficiencia.',
     details: [
-        'Capacidad: 12 moldes o 3 bandejas (no incluidos).',
         'Material: Exterior en acero inoxidable.',
         'Características adicionales: Válvula de seguridad, burlete de alta temperatura, 4 patas fijas, nuevo sistema de base desarmable, piso, respaldo y techo totalmente en ladrillo refractario, horno enlozado de gran capacidad, tapa ciega.'
     ],
@@ -2130,68 +2132,62 @@ export class ProductService {
 },
 {
     id: 145,
-    name: 'Pastelero 18 moldes 32000 ladrillos/ 70 LIVIANO MAEQUIP Bar Pastelero 18 moldes 32000 lajas 70 LIVIANO MAEQUIP Bar Pastelero 18 moldes 32000 bar 72 MAEQUIP Pastelero 18 moldes 32000 bar 82 MAEQUIP  Pastelero 12 moldes 24000 bar MAEQUIP',
+    name: 'Horno Pastelero MAEQUIP',
     description: 'Los Hornos Pasteleros están diseñados para grandes producciones de alimentos y altas exigencias. Cuentan con un sistema de calor envolvente que logra una cocción uniforme en cualquier preparación. El Horno Pastelero H6 fue especialmente diseñado para ser utilizado tanto en pequeños negocios gastronómicos como en quinchos y parrilleros.',
     details: [
-        'Capacidad: 12 moldes.',
         'Diseño: Sistema de calor envolvente para cocción uniforme.',
         'Uso recomendado: Ideal para grandes producciones y altas exigencias gastronómicas.',
-        'Aplicación: Adecuado para pequeños negocios gastronómicos, quinchos y parrilleros.'
+        'Aplicación: Adecuado para pequeños negocios gastronómicos, quinchos y parrilleros.',
+        'Modelos Disponibles:  18 moldes 32000 ladrillos/ 70 LIVIANO, 18 moldes 32000 lajas 70 LIVIANO, 18 moldes 32000 bar 72, 18 moldes 32000 bar 82, 12 moldes 24000 bar'
     ],
     images: []
 },
 {
     id: 146,
-    name: 'Pizzero 3 moldes DEPAOLO sin pinza (033010) Pizzero 3 moldes DEPAOLO con pinza (033020) Pizzero 6 moldes DEPAOLO con gratinador (033035) Pizzero 6 moldes DEPAOLO con pinza (033060)',
+    name: 'Horno Pizzero DEAOLO',
     description: 'Horno pizzero con capacidad para 3 moldes, fabricado con cuerpo de acero inoxidable esmerilado y interior completamente enlozado. Cuenta con piso de tejuelas refractarias y 3 quemadores comandados por 1 llave, con válvula de seguridad. Apto para gas envasado y natural con su respectiva regulación. Incluye base de apoyo, es de industria nacional y lleva la marca DEPAOLO.',
     details: [
-        'Capacidad: 3 moldes.',
         'Material: Cuerpo de acero inoxidable esmerilado, interior enlozado, piso de tejuelas refractarias.',
         'Quemadores: 3 quemadores comandados por 1 llave, con válvula de seguridad.',
         'Compatibilidad de gas: Apto para gas envasado y natural (con regulación correspondiente).',
         'Especificaciones de gas: Entrada de gas de 1/2 pulgada, 6000 calorías/hora.',
-        'Medidas exteriores: Frente 50 cm x Profundidad 47 cm x Altura 59 cm / Altura con base 130 cm.',
-        'Medidas interiores: Frente 39 cm x Profundidad 42 cm.',
         'Origen: Industria nacional.',
-        'Marca: DEPAOLO.'
+        'Marca: DEPAOLO.',
+        'Modelos Disponibles: 3 moldes sin pinza (033010), Pizzero 3 moldes con pinza (033020), Pizzero 6 moldes con gratinador (033035), Pizzero 6 moldes con pinza (033060)'
     ],
     images: []
 },
 {
     id: 147,
-    name: 'Pizzero 12 moldes DEPAOLO (033037) Pizzero 18 moldes DEPAOLO (33090) Pizzero 24 moldes DEPAOLO (33100)',
+    name: 'Horno Pizzero DEPAOLO',
     description: 'Horno pizzero con capacidad para 24 moldes, estructura tubular y gabinete de acero AISI 430 esmerilado. La cámara interior es de chapa D.D. calibre 20 y está totalmente enlozada. Cuenta con aislación de lana mineral y piso refractario. Incluye válvula de seguridad y está configurado para gas natural, aunque es apto para gas envasado con la instalación adecuada por un gasista matriculado (picos no incluidos). Equipado con 6 quemadores y 2 válvulas de seguridad.',
     details: [
-        'Capacidad: 24 moldes.',
         'Material: Estructura tubular, gabinete de acero AISI 430 esmerilado, cámara interior de chapa D.D. calibre 20 totalmente enlozada, aislación de lana mineral, piso refractario.',
         'Gas: Configurado para gas natural. Apto para gas envasado con cambio de picos realizado por un gasista matriculado (picos no incluidos).',
-        'Quemadores: 6 quemadores y 2 válvulas de seguridad.'
+        'Quemadores: 6 quemadores y 2 válvulas de seguridad.',
+        'Modelos Disponibles: 12 moldes (033037),18 moldes (33090), 24 moldes (33100)'
     ],
     images: []
 },
 {
     id: 148,
-    name: 'Pizzero WFC 101D Electrico SILCOOK VIA CHEFF Pizzero WFC 102 Electrico SILCOOK VIA CHEFF Pizzero WFC 102CA Electrico SILCOOK VIA CHEFF Pizzero WFC 204D Electrico SILCOOK VIA CHEFF',
+    name: 'Horno Pizzero SILCOOK VIA CHEFF',
     description: 'Horno pizzero con cámara de vapor repotenciada, elaborado con un frente de acero inoxidable de alta calidad para una disipación eficiente del calor y una vida útil prolongada. Equipado con base de piedra refractaria y controles de temperatura superior e inferior independientes. Este modelo incorpora una caldera para una humificación intensa, reemplazando el sistema anterior de inyección de vapor.',
     details: [
-        'Medidas: 1220 x 820 x 575 mm.',
-        'Medidas de la cámara: 860 x 640 x 215 mm.',
-        'Potencia: 6.6 KW.',
-        'Voltaje: 380 V.',
-        'Frecuencia: 50 Hz.',
         'Base de piedra refractaria.',
         'Timer incorporado.',
         'Caldera de vapor.',
         'Material: Cuerpo de acero inoxidable.',
         'Tiempo de calentamiento: 8 minutos.',
-        'Rango de temperatura: 20 a 400°C.'
+        'Rango de temperatura: 20 a 400°C.',
+        'Modelos Disponibles:  WFC 101D Electrico, WFC 102 Electrico, WFC 102CA Electrico, 204D Electrico '
     ],
     images: []
 },
 //HELADERAS VERTICALES
 {
     id: 149,
-    name: 'INELRO mod. MT120 INELRO mod. MT120 cervecera INELRO mod. MT11 NORDICA BLACK INELRO mod. MT11 INELRO mod. MT14 INELRO mod. MT470 INELRO mod. MT17 Tradicional INELRO mod. MT08 INELRO mod. MT19 INELRO mod. MT17 ECO BLACK INELRO mod. MT26 (antes MT750) INELRO mod. MT34 BLACK INELRO mod. MT980 con cenefa INELRO mod. MT42 (3 puertas)',
+    name: 'Heladera Vertical INELRO',
     description: 'Refrigerador comercial con compresor de última generación y termostato mecánico. Equipado con iluminación interior por tubo LED de 7.5W, puerta doble vidrio exterior templado Low-e y estantes con tratamiento anti corrosión. Posee condensación estática, evaporador Roll Bond y ventilador evaporador tangencial. Utiliza agente espumante Ciclo Isopentano (Libre CFC, densidad 38Kg/M³) y gas refrigerante ecológico R134a (libre de CFC). El gabinete interior es de ABS, mientras que el exterior está electrozincado y prepintado en color blanco.',
     details: [
         'Compresor: Última generación.',
@@ -2204,15 +2200,15 @@ export class ProductService {
         'Ventilador evaporador: Tangencial.',
         'Agente espumante: Ciclo Isopentano (Libre CFC, 38Kg/M³).',
         'Gas refrigerante: R134a, ecológico (Libre CFC).',
-        'Puerta: Color blanco.',
         'Interior gabinete: ABS.',
-        'Exterior gabinete: Electrozincado - Prepintado.'
+        'Exterior gabinete: Electrozincado - Prepintado.',
+        'Modelos Disponibles: MT120, MT120 cervecera, MT11 NORDICA BLACK, MT11 INELRO, MT14, MT470, MT17 Tradicional, MT08, MT19, MT17 ECO BLACK, MT26 (antes MT750), MT34 BLACK, MT980 con cenefa, MT42 (3 puertas)'
     ],
     images: []
 },
 {
     id: 150,
-    name: 'FRIDER 2 puertas ( 915 lt.) marco aluminio FRIDER 3 puertas ( 1425 lt.) marco aluminio FRIDER 4 puertas ( 1976 lt.) marco aluminio FRIDER 5 puertas (1976 lt.) marco aluminio',
+    name: 'Heladera Vertical FRIDER',
     description: 'Refrigerador comercial de gran capacidad con 5 puertas y un volumen de 1976 litros. Cuenta con gabinete en chapa electrozincada prepintada blanca con protección vinílica y aislación en poliuretano expandido de 40 Kg/m3 libre de CFC. Equipado con evaporador de techo con forzador de aire y descongelamiento automático. Las puertas tienen marco de aluminio blanco, termopanel triple vidriado calefaccionado, burlete magnético y sistema de cierre con resorte de tensión. Incluye excelente iluminación lateral y cenefa superior iluminada. Dispone de parrillas interiores regulables y plastificadas en color blanco, control de temperatura automático digital y patas plásticas regulables para nivelación. El equipo de frío se encuentra ubicado en la parte superior del refrigerador.',
     details: [
         'Capacidad: 1976 litros.',
@@ -2224,13 +2220,14 @@ export class ProductService {
         'Parrillas: Interiores regulables, plastificadas color blanco.',
         'Control de temperatura: Automático digital.',
         'Patas: Plásticas regulables para nivelación.',
-        'Ubicación del equipo de frío: Parte superior.'
+        'Ubicación del equipo de frío: Parte superior.',
+        'Modelos disponibles: 2 puertas ( 915 lt.) marco aluminio, 3 puertas ( 1425 lt.) marco aluminio, 4 puertas ( 1976 lt.) marco aluminio, 5 puertas (1976 lt.) marco aluminio'
     ],
     images: []
 },
 {
     id: 151,
-    name: 'MONDINO 4 puertas (1976 lt.)',
+    name: 'Heladera MONDINO 4 puertas (1976 lt.)',
     description: 'Refrigerador diseñado para mantener todo tipo de productos alimenticios y medicinales. Construido con interior y exterior en acero inoxidable calidad 430, contrafrente en acero galvanizado. Las puertas cuentan con marco de aluminio, fina serigrafía y termo panel de 3 vidrios. El cerramiento de las puertas es automático con bisagras con resortes y cierre magnético. Aislación con densidad de 40 kgs/m3 espuma Bayer bajo norma ABNT, con retardante de llama clasificación R1. Incluye parrillas regulables de alambre con pintura epoxi horneable, patas reforzadas regulables y resistentes a la regulación termomecánica. Ofrece una temperatura de 0°C a 5°C, humedad relativa del 62%, refrigeración forzada, controlador digital de temperatura y descongelamiento automático. Iluminación LED integrada.',
     details: [
         'Capacidad: 1976 litros.',
@@ -2249,7 +2246,7 @@ export class ProductService {
 },
 {
     id: 152,
-    name: 'Vertical EURO 750 4 caras exposición MONDINO Vertical EURO 1400 4 caras exposición MONDINO Vertical EURO 2000 4 caras exposición MONDINO xxx Vertical Roble 1300 4 caras exposicion 2 puerta RH Vertical Roble 700 4 caras exposicion 1 puerta RH',
+    name: 'Heladera Vertical MONDINO',
     description: 'Exhibidora vertical con construcción en acero negro, diseñada para mantener una temperatura de trabajo de +2°C a +6°C. Cuenta con resistencia anti-empañante en las 4 caras de vidrio triple vidriado y termo panel float. Equipada con sistema de frío italiano que incluye evaporador y forzador de techo, así como iluminación interior LED. Incluye 5 estantes de vidrio regulables más piso, interior revestido en acero inoxidable y puerta de vidrio termopanel de abertura batiente.',
     details: [
         'Construcción: Acero negro.',
@@ -2261,14 +2258,14 @@ export class ProductService {
         'Estantes: 5 de vidrio regulables + piso.',
         'Interior: Revestido en acero inoxidable.',
         'Puerta: Vidrio termopanel de abertura batiente.',
-        'Medidas (mm): 600 x 600 x 1800.'
+        'Modelos Disponibles:  EURO 750 4 caras exposición, EURO 1400 4 caras exposición, EURO 2000 4 caras exposición, Roble 1300 4 caras exposicion, 2 puerta RH Vertical Roble 700 4 caras exposicion, 1 puerta RH'
     ],
     images: []
 },
 //HELADERAS MOSTRADOR/ SUPERNOVA
 {
     id: 153,
-    name: 'Minisuper 150 1/3 HP Stefanelli Minisuper 200 1/2 HP Stefanelli',
+    name: 'Heladera Minisuper Stefanelli',
     description: 'Minisuper con estructura de acero galvanizado prepintado, diseñado con aislación de poliuretano inyectado y laterales en chapa prepintada también inyectados en poliuretano. Equipado con rejillas reforzadas, excelente iluminación, frente con triple vidrio templado y evaporador por aire forzado. Incorpora equipamiento Embraco de 1/4 HP para el sistema de refrigeración.',
     details: [
         'Estructura: Acero galvanizado prepintado.',
@@ -2278,13 +2275,13 @@ export class ProductService {
         'Iluminación: Excelente.',
         'Frente: Triple vidrio templado.',
         'Evaporador: Aire forzado.',
-        'Equipamiento: Embraco de 1/4 HP.',
+        'Modelos Disponibles: 150 1/3 HP, 200 1/2 HP'
     ],
     images: []
 },
 {
     id: 154,
-    name: 'Mostrador 160 ( 1.05 + 0.45 ) ORLANDOS Mostrador 200 ( 1.50 + 0.50 ) ORLANDOS Mostrador 240 ( 2.00 + 0.50 ) ORLANDOS Mostrador 300 ( 2.50 + 0.50 ) ORLANDOS Mostrador 200 V/C ( 1.50 + 0.50 ) ORLANDOS Mostrador 240 V/C ( 2.00 + 0.50 ) ORLANDOS Mostrador 300 V/C ( 2.50 + 0.50 ) ORLANDOS',
+    name: 'Heladera Mostrador ORLANDOS',
     description: 'Mostrador con opción de cubre equipo, diseñado con contrafrente y piso en acero inoxidable, termopanel de triple vidrio, recubrimiento en laminado plástico y puertas con marco plástico y cierre automático. Las puertas superiores son corredizas con perfil de aluminio.',
     details: [
         'Contrafrente y piso: Acero inoxidable.',
@@ -2292,15 +2289,13 @@ export class ProductService {
         'Recubrimiento: Laminado plástico.',
         'Puertas: Marco plástico con cierre automático.',
         'Puertas superiores: Corredizas con perfil de aluminio.',
-        'Medidas disponibles: 2m, 2.40m, 3m (longitud)',
-        'Profundidad: 0.82m',
-        'Altura: 1.03m'
+        'Modelos Disponibles: 160 ( 1.05 + 0.45 ), 200 ( 1.50 + 0.50 ), 240 ( 2.00 + 0.50 ), 300 ( 2.50 + 0.50 ), 200 V/C ( 1.50 + 0.50 ), 240 V/C ( 2.00 + 0.50 ), 300 V/C ( 2.50 + 0.50 ) '
     ],
     images: []
 },
 {
     id: 155,
-    name: 'supernova 2.40 ( 2.00 + 0.50 ) supernova 3,00 ( 2.50 + 0.50 ) supernova 2.00 V/C ( 1.50 + 0.50 ) supernova 2.50 V/C ( 2.00 + 0.50 ) Supernova 3,00 V/C ( 2.50 + 0.50 )',
+    name: 'Heladera supernova',
     description: 'Mostrador diseñado con interior galvanizado (opcional acero inoxidable), tapa de acero inoxidable, puertas superiores de vidrio corredizas, puertas inferiores batientes con herrajes de primera calidad, vidrio templado doble, sistema de frío forzado, unidad condensadora de ½ HP, patas de plástico reforzado, rejillas pintadas con pintura EPOXI y reforzadas. Incluye 4 estantes + piso en madera.',
     details: [
         'Interior: Galvanizado (opcional acero inoxidable).',
@@ -2314,14 +2309,14 @@ export class ProductService {
         'Rejillas: Pintadas con pintura EPOXI y reforzadas.',
         'Incluye: 4 estantes + piso en madera.',
         'Gas: R 22.',
-        'Temperatura de trabajo: Entre 0º y 5º.'
+        'Temperatura de trabajo: Entre 0º y 5º.',
+        'Modelos disponibles: 2.40 ( 2.00 + 0.50 ), 3,00 ( 2.50 + 0.50 ), 2.00 V/C ( 1.50 + 0.50 ), 2.50 V/C ( 2.00 + 0.50 ), 3,00 V/C ( 2.50 + 0.50 )'
     ],
     images: []
 },
-//HELADERAS BATEAS
 {
     id: 156,
-    name: 'Curva 2000 mm. 1/2 hp. CICLÓN Curva 1200 mm. 1/3 hp. CICLÓN Curva 1500 mm. 1/3 hp. CICLÓN Curva 1800 mm. 1/2 hp. CICLÓN Curva 2400 mm. 3/4 hp. CICLÓN',
+    name: 'Heladera Curva CICLÓN',
     description: 'Refrigerador curvo de 2400 mm con capacidad de 3/4 hp, ideal para aplicaciones comerciales. Equipado con tecnología de aislamiento de poliuretano, condensación forzada y controlador digital para mantener precisamente la temperatura deseada.',
     details: [
         'Cúpula: Curva',
@@ -2334,16 +2329,14 @@ export class ProductService {
         'Exterior del gabinete: Chapa pre-pintada',
         'Interior del gabinete: Chapa pre-pintada',
         'Luz interior: Led',
-        'Dimensiones: Frente 125 cm, Profundidad 1000 mm, Alto 136 cm',
         'Rango de temperatura: 3°C a 8°C',
-        'Gas refrigerante: R-134a',
-        'Voltaje / frecuencia: 220v / 50Hz'
+        'Tamaños disponibles: 2000 mm., 1200 mm., 1500 mm., 1800 mm., 2400 mm.'
     ],
     images: []
 },
 {
     id: 157,
-    name: 'Curva 1800 mm. 1/3 hp. Mod. PREMIUM FRIDER Curva 2400 mm. 1/2 hp. Mod. PREMIUM FRIDER Curva 3000 mm. 3/4 hp. Mod. PREMIUM FRIDER',
+    name: 'Heladera Curva PREMIUM FRIDER',
     description: 'Heladera comercial tipo batea premium de 3000 mm con capacidad de 3/4 hp. Cuenta con gabinete exterior en chapa blanca, piso interior en acero inoxidable brillante, laterales en plástico termoformado marmolados y aislación en poliuretano inyectado libre de CFC. Incluye mesada de trabajo en acero inoxidable brillante para mayor durabilidad y facilidad de limpieza.',
     details: [
         'Tipo: Batea',
@@ -2352,14 +2345,13 @@ export class ProductService {
         'Laterales: Plástico termoformado marmolados',
         'Aislación: Poliuretano inyectado 40 Kg/m³ libre de CFC',
         'Mesada de trabajo: Acero inoxidable brillante',
-        'Dimensiones: Curva de 3000 mm',
-        'Capacidad: 3/4 hp'
+        'Tamaños disponibles: 1800 mm., 2400 mm., 3000 mm.'
     ],
     images: []
 },
 {
     id: 158,
-    name: 'Recta 1200 mm. 1/3 hp. Mod. LUANA LUXE FRIDER Recta 1800 mm. 1/2 hp. Mod. LUANA LUXE FRIDER Recta 2400 mm. 3/4 hp. Mod. LUANA LUXE FRIDER Recta 3000 mm. 1 hp. Mod. LUANA LUXE FRIDER',
+    name: 'Heladera Recta LUANA LUXE FRIDER',
     description: 'Heladera comercial tipo recta de 3000 mm con capacidad de 1 hp, modelo Luana Luxe de la marca Frider. Equipada con gabinete exterior en chapa prepintada, piso interior en acero inoxidable brillante, laterales en plástico termoformado color gris y aislación en poliuretano inyectado libre de CFC. Incluye mesada de trabajo en acero inoxidable brillante para mayor durabilidad y facilidad de limpieza.',
     details: [
         'Tipo: Recta',
@@ -2368,14 +2360,13 @@ export class ProductService {
         'Laterales: Plástico termoformado color gris',
         'Aislación: Poliuretano inyectado 40 Kg/m³ libre de CFC',
         'Mesada de trabajo: Acero inoxidable brillante',
-        'Dimensiones: Recta de 3000 mm',
-        'Capacidad: 1 hp'
+        'Tamaños disponibles: 1200 mm., 1800 mm., 2400 mm., 3000 mm.'
     ],
     images: []
 },
 {
     id: 159,
-    name: 'Curva 1200 mm. 1/3 hp. Mod. LUANA FRIDER Curva 1800 mm. 1/2 hp. Mod. LUANA FRIDER Curva 2400 mm. 3/4 hp. Mod. LUANA FRIDER Curva 3000 mm. 1 hp. Mod. LUANA FRIDER',
+    name: 'Heladera Curva LUANA FRIDER',
     description: 'Heladera comercial tipo batea curva de 3000 mm con potencia de 1 hp, modelo Luana de la marca Frider. Equipada con gabinete exterior en chapa blanca, piso interior en acero inoxidable mate y laterales en plástico termoformado. Aislación en poliuretano inyectado libre de CFC y mesada de trabajo en acero inoxidable brillante. Incluye base de perfiles de chapa galvanizada Nº 20, zócalo inferior en acero o chapa, patas de plástico reforzadas regulables, paragolpes de protección en PVC, sistema de refrigeración por frío estático y parrillas plastificadas blancas. La cúpula cuenta con vidrio curvo templado rebatible, laterales de vidrio serigrafiado, mesada superior en aluminio anodizado, brazos de soporte de aluminio, iluminación con tubos LED y mesada de trabajo en acero inoxidable brillante.',
     details: [
         'Tipo: Batea Curva',
@@ -2391,8 +2382,7 @@ export class ProductService {
         'Sistema de refrigeración: Frío estático',
         'Cúpula: Vidrio curvo templado rebatible',
         'Iluminación: Tubos LED',
-        'Dimensiones: Curva de 3000 mm',
-        'Potencia: 1 hp'
+        'Tamaños disponibles: 1200 mm., 1800 mm., 2400 mm., 3000 mm.'
     ],
     images: []
 }
