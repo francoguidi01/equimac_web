@@ -247,3 +247,22 @@ span:after {
     border-color: #6060A0;  
     color: #D8D8D8; 
 }
+/*-----------------------------------------*/
+.animated-image {
+    view-timeline-name: --reveal;
+    animation-name: slideIn;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: 25% cover 47%;
+      }
+  
+      @keyframes slideIn {
+      from {
+          opacity: 0%;
+          scale: 10%;
+      }
+      to {
+        opacity: 1;
+        scale: 100%;
+      }
+      }

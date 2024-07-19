@@ -5,15 +5,15 @@
     <app-navbar></app-navbar>
 
     <div class="containerE animate__animated animate__fadeIn">
-        <h1>Explora la Excelencia en<br><span data-shadow-text="Text-Shadow">NUESTROS PRODUCTOS</span>
-            <br> y Encontra lo que Necesitas
+        <h1>Encontra lo que Necesitas en<br><span data-shadow-text="Text-Shadow">NUESTROS PRODUCTOS</span>
+            <br> Deslizando hacia abajo
         </h1>
     </div>
 
-    <div class="main">
+    <div class="main" style="margin-top: 7%;">
         <ul class="cards">
             <li class="cards_item animate__animated animate__zoomIn" *ngFor="let product of pagedProducts">
-                <div class="card">
+                <div class="card animated-image">
                     <div class="card_image"><img [src]="product.images[0]"></div>
                     <div class="card_content">
                         <h2 class="card_title"><strong>{{product.name}}</strong></h2>
