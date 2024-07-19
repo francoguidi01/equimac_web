@@ -24,7 +24,7 @@ export class ProductService {
                 'Montada sobre rodamientos cónicos y blindados.',
                 'Equipada con caja reductora con sinfín y corona.'
             ],
-            images: []
+            images: ['assets/machines/amasadoras/Amasadora Mb 7 Kg Harina 11 Kg Masa.jpg']
         },
         {
             id: 2,
@@ -40,7 +40,7 @@ export class ProductService {
                 'Chasis y refuerzos de chapa.',
                 'Modelos: 20 KG, 30KG, 50KG'
             ],
-            images: []
+            images: ['assets/machines/amasadoras/Amasadora 20 kg. De mesa MAEQUIP F .jpg']
         }
         ,
         {
@@ -55,7 +55,7 @@ export class ProductService {
                 'Estructura robusta para durabilidad y estabilidad.',
                 'Modelos: 50 KG, 100KG'
             ],
-            images: []
+            images: ['assets/machines/amasadoras/Amasadora 50 kg. De harina. ALPAN.png']
         }
         ,
         {
@@ -69,7 +69,7 @@ export class ProductService {
                 'Ideal para panaderías, pastelerías y negocios de repostería.',
                 'Fácil de limpiar y mantener.'
             ],
-            images: ['assets/machines/Machine3.png']
+            images: ['assets/machines/amasadoras/Amasadora Rapida AE-25MF mono 1 vel VISA.jpg']
         }
         ,
         {
@@ -86,7 +86,7 @@ export class ProductService {
                 'Dimensiones: Largo 57 cm, Profundidad 91 cm, Altura 109 cm.',
                 'Peso: 168 kg.'
             ],
-            images: []
+            images: ['assets/machines/amasadoras/Amasadora Rapida SX50 SILCOOK.png']
         }
         ,
         {
@@ -103,7 +103,7 @@ export class ProductService {
                 'Con temporizador.',
                 'Modelos: SH 20A, SH 30A, SH 40A, SH 60A, SH 60B'
             ],
-            images: []
+            images: ['assets/machines/amasadoras/Amasadora Rapida SH 20A CATANIA 8 kg h electromecanica.jpg']
         }
         ,
         {
