@@ -118,7 +118,7 @@ export class ProductService {
                 'Sistema de rotación planetaria para una mezcla uniforme.',
                 'Ideal para uso doméstico y profesional ligero.'
             ],
-            images: []
+            images: ['assets/machines/batidoras/Batidora 4,6 lts. Mod. KMC 570 N KENWOOD .png']
         }
         ,
         {
@@ -131,7 +131,7 @@ export class ProductService {
                 'Diseño compacto y elegante, ideal para cualquier cocina',
                 'Fácil de desmontar y limpiar, apta para lavavajillas'
             ],
-            images: []
+            images: ['assets/machines/batidoras/Batidora Mixer-5 MORETTI .png']
         }
         ,
         {
@@ -147,7 +147,7 @@ export class ProductService {
                 'Manivela para ascender y descender el bowl.',
                 'Rejilla protectora con corte automático de energía para seguridad.'
             ],
-            images: []
+            images: ['assets/machines/batidoras/Batidora 30 lts. CATANIA. .jpg']
         }
         ,
         {
@@ -160,7 +160,7 @@ export class ProductService {
                 'Tres velocidades mecánicas para ajuste de mezcla.',
                 'Doble switch de seguridad para protección adicional.'
             ],
-            images: []
+            images: ['assets/machines/batidoras/Batidora 20 lts. SILCOOK VIA CHEFF.jpg']
         },            
         {
             id: 12,
@@ -175,7 +175,7 @@ export class ProductService {
                 'Sistema de elevación de recipiente por palanca.',
                 'Protección para manos para seguridad adicional.'
             ],
-            images: []
+            images: ['assets/machines/batidoras/Batidora 40 lts. INDUPAN.jpg']
         }
         ,
 {
@@ -190,7 +190,7 @@ export class ProductService {
         'Construido 100% de fundición de hierro.',
         'Medidas: 40 x 70 x 100 cm (frente, prof., alt).'
     ],
-    images: []
+    images: ['assets/machines/batidoras/Batidora 20 lts. A muñeca MAEQUIP.jpg']
 }
 ,     
 {
@@ -201,7 +201,7 @@ export class ProductService {
         'Marcas disponibles: MAEQUIP, FINESCHI, DINO (trifásica o monofásica).',
         'Tamaños: 450mm, 500mm, 600mm '
     ],
-    images: []
+    images: ['assets/machines/sobadoras/Sobadora 450 de mesa MAEQUIP.jpg']
 }
 ,
 {
@@ -220,7 +220,7 @@ export class ProductService {
         'Peso: 77 kg.',
         'Material de los rodillos: Cromo.'
     ],
-    images: []
+    images: ['assets/machines/sobadoras/Sobadora laminadora 450 mm de pie MAEQUIP.jpg']
 }
 ,
 {
@@ -232,7 +232,7 @@ export class ProductService {
         'Sistema a paños para regulación milimétrica.',
         'Montada sobre rodamientos blindados para mayor durabilidad.'
     ],
-    images: []
+    images: ['assets/machines/trinchadoras/Armadora de pan s_c.jpg']
 }
 ,
 {
@@ -275,7 +275,7 @@ export class ProductService {
         'Capacidad para diferentes tamaños y tipos de masa, desde 10 gramos hasta 145 gramos de peso crudo por pieza.',
         'Fácilmente regulable para obtener diferentes tipos de armados.'
     ],
-    images: []
+    images: ['assets/machines/medialuneras/Armadora medialunas.jpg']
 }
 ,
 {
@@ -288,7 +288,7 @@ export class ProductService {
         'Marca: Via Cheff.',
         'Ideal para uso en cocinas profesionales.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/Freidora Electrica 8 lt Silcook N Via Cheff.jpg']
 }
 ,
 {
@@ -300,7 +300,7 @@ export class ProductService {
         'Potenciadas o no potenciadas según configuración.',
         'Marca: MORELLI.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/Nova 15 litros MORELLI STD.jpg']
 }
 ,
 {
@@ -312,7 +312,7 @@ export class ProductService {
         'Marca: DEPAOLO.',
         'Ideal para cocinas comerciales y profesionales.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/18 litros DEPAOLO.jpg']
 }
 ,
 {
@@ -324,7 +324,7 @@ export class ProductService {
         'Marca: MORELLI.',
         'Diseño automático para mayor eficiencia.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/FM-20 automatico MORELLI.jpg']
 }
 ,
 {
@@ -336,7 +336,7 @@ export class ProductService {
         'Marca: MAEQUIP.',
         'Diseño de alta recuperación para un rendimiento eficiente.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/Alta Recuperacion 50 lts. MAEQUIP BAR.jpg']
 }
 ,
 {
@@ -349,7 +349,7 @@ export class ProductService {
         'Potencia: 6 kW.',
         'Marca: SPEEDY.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/Electrica 15 litros de pie -6 kw SPEEDY.png']
 }
 ,
 {
@@ -361,7 +361,7 @@ export class ProductService {
         'Marca: DEPAOLO.',
         'Perfecta para repostería y snacks.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/Freidora churros DEPAOLO.jpg']
 }
 ,
 {
@@ -373,7 +373,7 @@ export class ProductService {
         'Ideal para freír alimentos con seguridad y eficiencia.',
         'Disponible en varias medidas para adaptarse a diferentes tamaños de alimentos.'
     ],
-    images: []
+    images: ['assets/machines/freidoras_churreras/Canasto Freidor 26x26 estañado.jpg']
 }
 ,
 {
@@ -386,7 +386,7 @@ export class ProductService {
         'Grifería para reposición de agua integrada.',
         'Válvula de seguridad automática.'
     ],
-    images: []
+    images: ['assets/machines/cocinador_pastas/Cheff 30 automatico Minisit MORELLI.jpg']
 }
 ,
 {
@@ -398,7 +398,7 @@ export class ProductService {
         'Marca: MAEQUIP BAR.',
         'No incluye canastos.'
     ],
-    images: []
+    images: ['assets/machines/cocinador_pastas/Standard 30 litros. MAEQUIP BAR.jpg']
 }
 ,
 {
@@ -412,7 +412,7 @@ export class ProductService {
         'Refrigerante R600a.',
         'Ruedas giratorias de alta resistencia.'
     ],
-    images: []
+    images: ['assets/machines/freezer/130 lts. full Blanco INELRO ciego.jpg']
 }
 ,
 {
@@ -426,7 +426,7 @@ export class ProductService {
         'Refrigerante R600a.',
         'Ruedas giratorias de alta resistencia.'
     ],
-    images: []
+    images: ['assets/machines/freezer/130 lts. full Plata INELRO P+.jpg']
 }
 ,
 {
@@ -438,7 +438,7 @@ export class ProductService {
         'Tapa de vidrio curvo plano inclinado.',
         'Ruedas dobles giratorias de alta resistencia.'
     ],
-    images: []
+    images: ['assets/machines/freezer/270 lts. tapa vidrio plano inclinado INELRO .jpg']
 }
 ,
 {
@@ -453,7 +453,7 @@ export class ProductService {
         'Controlador inteligente con indicador de temperatura.',
         'Puerta con 2 paneles de vidrio calefaccionados.'
     ],
-    images: []
+    images: ['assets/machines/freezer/Vertical INELRO mod. BT17 Exhibidor.jpg']
 }
 ,
 {
@@ -468,7 +468,7 @@ export class ProductService {
         'Evaporador de serpentina de cobre.',
         'Termostato dual (enfriador/freezer).'
     ],
-    images: []
+    images: ['assets/machines/freezer/550 lts.TVI tapa vidrio inclinada TEORA.png']
 }
 ,
 {
@@ -483,7 +483,7 @@ export class ProductService {
         'Condensación forzada.',
         'Temperatura regulable de -18ºC a -25ºC.'
     ],
-    images: []
+    images: ['assets/machines/freezer/1.170 lts. Triple tapa ciega C720 BERCOMAR.jpg']
 }
 ,
 {
@@ -515,7 +515,7 @@ export class ProductService {
         'Largo de sellado: 260 mm.',
         'Inyecta gas: No.'
     ],
-    images: []
+    images: ['assets/machines/envasadoras_vacio/PRO 26 sin inyeccion de gas NEOVAC.png']
 }
 ,
 {
@@ -530,7 +530,7 @@ export class ProductService {
         'Tamaño de cámara: 105 x 435 x 400 mm.',
         'Largo de sellado: 420 mm.'
     ],
-    images: []
+    images: ['assets/machines/envasadoras_vacio/PRO 42 sin inyeccion de gas NEOVAC .png']
 }
 ,
 {
@@ -544,7 +544,7 @@ export class ProductService {
         'Altura x Largo: 370 mm x 490 mm.',
         'Peso: 28.4 kg.'
     ],
-    images: []
+    images: ['assets/machines/envasadoras_vacio/D_NQ_NP_851540-MLA71799655827_092023-O.png','assets/machines/envasadoras_vacio/D_NQ_NP_897214-MLA71747715304_092023-O.png']
 }
 ,
 {
@@ -561,7 +561,7 @@ export class ProductService {
         'Inyecta gas: Sí.',
         'Cantidad de envasados simultáneos: 4.'
     ],
-    images: []
+    images: ['assets/machines/envasadoras_vacio/D_NQ_NP_897214-MLA71747715304_092023-O.png','assets/machines/envasadoras_vacio/D_NQ_NP_851540-MLA71799655827_092023-O.png']
 }
 ,
 {
@@ -579,7 +579,7 @@ export class ProductService {
         'Ancho de sellado: 1.5 mm.',
         'Modelos: C300, CC300, C400, CC400.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/Selladora tipo cizalla 30 cm. sin corte C300.jpg']
 }
 ,
 {
@@ -590,7 +590,7 @@ export class ProductService {
         'Tipo: Polietileno y polipropileno.',
         'Color: Negro.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/Rollo de tinta para fechador FE791.jpg']
 }
 ,
 {
@@ -609,7 +609,7 @@ export class ProductService {
         'Dimensiones: 180 x 275 x 280 mm.',
         'Peso: 3,6 kg.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/Fechador termico con soporte rebobinador FR333.jpg']
 }
 ,
 {
@@ -625,7 +625,7 @@ export class ProductService {
         'Con apagado automático: No.',
         'Modelos: H400, V400.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/2Selladora horizontal 40 cm. pie con pedal H400.jpg','assets/machines/selladoras_termoselladoras_fechadores/1Selladora horizontal 40 cm. pie con pedal H400.jpg']
 }
 ,
 {
@@ -639,7 +639,7 @@ export class ProductService {
         'Función: Sellado y refilado.',
         'Tipo de activación: Pedal.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/Selladora y refiladora vertical 40 cm. pie con pedal VR400.png']
 }
 ,
 {
@@ -653,7 +653,7 @@ export class ProductService {
         'Ofrece un sellado eficiente y seguro.',
         'Estructura robusta y duradera.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/Termoselladora para film PVC PROFESIONAL TS3500.png']
 }
 ,
 {
@@ -668,7 +668,7 @@ export class ProductService {
         'Modelo: 751.',
         'El corte se realiza en forma manual con cuchilla incorporada.'
     ],
-    images: []
+    images: ['assets/machines/selladoras_termoselladoras_fechadores/Dispenser porta rollo de film con corte 751.jpg']
 }
 ,
 {
@@ -680,7 +680,7 @@ export class ProductService {
        'Medidas dependiendo plancha: 30 cm x 40 cm, 40cm x 40cm, 70cm x 50cm y 100cm x 50cm.',
        'Capacidad de hamburguesas: 12h, 16h, 30h y 50h.'
     ],
-    images: []
+    images: ['assets/machines/planchas_hamburguesas/plancha-lisa-30x40-speedy-2kw-12-hamburguesas-profes-1099.jpg','assets/machines/planchas_hamburguesas/Plancha lisa con pie 5 kw 100x50 50 hamburguesas Speedy.jpg']
 },
 {
     id: 49,
@@ -700,7 +700,7 @@ export class ProductService {
         'Potencia: 0.16 HP.',
         'Peso: 16 kgs (Aprox).'
     ],
-    images: []
+    images: ['assets/machines/cortadoras_papa/2Cortadora de papas Horizontal 3 discos.jpg','assets/machines/cortadoras_papa/1Cortadora de papas Horizontal 3 discos.jpg']
 }
 ,
 {
@@ -713,7 +713,7 @@ export class ProductService {
         'Peso aproximado: 400 kg.',
         'Capacidad de rebanado: 330 mm x 550 mm.'
     ],
-    images: []
+    images: ['assets/machines/cortadoras_fiambre_pan_miga_lactal/rebanadora-pan-miga-r330.jpg']
 }
 ,
 {
@@ -729,7 +729,7 @@ export class ProductService {
         'Voltaje: 220v / 50Hz.',
         'Potencia: 370 W.',
     ],
-    images: []
+    images: ['assets/machines/cortadoras_fiambre_pan_miga_lactal/1Rebanadora lactal 30 cms MAEQUIP (1).jpg', 'assets/machines/cortadoras_fiambre_pan_miga_lactal/1Rebanadora lactal 30 cms MAEQUIP (2).jpg']
 }
 ,
 {
@@ -742,7 +742,7 @@ export class ProductService {
         'Motor de 1 HP.',
         'Dimensiones: 1,30 m x 1 m x 1,90 m.'
     ],
-    images: []
+    images: ['assets/machines/cortadoras_fiambre_pan_miga_lactal/descortezadora_-_web.jpg']
 }
 ,
 {
@@ -760,7 +760,7 @@ export class ProductService {
         'Modelos: ZBY-40 y ZBY-60'
 
     ],
-    images: []
+    images: ['assets/machines/fabricadoras_hielo/Fabricadora de hielo ZBY-40.png','assets/machines/fabricadoras_hielo/Fabricadora de hielo ZBY-4011.png','assets/machines/fabricadoras_hielo/Fabricadora de hielo ZBY-40v.png']
 }
 ,
 {
@@ -777,7 +777,7 @@ export class ProductService {
         'Tipo de descarga: Automática.',
         'Modo de fabricación del hielo: Tipo Spray.'
     ],
-    images: []
+    images: ['assets/machines/fabricadoras_hielo/CUBE 25 MORETTI.png']
 }
 ,
 {
@@ -798,7 +798,7 @@ export class ProductService {
         'Stock permanente de todos los consumibles y repuestos.',
         'Opcional: Lavador rápido para Jarras.'
     ],
-    images: []
+    images: ['assets/machines/licuadoras_industriales_exprimidores/Licuadora 2 lts.TURBOBLENDER TB50.png','assets/machines/licuadoras_industriales_exprimidores/Licuadora 2 lts.TURBOBLENDER TB50 (2).png']
 }
 ,
 {
@@ -815,7 +815,7 @@ export class ProductService {
         'Switch de Seguridad.',
         'Panel Digital para control preciso.'
     ],
-    images: []
+    images: ['assets/machines/licuadoras_industriales_exprimidores/Licuadora 3 lts. Master Blend panel digital BL306D SILCOOK VIA CHE.png']
 }
 ,
 {
@@ -830,7 +830,7 @@ export class ProductService {
         'Incluye manija y prensas.',
         'Modelos: Electrico y manual'
     ],
-    images: []
+    images: ['assets/machines/pasta_Artesanales/Fideero electricomanual 300mm (1).png','assets/machines/pasta_Artesanales/Fideero electricomanual 300mm (2).png']
 }
 ,
 {
@@ -845,7 +845,7 @@ export class ProductService {
         'Incluye manija y prensas.',
         'Modelos: Electrico y manual'
     ],
-    images: []
+    images: ['assets/machines/pasta_Artesanales/Marcador de ñoquis electricomanual (1).png', 'assets/machines/pasta_Artesanales/Marcador de ñoquis electricomanual (2).png' ]
 }
 ,
 {
@@ -860,7 +860,7 @@ export class ProductService {
         'Funcionamiento eléctrico/manual.',
         'Modelos: Electrico y manual'
     ],
-    images: []
+    images: ['assets/machines/pasta_Artesanales/Raviolero electricamanual 300mm.png','assets/machines/pasta_Artesanales/Raviolero electricamanual 300mm1.png' ]
 }
 ,
 {
@@ -874,7 +874,7 @@ export class ProductService {
         'Manija y prensas para facilitar la operación.',
         'Modelos: Electrico y manual'
     ],
-    images: []
+    images: ['assets/machines/pasta_Artesanales/Sobadora electricamanual 300mm400mm600mm (1).png', 'assets/machines/pasta_Artesanales/Sobadora electricamanual 300mm400mm600mm (2).png']
 }
 ,
 {
@@ -885,7 +885,7 @@ export class ProductService {
         'Capacidad: 2.5 litros, 4 litros y 8 litros.',
         'Ideal para cortar, triturar y mezclar alimentos sólidos sin líquido.'
     ],
-    images: []
+    images: ['assets/machines/cutters_procesadoras_mixer/Cutter 2,5_4._8.0 lts. VISA.png']
 }
 ,
 {
@@ -899,7 +899,7 @@ export class ProductService {
         'Doble switch de seguridad.',
         'Cuchilla de acero inoxidable.'
     ],
-    images: []
+    images: ['assets/machines/cutters_procesadoras_mixer/Cutter 6 lt. SILCOOK VIA CHEFF HP900.jpg']
 }
 ,
 {
@@ -913,7 +913,7 @@ export class ProductService {
         'Excelente sistema de seguridad en operación.',
         'Marcas: Moretti y visa'
     ],
-    images: []
+    images: ['assets/machines/cutters_procesadoras_mixer/Procesadora MORETTI VC65 1 hp.jpg']
 }
 ,
 {
@@ -928,7 +928,7 @@ export class ProductService {
         'Mandos eléctricos en baja tensión (24V).',
         'Dispositivos de seguridad para detener la marcha al accionar la manija o abrir la tapa.'
     ],
-    images: []
+    images: ['assets/machines/cutters_procesadoras_mixer/CortalegumbreANDI aluminioacero 6 discos.png']
 }
 ,
 {
@@ -941,7 +941,7 @@ export class ProductService {
         'Capacidad de procesado: 20 a 40 litros.',
         'Botón bloqueador y de seguridad para operación continua.'
     ],
-    images: []
+    images: ['assets/machines/cutters_procesadoras_mixer/Mixer TURBOBLENDER Mix 350-750.png']
 }
 ,
 {
@@ -959,7 +959,7 @@ export class ProductService {
         'Teclado: 25 teclas numérico + 70 directas PLU.',
         'Peso: 3.40 Kg neto.'
     ],
-    images: []
+    images: ['assets/machines/balanzas_electronicas/Market con pilas. MORETTI.png']
 }
 ,
 {
@@ -977,7 +977,7 @@ export class ProductService {
         'Teclado: 21 teclas a prueba de líquidos.',
         'Conexión: RS232.'
     ],
-    images: []
+    images: ['assets/machines/balanzas_electronicas/Delta 15 bat. 12 hs. autonomia KRETZ.jpg']
 }
 ,
 {
@@ -992,7 +992,7 @@ export class ProductService {
         'Facilita la tarea de pesar productos con exactitud.',
         'Ayuda a minimizar errores en las transacciones.'
     ],
-    images: []
+    images: ['assets/machines/balanzas_electronicas/Report LT-232 alto 30 kg Vidrio Bajo KRETZ .jpg']
 }
 ,
 {
@@ -1009,7 +1009,7 @@ export class ProductService {
         'Display digital para operador y cliente.',
         'Modelos: Con y sin columna'
     ],
-    images: []
+    images: ['assets/machines/balanzas_electronicas/Master 150 Kg. (50 gr.) KRETZ con y sin columna (1).png', 'assets/machines/balanzas_electronicas/Master 150 Kg. (50 gr.) KRETZ con y sin columna (2).png']
 }
 ,
 {
@@ -1025,7 +1025,7 @@ export class ProductService {
         'Conexión: RS-232 para PC.',
         'Ideal para frigoríficos y carnicerías.'
     ],
-    images: []
+    images: ['assets/machines/balanzas_electronicas/Rielera 600 (200gr) KRETZ.png']
 }
 ,
 {
@@ -1042,7 +1042,7 @@ export class ProductService {
         'Conexión: RS-232 para impresores KRETZ.',
         'Control remoto infrarrojo (sin cables).'
     ],
-    images: []
+    images: ['assets/machines/balanzas_electronicas/Cenit 31 cRS-232 control remoto KRETZ.jpg']
 }
 ,
 {
@@ -1056,7 +1056,7 @@ export class ProductService {
         'Chasis de hierro.',
         'Motor monofásico (posibilidad de trifásico).'
     ],
-    images: []
+    images: ['assets/machines/mezcladoras_carne/50100 lts. Motor ¾  1.5 FINESCHI LEGITIMA.jpg']
 }
 ,
 {
@@ -1070,7 +1070,7 @@ export class ProductService {
         'Dimensiones del embalaje: Alto: 0.900 m, Ancho: 0.750 m, Profundidad: 0.750 m.',
         'Marcas: Morelli, Depaolo.'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 4 hornallas R-Fund MORELLI (101163) ahora Mr.Cheff.jpg', 'assets/machines/anafes_industriales/Anafe 4 hornallas R-Fund MORELLI (101163) ahora Mr.Cheff2.jpg']
 }
 ,
 {
@@ -1084,7 +1084,7 @@ export class ProductService {
         '1 hornalla de: 1800 kcal, 1 hornalla de: 2200 kcal.',
         'Multigas.'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 2 hornallas horizontal sin revestir con pie BAR.jpg']
 }
 ,
 {
@@ -1099,7 +1099,7 @@ export class ProductService {
         'Marcas:Mr. CHEFF, MORELLI y DEPAOLO '
 
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 6 hornallas R-Fund 1100 antes Mr. CHEFF MORELLI-depaolo(700350).jpg','assets/machines/anafes_industriales/Anafe 6 hornallas R-Fund 1100 antes Mr. CHEFF MORELLI-depaolo(700351).jpg']
 }
 ,
 {
@@ -1114,7 +1114,7 @@ export class ProductService {
         'Consumo total: 24.000 Kcal/Hr.',
         'Dimensiones: Ancho: 50 cm, Profundidad: 50 cm, Altura: 35 cm.'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 1 hornalla Dragon Power 24.000 cal.jpg']
 }
 ,
 {
@@ -1130,7 +1130,7 @@ export class ProductService {
         'Patas regulables.',
         'Modelos Disponibles: 2 hornallas, 4 hornallas, 6 hornallas'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (1)','assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (2).jpg','assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (1).jpg' ]
 }
 ,
 {
@@ -1143,7 +1143,7 @@ export class ProductService {
         'Base soporte reforzada desarmable.',
         'Modelos Disponibles: 2 hornallas, 4 hornallas, 6 hornallas'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 246 hornallas estructural Sol Real economico El Gauchito (1).png','assets/machines/anafes_industriales/Anafe 246 hornallas estructural Sol Real economico El Gauchito (2).jpg','assets/machines/anafes_industriales/Anafe 246 hornallas estructural Sol Real economico El Gauchito (1).jpg']
 }
 ,
 {
@@ -1155,7 +1155,7 @@ export class ProductService {
         'Instalación eléctrica con cables siliconados para alta temperatura.',
         'Medidas hornalla: 29 x 29 cm.'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 2 hornallas apto para hogar -alto rendimiento Speedy.png','assets/machines/anafes_industriales/Anafe 2 hornallas apto para hogar -alto rendimiento Speedy.jpg' ]
 }
 ,
 {
@@ -1168,7 +1168,7 @@ export class ProductService {
         'Hornalla de acero reforzado de 7 mm.',
         'Medidas totales: Frente 60 cm, Fondo 66 cm.'
     ],
-    images: []
+    images: ['assets/machines/anafes_industriales/Anafe 4 hornallas alto rendimiento Speedy.jpg']
 }
 ,
 {
@@ -1182,7 +1182,7 @@ export class ProductService {
         'Potencia: 220V/50Hz.',
         'Sistema de circulación de aire forzado (defrost).'
     ],
-    images: []
+    images: ['assets/machines/heladera_exhibidora/EURO 12907101250 MONDINO_2_11zon.jpg']
 }
 ,
 {
@@ -1196,7 +1196,7 @@ export class ProductService {
         'Potencia: 220V/50Hz.',
         'Sistema de circulación de aire forzado (defrost).'
     ],
-    images: []
+    images: ['assets/machines/heladera_exhibidora/EURO 20007101250 MONDINO _1_11zon.jpg']
 }
 ,
 {
@@ -1210,7 +1210,7 @@ export class ProductService {
         'Humedad Relativa: 75%.',
         'Potencia: 220V/1/50Hz.'
     ],
-    images: []
+    images: ['assets/machines/heladera_exhibidora/BAKERY 15008601340 MONDINO_3_11zon.jpg']
 }
 ,
 {
@@ -1226,12 +1226,12 @@ export class ProductService {
         'Salida al exterior.',
         'Filtros de aluminio desmontables.'
     ],
-    images: []
+    images: ['assets/machines/campanas/Morelli Ferro 900 (2).jpg','assets/machines/campanas/Morelli Ferro 900 (1).jpg']
 }
 ,
 {
     id: 86,
-    name: 'Cocina industrial 4 Hornallas MORELLI pta. acero r/fund FORZA',
+    name: 'Cocina industrial 4 Hornallas MORELLI FORZA',
     description: 'Cocina industrial MORELLI FORZA con 4 hornallas y horno. Gabinete exterior construido en acero inoxidable AISI 430, horno con loza de fácil limpieza y sistema de rack desmontables. Equipada con parrilla de ladrillos refractarios, robinetes industriales y válvula de seguridad.',
     details: [
         'Horno con loza de fácil limpieza y sistema de rack desmontables.',
@@ -1240,7 +1240,7 @@ export class ProductService {
         'Válvula de seguridad.',
         'Modelos diposibles: 55 MORELLI, 60 MORELLI'
     ],
-    images: []
+    images: ['assets/machines/cocinas_industriales/4 Hornallas 55 MORELLI pta. acero rfund FORZA.jpg', 'assets/machines/cocinas_industriales/4 Hornallas 5560 MORELLI pta. vidrio rfund FORZA_7_11zon.jpg']
 }
 ,
 {
@@ -1256,12 +1256,12 @@ export class ProductService {
         'Reja de fundición cubre hornallas.',
         'Válvula de seguridad.'
     ],
-    images: []
+    images: ['assets/machines/cocinas_industriales/4 Hornallas Acero Esmerilado R-fund plancha y tostador DEPAOLO_6_11zon.jpg']
 }
 ,
 {
     id: 88,
-    name: 'Cocina industrial 6 Hornallas 90 USMAN mod. MIRROR (3030)',
+    name: 'Cocina industrial 6 Hornallas USMAN',
     description: 'Cocina industrial USMAN mod. MIRROR (3030) con 6 hornallas y horno. Construcción en acero inoxidable esmerilado, equipada con horno con piso refractario y termómetro en puerta. Hornallas con quemadores de aluminio y mesada estampada.',
     details: [
         'Construcción en acero inoxidable esmerilado.',
@@ -1269,12 +1269,12 @@ export class ProductService {
         'Hornallas con quemadores de aluminio.',
         'Mesada estampada.'
     ],
-    images: []
+    images: ['assets/machines/cocinas_industriales/6 Hornallas 90 USMAN mod. MIRROR (3030).jpg']
 }
 ,
 {
     id: 89,
-    name: 'Cocina industrial 4 Hornallas 700 45 c Linea pesada Bar',
+    name: 'Cocina industrial 4 Hornallas Linea pesada Bar',
     description: 'Cocina industrial Bar línea pesada con 4 hornallas. Gabinete en acero inoxidable esmerilado, horno enlozado con piso de tejuelas refractarias y válvula de seguridad. Incluye dos rejillas extraíbles y dos mecheros estrella de 9.000 Kcal/h cada uno.',
     details: [
         'Gabinete 100% acero inoxidable esmerilado.',
@@ -1283,12 +1283,12 @@ export class ProductService {
         'Rejas de fundición enlozadas.',
         'Bandejas antiderrame desmontables.'
     ],
-    images: []
+    images: ['assets/machines/cocinas_industriales/4 Hornallas 700 45 c Linea pesada Bar.jpg']
 }
 ,
 {
     id: 90,
-    name: 'Cocina industrial 6 Hornallas 1000 32c Linea pesada Bar',
+    name: 'Cocina industrial 6 Hornallas Linea pesada Bar',
     description: 'Cocina industrial Bar línea pesada con 6 hornallas. Estructura tubular con perillas de Nylon y detalles en serigrafía. Exterior en acero inoxidable esmerilado AISI 430, mesadas en acero inoxidable AISI 304 con bandejas antiderrames enlozadas o de acero. Interior de horno completamente enlozado con aislante térmico de lana mineral y piso de tejuelas refractarias.',
     details: [
         'Estructura tubular.',
@@ -1298,12 +1298,12 @@ export class ProductService {
         'Interior de horno completamente enlozado.',
         'Aislante térmico de lana mineral y piso de tejuelas refractarias.'
     ],
-    images: []
+    images: ['assets/machines/cocinas_industriales/6 Hornallas 1000 32c Linea pesada Bar.jpg']
 }
 ,
 {
     id: 91,
-    name: 'Parrilla DEPAOLO',
+    name: 'Parrillas DEPAOLO',
     description: 'Equipada con un robinete por tramo, deflector de fundición tipo nido de abeja, estructura de acero inoxidable y grasero antiderrame también de acero inoxidable. Base de hierro y válvula de seguridad incluida. Apta para gas natural o envasado. Producto de industria nacional.',
     details: [
         'Medidas disponibles: 0,50 x 0,60 mts // 1,00 x 0,60 mts // 1,50 x 0,60 mts.',
@@ -1316,7 +1316,7 @@ export class ProductService {
         'Apta para gas natural o envasado.',
         'Industria nacional.'
     ],
-    images: []
+    images: ['assets/machines/parrilas/Parrilla 0,50 x 0,601,00 x 0,601,50 x 0,60 mts_2_11zon.jpg','assets/machines/parrilas/Parrilla 0,50 x 0,601,00 x 0,601,50 x 0,60 mts.jpg','assets/machines/parrilas/Parrilla 0,50 x 0,601,00 x 0,601,50 x 0,60 mts.png']
 }
 ,
 {
@@ -1332,7 +1332,7 @@ export class ProductService {
         'Exterior de acero inoxidable AISI 430 brillante o esmerilado.',
         'Capacidad: 6, 12 o 24 (depende del modelo)'
     ],
-    images: []
+    images: ['assets/machines/spiedos/Calabro 6-12-24pollos_4_11zon.jpg','assets/machines/spiedos/Calabro 6-12-24pollos2_3_11zon.jpg']
 }
 ,
 {
@@ -1350,7 +1350,7 @@ export class ProductService {
         'Válvula de seguridad.',
         'Capacidad: 6 o 12 pollos.(depende del modelo)'
     ],
-    images: []
+    images: ['assets/machines/spiedos/Asador Criollo chico 6-12 pollos SOL REAL.png','assets/machines/spiedos/Asador Criollo chico 6-12 pollos SOL REAL2_5_11zon.jpg']
 }
 ,
 {
@@ -1365,7 +1365,7 @@ export class ProductService {
         'Incluye división movible para salchichas y pinza de acero.',
         'Funcionamiento eléctrico a 220V y bajo consumo.'
     ],
-    images: []
+    images: ['assets/machines/pancheras/Panchera con calienta pan (CP30.png']
 }
 ,
 {
@@ -1381,7 +1381,7 @@ export class ProductService {
         'Alimentación: 220V/50-60Hz.',
         'Medidas: 35.5 x 23.5 x 25 cm.'
     ],
-    images: []
+    images: ['assets/machines/pancheras/Panchera simple (SP28) ROA (1002).jpg']
 }
 ,
 {
@@ -1397,7 +1397,7 @@ export class ProductService {
         'Tensión de alimentación: 220V 50-60Hz.',
         'Potencia total: 0.55 kW.'
     ],
-    images: []
+    images: ['assets/machines/pancheras/Calentadora electrica de pan .jpg']
 }
 ,
 {
@@ -1412,7 +1412,7 @@ export class ProductService {
         'Uso como grill o para gratinar.',
         'Válvula de seguridad.'
     ],
-    images: []
+    images: ['assets/machines/tostadores_wafleras_lomiteras/Simple y doble con plancha DEPAOLO.jpg','assets/machines/tostadores_wafleras_lomiteras/Simple y doble con plancha DEPAOLO.png']
 }
 ,
 {
@@ -1426,7 +1426,7 @@ export class ProductService {
         'Fácil limpieza y mantenimiento.',
         'No requiere pre-calentamiento ni tiraje al exterior.'
     ],
-    images: []
+    images: ['assets/machines/tostadores_wafleras_lomiteras/Simple automatico electrico SPEEDY.png']
 }
 ,
 {
@@ -1439,7 +1439,7 @@ export class ProductService {
         'Potencia: 1.5 kW.',
         'Peso: 11 kg.'
     ],
-    images: []
+    images: ['assets/machines/tostadores_wafleras_lomiteras/Waflera electrica simple SILCOOK_11zon.jpg']
 }
 ,
 {
