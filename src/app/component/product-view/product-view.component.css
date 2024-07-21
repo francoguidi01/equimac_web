@@ -48,8 +48,9 @@ color: #D8D8D8;
 }
 
 #left #carouselExampleInterval {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
 }
 
 #left .carousel-inner {
@@ -313,5 +314,5 @@ small{
 
 .product-image {
     border-radius: 15px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }

@@ -27,17 +27,13 @@ export class ProductViewComponent implements OnInit {
 
     window.scrollTo(0, 0);
 
-    // Suscribirse a los cambios en la ruta para detectar cuando se cambie el ID del producto
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
-      // Obtener el nuevo ID del producto de la URL
       let productId = Number(this.route.snapshot.paramMap.get('id'));
-      // Cargar los datos del nuevo producto
       this.product = this.productService.getById(productId);
     });
 
-    // Cargar los datos del producto cuando se inicializa el componente
     let productId = Number(this.route.snapshot.paramMap.get('id'));
     this.product = this.productService.getById(productId);
 
