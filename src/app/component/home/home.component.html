@@ -42,53 +42,17 @@
         </div>
     </div>
 
-    <div class="carousels-wrapper animate__animated animate__fadeIn">
-            <div class="animated-me carousel-row">
-                <div class="carousel-container large-carousel">
-                    <div id="carouselExampleInterval1" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div *ngFor="let product of listProduct1">
-                                <div class="carousel-item active" data-bs-interval="2500">
-                                    <a class="nav-link" [routerLink]="['/products/view/', product.id]"
-                                        routerLinkActive="active" href="#" style="text-decoration: none;">
-                                        <img [src]="product.images[0]" alt="Imagen">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="carousel-container large-carousel">
-                <div id="carouselExampleInterval2" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div *ngFor="let product of listProduct2">
-                            <div class="carousel-item active" data-bs-interval="2500">
-                                <a class="nav-link" [routerLink]="['/products/view/', product.id]"
-                                    routerLinkActive="active" href="#" style="text-decoration: none;">
-                                    <img [src]="product.images[0]" alt="Imagen">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-container large-carousel">
-                <div id="carouselExampleInterval3" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div *ngFor="let product of listProduct3">
-                            <div class="carousel-item active" data-bs-interval="2500">
-                                <a class="nav-link" [routerLink]="['/products/view/', product.id]"
-                                    routerLinkActive="active" href="#" style="text-decoration: none;">
-                                    <img [src]="product.images[0]" alt="Imagen">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="products-wrapper animate__animated animate__fadeIn">
+        <div class="animated-me product-row">
+            <div class="product-container" *ngFor="let product of randomProducts">
+                <a class="nav-link" [routerLink]="['/products/view/', product.id]" routerLinkActive="active" href="#" style="text-decoration: none;">
+                    <img [src]="product.images[0]" alt="Imagen" class="product-image">
+                </a>
             </div>
         </div>
     </div>
-
+    
+    
 
     <!--------------------------------Extra-------------------------------->
 

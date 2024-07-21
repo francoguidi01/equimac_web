@@ -304,3 +304,14 @@ small{
     font-size: 20px;
     color: #d3b8ff;
   }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10%; 
+}
+
+.product-image {
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

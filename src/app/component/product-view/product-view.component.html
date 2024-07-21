@@ -10,9 +10,9 @@
             <div class="animate__animated animate__fadeInLeft" id="left">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div *ngFor="let image of product.images; let i = index" class="carousel-item"
+                        <div *ngFor="let image of product.images; let i = index"
                             [class.active]="i === 0">
-                            <img [src]="image" class="d-block w-100" alt="...">
+                            <img [src]="image" class="d-block w-100 product-image" >
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
