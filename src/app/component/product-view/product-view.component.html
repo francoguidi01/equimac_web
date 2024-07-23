@@ -36,8 +36,8 @@
                     </ul>
                     <p>{{ product.description }}</p>
                 </div>
-                <button class="purchase" [routerLink]="['/contact']" routerLinkActive="active" href="#">CONTACTARNOS
-                </button>
+                <button class="purchase" [routerLink]="['/contact', { productName: product.name }]" routerLinkActive="active" href="#">CONTACTARNOS
+                </button>                
             </div>
         </div>
     </div>

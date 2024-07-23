@@ -12,7 +12,7 @@ import { DarkModeService } from '../../services/dark-mode.service';
 })
 export class ProductViewComponent implements OnInit {
   
-  product: Product | null = new Product();
+  product: Product | null = null;
   isDarkMode: boolean = false;
 
   constructor(

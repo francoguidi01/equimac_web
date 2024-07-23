@@ -245,7 +245,7 @@ export class ProductService {
         'Eficiente desgasificado y armado rápido.',
         'Reduce el tiempo de sobado de la masa y la mano de obra empleada.'
     ],
-    images: []
+    images: ['assets/machines/mesas_corte/Armadora Bonetto.jpg']
 }
 ,
 {
@@ -262,7 +262,7 @@ export class ProductService {
         'Rejilla protectora con switch de seguridad incorporado.',
         'Placas de descarga de acero inoxidable para mayor durabilidad.'
     ],
-    images: []
+    images: ['assets/machines/mesas_corte/Laminadora de mesa SXL450 SILCOOK.jpg']
 }
 ,
 {
@@ -312,7 +312,7 @@ export class ProductService {
         'Marca: DEPAOLO.',
         'Ideal para cocinas comerciales y profesionales.'
     ],
-    images: ['assets/machines/freidoras_churreras/18 litros DEPAOLO.jpg']
+    images: ['assets/machines/freidoras_churreras/ 18 litros DEPAOLO.jpg']
 }
 ,
 {
@@ -499,7 +499,7 @@ export class ProductService {
         'Incluye 4 estantes ajustables.',
         'Incluye 2 patines ajustables.'
     ],
-    images: []
+    images: ['assets/machines/heladeras_verticales/KIA mod. 420 lts..png']
 }
 ,
 {
@@ -1130,7 +1130,7 @@ export class ProductService {
         'Patas regulables.',
         'Modelos Disponibles: 2 hornallas, 4 hornallas, 6 hornallas'
     ],
-    images: ['assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (1)','assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (2).jpg','assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (1).jpg' ]
+    images: ['assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (1).png','assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (2).jpg','assets/machines/anafes_industriales/Anafe de Acero 246 Hornallas Rejas de Fundición (1).jpg' ]
 }
 ,
 {
@@ -1455,7 +1455,7 @@ export class ProductService {
         'Componentes de fundición interna y cromado externo',
         'Completamente desarmable para limpieza'
     ],
-    images: []
+    images: ['assets/machines/picadoras_carne/Fineschi FL mod. 32 gabinete acero inox_9_11zon.jpg']
 }
 ,
 {
@@ -1471,12 +1471,12 @@ export class ProductService {
         'Cabezal, gusano y volante de fundición de hierro o acero inoxidable',
         'Bandeja de acero inoxidable'
     ],
-    images: []
+    images: ['assets/machines/picadoras_carne/Fineschi FL Gabinete cuadrado mod. 42 Acero Inox. 5,5 HP trif_8_11zon.jpg']
 }
 ,
 {
     id: 102,
-    name: 'Sierra Carnicera Fineschi FL 350 Mesada de Acero 1.5 HP',
+    name: 'Sierra Carnicera Fineschi FL 350 Mesada de Acero',
     description: 'Sierra carnicera Fineschi Legitima con hoja de 350 cm. Gabinete metálico recubierto con pintura epoxi y mesada de acero inoxidable. Motor monofásico o trifásico de 1.5 HP.',
     details: [
         'Marca: Fineschi Legitima',
@@ -1485,7 +1485,7 @@ export class ProductService {
         'Mesada de acero inoxidable',
         'Motor: 1.5 HP (Monofásico o trifásico)'
     ],
-    images: []
+    images: ['assets/machines/sierras_carniceras/Fineschi FL 350 mesada de acero 1,5 hp.webp']
 }
 ,
 {
@@ -1499,7 +1499,7 @@ export class ProductService {
         'Mesada de acero inoxidable',
         'Dimensiones: 190 x 70 x 70 cm (alto x frente x profundidad)'
     ],
-    images: []
+    images: ['assets/machines/sierras_carniceras/Sierra Gigante JCG Monofasicatrifasica 1,2 - 2HP Acero Inoxidable.jpg']
 }
 ,
 {
@@ -1513,7 +1513,7 @@ export class ProductService {
         'Cuerpo de fundición de aluminio',
         'Cremallera de fundición de hierro'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Churrera desde 2 kg 1 boca ROMA.jpg']
 }
 ,
 {
@@ -1527,7 +1527,7 @@ export class ProductService {
         'Cuerpo de fundición de aluminio',
         'Cremallera de fundición de hierro'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Churrera desde 4 kg 3 boca ROMA_11zon.jpg']
 }
 ,
 {
@@ -1541,7 +1541,7 @@ export class ProductService {
         'Cuerpo de fundición de aluminio',
         'Cremallera de fundición de hierro'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Churrera desde 8 kg 5 boca ROMA_11zon.jpg']
 }
 ,
 {
@@ -1558,7 +1558,7 @@ export class ProductService {
         'Caballete base de Hierro Soldado',
         'Modelos Disponibles:  3 Bocas con Cinta 0.70, 5 Bocas con Cinta 1.5'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Churrera 4 Kg. 3-5 bocas con cinta 0,70-1.5 y caballete ROMA (1)_11zon.jpg', 'assets/machines/churreras_embutidoras_cintas_transportadoras/Churrera 4 Kg. 3-5 bocas con cinta 0,70-1.5 y caballete ROMA (2)_11zon.jpg']
 }
 ,
 {
@@ -1573,7 +1573,7 @@ export class ProductService {
         'Incluye juego de 3 embudos',
         'Ideal para embutidos diversos'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Embutidora vertical 5-15 lts FINESCHI LEGITIMA_11zon.jpg', 'assets/machines/churreras_embutidoras_cintas_transportadoras/Embutidora vertical 5-15 lts FINESCHI LEGITIMAa_11zon.jpg']
 }
 ,
 {
@@ -1590,7 +1590,7 @@ export class ProductService {
         'Potencia compresor: 2 HP',
         'Capacidad compresor: 25Lts.'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Embutidora neumatica std-acero 40 lts compresor 1,5 hp FINESCHI LEGITIMA_11zon.jpg']
 }
 ,
 {
@@ -1606,7 +1606,7 @@ export class ProductService {
         'Base, pollera, cilindro en acero inoxidable',
         'Bridas, tapa, válvulas, varillas y manijas en acero inoxidable'
     ],
-    images: []
+    images: ['assets/machines/churreras_embutidoras_cintas_transportadoras/Embutidora neumatica acero 75 lts compresor 2 hp FINESCHI LEGITIMA_11zon.jpg']
 }
 ,
 {
@@ -1625,7 +1625,7 @@ export class ProductService {
         'Interior del gabinete: Galvanizado',
         'Puertas: Cierre con burlete imantado'
     ],
-    images: []
+    images: ['assets/machines/heladera_bajo_barra/Bajo barra 1,50 sin cubre equipo 2 ptas Stefanelli _1_11zon.jpg']
 }
 ,
 {
@@ -1644,7 +1644,7 @@ export class ProductService {
         'Interior del gabinete: Galvanizado',
         'Puertas: Cierre con burlete imantado'
     ],
-    images: []
+    images: ['assets/machines/heladera_bajo_barra/Bajo barra 2,00 sin cubre equipo 3 ptas Stefanelli _2_11zon.jpg']
 }
 ,
 {
@@ -1663,7 +1663,7 @@ export class ProductService {
         'Interior del gabinete: Galvanizado',
         'Puertas: Cierre con burlete imantado'
     ],
-    images: []
+    images: ['assets/machines/heladera_bajo_barra/Bajo barra 2,50 sin cubre equipo 4 ptas Stefanelli _3_11zon.jpg']
 }
 ,
 {
@@ -1682,7 +1682,7 @@ export class ProductService {
         'Interior del gabinete: Galvanizado',
         'Puertas: Cierre con burlete imantado'
     ],
-    images: []
+    images: ['assets/machines/heladera_bajo_barra/Bajo barra 2,58 sin cubre equipo 5 ptas Stefanelli_4_11zon.jpg']
 }
 ,
 {
@@ -1700,7 +1700,7 @@ export class ProductService {
         'Puertas: Tipo placa con cierre magnético y resorte de tensión',
         'Patas: Plástico reforzado regulables'
     ],
-    images: []
+    images: ['assets/machines/heladera_bajo_barra/Bajo barra 1,45 con cubre equipo 2 ptas FRIDER.jpg']
 }
 ,
 {
@@ -1718,7 +1718,7 @@ export class ProductService {
         'Puertas: Tipo placa con cierre magnético y resorte de tensión',
         'Patas: Plástico reforzado regulables'
     ],
-    images: []
+    images: ['assets/machines/heladera_bajo_barra/Bajo barra 1,93 con cubre equipo 3 ptas FRIDER_11zon.jpg']
 }
 ,
 {
@@ -1733,7 +1733,7 @@ export class ProductService {
         'Gancheras: Techo y cintura',
         'Aislación: Poliuretano de 40 Kg/m³'
     ],
-    images: []
+    images: ['assets/machines/heladeras_carniceras/Carnicera mod. 73 A 1,50 (1+2) FRIDER.jpg']
 }
 ,
 {
@@ -1747,7 +1747,7 @@ export class ProductService {
         'Aislación: Terlgopor de alta densidad',
         'Modelos Disponibles: 124 A 2.50, 154 A 3.00'
     ],
-    images: []
+    images: ['assets/machines/heladeras_carniceras/Carnicera mod. 124-154 A 2,50-3,00 (2+2) FRIDER.jpg','assets/machines/heladeras_carniceras/Carnicera mod. 124-154 A 2,50-3,00 (2+2) FRIDER_11zon.jpg']
 }
 ,
 {
@@ -1759,7 +1759,7 @@ export class ProductService {
         'Medidas (mm): 1700 x 900 x 2060 (Modelo 73), 2000 x 900 x 2060 (Modelo 93)',
         'Modelos Disponibles: 73 y 93 1,50 / 2,00'
     ],
-    images: []
+    images: ['assets/machines/heladeras_carniceras/Carnicera mod. 73 y 93 1,50 y 2,00 (1+2) ORLANDOS.jpg']
 }
 ,
 {
@@ -1772,7 +1772,7 @@ export class ProductService {
         'Aislación: Poliuretano densidad 40 kg/m³',
         'Medidas: 850 x 1200 x 2200 mm (altura)'
     ],
-    images: []
+    images: ['assets/machines/heladeras_carniceras/Latera 1 puertas, 60 latas MONDINO_11zon.jpg']
 }
 ,
 {
@@ -1785,7 +1785,7 @@ export class ProductService {
         'Exterior: Acero inoxidable brillante',
         'Interior: Galvanizado'
     ],
-    images: []
+    images: ['assets/machines/heladeras_carniceras/Latera 2 puertas 150, 44 latas RH.png']
 }
 ,
 {
@@ -1798,7 +1798,7 @@ export class ProductService {
         'Exterior: Chapa prepintada blanca',
         'Interior: Chapa galvanizada'
     ],
-    images: []
+    images: ['assets/machines/heladeras_carniceras/Latera 3 puertas 210, 66 latas RH_11zon.jpg']
 }
 ,
 {
@@ -1811,7 +1811,7 @@ export class ProductService {
         'Base: Caño estructural pintado',
         'Control de temperatura: Automático'
     ],
-    images: []
+    images: ['assets/machines/gondolas_lacteas/Gondola refrigerada 1300 equipada lat plast FRIDER_11zon.jpg']
 }
 ,
 {
@@ -1824,7 +1824,7 @@ export class ProductService {
         'Base: Caño estructural pintado',
         'Control de temperatura: Automático'
     ],
-    images: []
+    images: ['assets/machines/gondolas_lacteas/Gondola refrigerada 2500 equipada lat plast FRIDER.jpg']
 }
 ,
 {
@@ -1843,7 +1843,7 @@ export class ProductService {
         'Válvula de descompresión: Mantiene la integridad estructural y funcional.',
         'Revestimiento en acero inoxidable: Para mayor durabilidad y resistencia.'
     ],
-    images: []
+    images: ['assets/machines/camaras_termopanel/Cámaras Termopanel PrepPrep.jpg']
 },
 {
     id: 126,
@@ -1857,20 +1857,21 @@ export class ProductService {
         'Traba con manija alta (segura): Operación segura y fácil.',
         'Doble traba (superior e inferior): Asegura un cierre hermético.'
     ],
-    images: []
+    images: ['assets/machines/camaras_termopanel/Puertas para Cámaras Termopanel.png']
 },
 {
     id: 127,
-    name: 'Equipos de Frío Compactos',
+    name: 'Equipos de Frío Compactos BMT, BBT y Split BMT ',
     description: 'Nuestros equipos de frío compactos ofrecen un rendimiento superior en aplicaciones de refrigeración industrial y comercial. Con construcción robusta y componentes de alta calidad, garantizan una operación eficiente y confiable en todo momento.',
     details: [
         'Diseño compacto: Fácil instalación en espacios reducidos.',
         'Alta eficiencia: Compresores potentes para enfriamiento rápido y uniforme.',
         'Construcción robusta: Materiales duraderos para entornos exigentes.',
         'Control de temperatura preciso: Regulación precisa de la temperatura.',
-        'Fácil mantenimiento: Diseño accesible para tareas de servicio.'
+        'Fácil mantenimiento: Diseño accesible para tareas de servicio.',
+'Modelos: Compacto BMT20, Compacto BMT30, Compacto BMT40, Compacto BMT70, Compacto BBT20, Compacto BBT30, Split BMT20, Split BMT40'
     ],
-    images: []
+    images: ['assets/machines/equipos_frio/D_NQ_NP_965565-MLA74543212023_022024-O.jpg']
 },
 //BOLLERAS PLATO
 {
@@ -1885,7 +1886,7 @@ export class ProductService {
         'Peso: Peso aproximado de 300Kg.',
         'Alta producción: Producción de 80 bollos por minuto.'
     ],
-    images: []
+    images: ['assets/machines/bolleras_plato/Corbol inoxidable.jpg']
 },
 {
     id: 129,
@@ -1898,7 +1899,7 @@ export class ProductService {
         'Eficiencia: Permite el armado rápido y uniforme de bollos de masa.',
         'Fácil de limpiar: Diseño accesible para un mantenimiento sencillo.'
     ],
-    images: []
+    images: ['assets/machines/bolleras_plato/Bollera de mesa.jpg']
 },
 //RALLADORAS DE PAN/QUESO
 {
@@ -1913,7 +1914,7 @@ export class ProductService {
         'Diámetro de tolva: 320mm.',
         'Alta producción: Producción aproximada de 250 a 300 Kg/h.'
     ],
-    images: []
+    images: ['assets/machines/ralladoras_pan_queso/ralladora gigante motor 3hp.jpg']
 },
 {
     id: 131,
@@ -1927,7 +1928,7 @@ export class ProductService {
         'Dimensiones: Diámetro de 28cm, Alto de 62cm.',
         'Peso: 10.7 kg.'
     ],
-    images: []
+    images: ['assets/machines/ralladoras_pan_queso/ralladora 60 kg._h 1 hp Fineschi.jpg']
 },
 {
     id: 132,
@@ -1943,12 +1944,12 @@ export class ProductService {
         'Consumo: 0.46 kw/hora.',
         'Peso: 19 kg.'
     ],
-    images: []
+    images: ['assets/machines/ralladoras_pan_queso/ralladora queso Paniz (3 discos).jpg']
 },
 //GRINISERAS MANUALES
 {
     id: 133,
-    name: 'Grisinera automática 45mm/330 mm. BAROLAT',
+    name: 'Grisinera automática BAROLAT',
     description: 'GRISINERA PANCHERA JUNIOR MB CON 2 CABEZALES, UNO DE GRISINES Y OTRO DE PANCHO. TAMBIÉN SE PUEDE UTILIZAR UN CABEZAL CORTANTE CON CARGO ADICIONAL, ASÍ COMO OTRA MEDIDA DE CABEZAL DE GRISINES. LA MÁQUINA VIENE PROVISTA DE 2 CABEZALES, GRISINERA PANCHERA JR.',
     details: [
         'Corte tradicional y panchera: Adaptable para distintos tipos de productos.',
@@ -1957,12 +1958,12 @@ export class ProductService {
         'Montaje robusto: Montada sobre bujes de bronce antifricción.',
         'Alta producción: Producción aproximada de 25 a 30 kg de masa por hora.'
     ],
-    images: []
+    images: ['assets/machines/grisineras_manuales/Grisinera automatica 330 mm. BAROLAT.jpg','assets/machines/grisineras_manuales/Corte tradicional y panchera.jpg']
 },
 //HORNOS ROTATIVOS CONVECTORES TUNEL
 {
     id: 134,
-    name: 'Horno Rotativo HEB1A 43*32 convector SILCOOK VIA CHEFF',
+    name: 'Horno Rotativo HEB1A convector SILCOOK VIA CHEFF',
     description: 'Convector de alta eficiencia para uso profesional, ideal para cocinas comerciales y chefs exigentes.',
     details: [
         'Voltaje: 220V / 50Hz.',
@@ -1978,11 +1979,11 @@ export class ProductService {
         'Accesorios: Incluye 4 rejillas de 30 x 40 cm.',
         'Peso: 38 kg.'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/HEB1A 43_32 convector SILCOOK VIA CHEFF.png']
 },
 {
     id: 135,
-    name: 'Horno Rotativo DORATO 4B 42*28,5 convector MORELLI',
+    name: 'Horno Rotativo DORATO 4B convector MORELLI',
     description: 'El Horno Convector Morelli Dorato de 4 bandejas es el compañero ideal para el desarrollo de su proyecto gastronómico. Diseñado para un uso intensivo en pastelería, este producto puede cocinar ultracongelados sin ningún tipo de inconvenientes. Gracias a su potencia y el calor parejo otorgado por su gran turbina integrada en el interior, es capaz de cocinar en minutos dejándolo crocante por dentro y dorado por fuera.',
     details: [
         'Capacidad: 4 bandejas de 420 x 285 mm.',
@@ -1991,11 +1992,11 @@ export class ProductService {
         'Interior: Enlozado de fácil limpieza.',
         'Puerta: Doble vidrio templado.'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/DORATO 4B 42_28,5 convector MORELLI .jpg']
 },
 {
     id: 136,
-    name: 'Horno Rotativo DELI 4B 43*32 convector MORETTI',
+    name: 'Horno Rotativo DELI 4B convector MORETTI',
     description: 'Alta calidad de cocción gracias a su doble resistencia y ventilador. Muy simple de operar, instalar y mantener. Construido íntegramente de acero inoxidable.',
     details: [
         'Temperatura de Cocción: Máximo 300°C.',
@@ -2006,11 +2007,11 @@ export class ProductService {
         'Potencia: 2670 watts.',
         'Dimensiones: Ancho: 59 cm, Largo: 60 cm, Alto: 55 cm.'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/DELI 4B 43_32 convector MORETTI.jpg']
 },
 {
     id: 137,
-    name: 'Horno Rotativo BAKERY 4B 60*40 convector MORETTI',
+    name: 'Horno Rotativo BAKERY 4B convector MORETTI',
     description: 'Ideal para restaurantes, hoteles, estaciones de servicio y supermercados. Alta calidad de cocción gracias a su doble resistencia y ventilador. Muy simple de operar, instalar y mantener. Construido íntegramente de acero inoxidable. Función HUMIDIFICADOR de VAPOR y acción manual.',
     details: [
         'Temperatura de cocción: Máximo 300°C.',
@@ -2022,11 +2023,11 @@ export class ProductService {
         'Dimensiones internas: 84 x 68 x 58 cm.',
         'Peso neto: 75 kg.'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/BAKERY 4B 60_40 convector MORETTI.jpg']
 },
 {
     id: 138,
-    name: 'Horno Rotativo OVEN 70 5B 70*45 convector MORETTI',
+    name: 'Horno Rotativo OVEN 70 5B convector MORETTI',
     description: 'Capacidad para 5 bandejas de 700×450 mm. Trifásico, con uniformidad en la cocción de todo tipo de alimentos. Panel de control programable con activación manual del forzador. Sistema de humidificación mediante pulsador de vapor. Gabinete exterior e interior en acero inoxidable de primera calidad. Regulación de termostato: 0°C a 300°C. Puerta de vidrio templado. Aislación térmica de fibra mineral.',
     details: [
         'Capacidad: 5 bandejas de 700×450 mm.',
@@ -2045,7 +2046,7 @@ export class ProductService {
         'Temperatura mínima: 50°C.',
         'Temperatura máxima: 300°C.'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/OVEN 70 5B 70_45 convector MORETTI.jpg']
 },
 {
     id: 139,
@@ -2059,7 +2060,7 @@ export class ProductService {
         'Potencia: 1500 watts.',
         'Uso recomendado: Industrial.'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/MICROPRO-25 microondas MORETTI .jpg']
 },
 {
     id: 140,
@@ -2072,7 +2073,7 @@ export class ProductService {
         'Tipo de alimentación: Trifásico o monofásico.',
         '3 o 6 o 10 bandejas'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/PANING convector.jpg']
 },
 {
     id: 141,
@@ -2084,7 +2085,7 @@ export class ProductService {
         'Consumo de gas y gasoil: Para la cocción se necesitan 30 minutos de uso del quemador por hora.',
         'Capacidades disponibles: 4, 6, 8, 10 bandejas de tamaño 70x45.',
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/ROT-CAR full 70_45.jpg']
 },
 {
     id: 142,
@@ -2095,7 +2096,7 @@ export class ProductService {
         'Características adicionales: Control digital de temperatura, encendido electrónico, variador de velocidad, quemador a gas automático con forzador y válvula solenoide de seguridad.',
         'Modelos Diponibles: 45(30 docenas), 105(60 docenas), 125(75 docenas), 145(90 docenas), 165(110 docenas)'
     ],
-    images: []
+    images: ['assets/machines/hornos_rotativos_convectores_tunel/Burner HC 45.jpg']
 },
 //QUEMADORES INDUSTRIALES
 {
@@ -2117,7 +2118,7 @@ export class ProductService {
         'Protección: Tapa de protección fonoabsorbente en material plástico.',
         'Modelos Disponibles: BTG 11 (85000), BTG 66 (50000)'
     ],
-    images: []
+    images: ['assets/machines/quemadores_industriales/BALTUR mod. BTG 11 (85000).png']
 },
 //HORNOS PASTELEROS
 {
@@ -2128,7 +2129,7 @@ export class ProductService {
         'Material: Exterior en acero inoxidable.',
         'Características adicionales: Válvula de seguridad, burlete de alta temperatura, 4 patas fijas, nuevo sistema de base desarmable, piso, respaldo y techo totalmente en ladrillo refractario, horno enlozado de gran capacidad, tapa ciega.'
     ],
-    images: []
+    images: ['assets/machines/hornos_pasteleros_pizzeros/Pastelero 12 moldes MORELLI.png']
 },
 {
     id: 145,
@@ -2140,11 +2141,11 @@ export class ProductService {
         'Aplicación: Adecuado para pequeños negocios gastronómicos, quinchos y parrilleros.',
         'Modelos Disponibles:  18 moldes 32000 ladrillos/ 70 LIVIANO, 18 moldes 32000 lajas 70 LIVIANO, 18 moldes 32000 bar 72, 18 moldes 32000 bar 82, 12 moldes 24000 bar'
     ],
-    images: []
+    images: ['assets/machines/hornos_pasteleros_pizzeros/Pastelero 18 moldes 32000 lajas 70 LIVIANO MAEQUIP Bar.jpg']
 },
 {
     id: 146,
-    name: 'Horno Pizzero DEAOLO',
+    name: 'Horno Pizzero DEPAOLO',
     description: 'Horno pizzero con capacidad para 3 moldes, fabricado con cuerpo de acero inoxidable esmerilado y interior completamente enlozado. Cuenta con piso de tejuelas refractarias y 3 quemadores comandados por 1 llave, con válvula de seguridad. Apto para gas envasado y natural con su respectiva regulación. Incluye base de apoyo, es de industria nacional y lleva la marca DEPAOLO.',
     details: [
         'Material: Cuerpo de acero inoxidable esmerilado, interior enlozado, piso de tejuelas refractarias.',
@@ -2155,7 +2156,7 @@ export class ProductService {
         'Marca: DEPAOLO.',
         'Modelos Disponibles: 3 moldes sin pinza (033010), Pizzero 3 moldes con pinza (033020), Pizzero 6 moldes con gratinador (033035), Pizzero 6 moldes con pinza (033060)'
     ],
-    images: []
+    images: ['assets/machines/hornos_pasteleros_pizzeros/Pizzero 3 moldes DEPAOLO sin pinza (033010).jpg']
 },
 {
     id: 147,
@@ -2167,7 +2168,7 @@ export class ProductService {
         'Quemadores: 6 quemadores y 2 válvulas de seguridad.',
         'Modelos Disponibles: 12 moldes (033037),18 moldes (33090), 24 moldes (33100)'
     ],
-    images: []
+    images: ['assets/machines/hornos_pasteleros_pizzeros/Pizzero 24 moldes DEPAOLO (33100).jpg']
 },
 {
     id: 148,
@@ -2182,7 +2183,7 @@ export class ProductService {
         'Rango de temperatura: 20 a 400°C.',
         'Modelos Disponibles:  WFC 101D Electrico, WFC 102 Electrico, WFC 102CA Electrico, 204D Electrico '
     ],
-    images: []
+    images: ['assets/machines/hornos_pasteleros_pizzeros/Pizzero WFC 101D Electrico SILCOOK VIA CHEFF.png']
 },
 //HELADERAS VERTICALES
 {
@@ -2204,7 +2205,7 @@ export class ProductService {
         'Exterior gabinete: Electrozincado - Prepintado.',
         'Modelos Disponibles: MT120, MT120 cervecera, MT11 NORDICA BLACK, MT11 INELRO, MT14, MT470, MT17 Tradicional, MT08, MT19, MT17 ECO BLACK, MT26 (antes MT750), MT34 BLACK, MT980 con cenefa, MT42 (3 puertas)'
     ],
-    images: []
+    images: ['assets/machines/heladeras_verticales/INELRO mod. MT120.jpg']
 },
 {
     id: 150,
@@ -2223,7 +2224,7 @@ export class ProductService {
         'Ubicación del equipo de frío: Parte superior.',
         'Modelos disponibles: 2 puertas ( 915 lt.) marco aluminio, 3 puertas ( 1425 lt.) marco aluminio, 4 puertas ( 1976 lt.) marco aluminio, 5 puertas (1976 lt.) marco aluminio'
     ],
-    images: []
+    images: ['assets/machines/heladeras_verticales/FRIDER 2 puertas ( 915 lt.) marco aluminio.jpg']
 },
 {
     id: 151,
@@ -2242,7 +2243,7 @@ export class ProductService {
         'Controlador: Digital de temperatura y descongelamiento automático.',
         'Iluminación: LED.'
     ],
-    images: []
+    images: ['assets/machines/heladeras_verticales/']
 },
 {
     id: 152,
@@ -2260,7 +2261,7 @@ export class ProductService {
         'Puerta: Vidrio termopanel de abertura batiente.',
         'Modelos Disponibles:  EURO 750 4 caras exposición, EURO 1400 4 caras exposición, EURO 2000 4 caras exposición, Roble 1300 4 caras exposicion, 2 puerta RH Vertical Roble 700 4 caras exposicion, 1 puerta RH'
     ],
-    images: []
+    images: ['assets/machines/heladeras_verticales/Vertical EURO 750 4 caras exposicion MONDINO.jpg']
 },
 //HELADERAS MOSTRADOR/ SUPERNOVA
 {
@@ -2277,7 +2278,7 @@ export class ProductService {
         'Evaporador: Aire forzado.',
         'Modelos Disponibles: 150 1/3 HP, 200 1/2 HP'
     ],
-    images: []
+    images: ['assets/machines/heladeras_mostrador/Minisuper 200 1_2 HP Stefanelli.jpg']
 },
 {
     id: 154,
@@ -2291,7 +2292,7 @@ export class ProductService {
         'Puertas superiores: Corredizas con perfil de aluminio.',
         'Modelos Disponibles: 160 ( 1.05 + 0.45 ), 200 ( 1.50 + 0.50 ), 240 ( 2.00 + 0.50 ), 300 ( 2.50 + 0.50 ), 200 V/C ( 1.50 + 0.50 ), 240 V/C ( 2.00 + 0.50 ), 300 V/C ( 2.50 + 0.50 ) '
     ],
-    images: []
+    images: ['assets/machines/heladeras_mostrador/Mostrador 160 ( 1.05 + 0.45 ) ORLANDOS.png']
 },
 {
     id: 155,
@@ -2312,7 +2313,7 @@ export class ProductService {
         'Temperatura de trabajo: Entre 0º y 5º.',
         'Modelos disponibles: 2.40 ( 2.00 + 0.50 ), 3,00 ( 2.50 + 0.50 ), 2.00 V/C ( 1.50 + 0.50 ), 2.50 V/C ( 2.00 + 0.50 ), 3,00 V/C ( 2.50 + 0.50 )'
     ],
-    images: []
+    images: ['assets/machines/heladeras_mostrador/supernova 2.40 ( 2.00 + 0.50 ).jpg']
 },
 {
     id: 156,
@@ -2332,7 +2333,7 @@ export class ProductService {
         'Rango de temperatura: 3°C a 8°C',
         'Tamaños disponibles: 2000 mm., 1200 mm., 1500 mm., 1800 mm., 2400 mm.'
     ],
-    images: []
+    images: ['assets/machines/heladeras_bateas/Curva 2000 mm. 1_2 hp. CICLÓN.jpg']
 },
 {
     id: 157,
@@ -2347,7 +2348,7 @@ export class ProductService {
         'Mesada de trabajo: Acero inoxidable brillante',
         'Tamaños disponibles: 1800 mm., 2400 mm., 3000 mm.'
     ],
-    images: []
+    images: ['assets/machines/heladeras_bateas/Curva 1800 mm. 1_3 hp. Mod. PREMIUM FRIDER.jpg']
 },
 {
     id: 158,
@@ -2362,7 +2363,7 @@ export class ProductService {
         'Mesada de trabajo: Acero inoxidable brillante',
         'Tamaños disponibles: 1200 mm., 1800 mm., 2400 mm., 3000 mm.'
     ],
-    images: []
+    images: ['assets/machines/heladeras_bateas/Recta 1200 mm. 1_3 hp. Mod. LUANA LUXE FRIDER.jpg']
 },
 {
     id: 159,
@@ -2384,7 +2385,7 @@ export class ProductService {
         'Iluminación: Tubos LED',
         'Tamaños disponibles: 1200 mm., 1800 mm., 2400 mm., 3000 mm.'
     ],
-    images: []
+    images: ['assets/machines/heladeras_bateas/Curva 3000 mm. 1 hp. Mod. LUANA FRIDER.jpg']
 }
 
 

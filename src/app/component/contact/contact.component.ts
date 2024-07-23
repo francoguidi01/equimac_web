@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 import { DarkModeService } from '../../services/dark-mode.service';
+import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -9,7 +10,9 @@ import { DarkModeService } from '../../services/dark-mode.service';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
+
 export class ContactComponent {
+
 isDarkMode: boolean=false;
 collapseMessage: string = '';
 animationState: string = '';
@@ -22,11 +25,22 @@ animationState: string = '';
     this.darkModeService.darkMode$.subscribe((isDarkMode: boolean) => {
       this.isDarkMode = isDarkMode;
     });
+
+    this.route.params.subscribe(params => {
+      const productName = params['productName'];
+      if (productName) {
+        this.contactForm.patchValue({
+          message: `Buen día, me gustaría consultar sobre el producto "${productName}" sobre las siguientes dudas: `
+        });
+      }
+    });
+
+
   }
 
   contactForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder, private darkModeService: DarkModeService) {
+  constructor(private formBuilder: FormBuilder, private route: ActivatedRoute, private darkModeService: DarkModeService) {
     this.contactForm = this.formBuilder.group({
       name: new FormControl('', [Validators.required, Validators.maxLength(15)]),
       lastName: new FormControl('', [Validators.required, Validators.maxLength(15)]),
@@ -71,29 +85,3 @@ animationState: string = '';
     }
   }
 }
-
-  /*
-  *ngIf="quizForm.invalid"
-   s@gmail.com 
-   asdhsadh@gmail.com
-   action="https://formsubmit.co/kevintolosa2000@gmail.com" method="POST"
-   service_3sw0g1c
-
-
-
-
-   async send() {
-    emailjs.init('2fZh7gGfm-fiwSFXe')
-   let response  = await emailjs.send('service_3sw0g1c', 'template_21w2kzg',{
-      name: this.contactForm.value.name,
-      lastName: this.contactForm.value.lastName,
-      email: this.contactForm.value.email,
-      telephone: this.contactForm.value.telephone,
-      message: this.contactForm.value.message
-    });
-
-    alert('ENVIADO!!!')
-
-    this.contactForm.reset;
-  }
-   */
