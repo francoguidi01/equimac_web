@@ -23,26 +23,35 @@ export class ProductViewComponent implements OnInit {
   ) { }
   
 
-  ngOnInit(): void {
-
-    window.scrollTo(0, 0);
-
+  ngOnInit() {
+    // Maneja los cambios de ruta
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
-      let productId = Number(this.route.snapshot.paramMap.get('id'));
-      this.product = this.productService.getById(productId);
+      this.loadProduct();
     });
-
-    let productId = Number(this.route.snapshot.paramMap.get('id'));
-    this.product = this.productService.getById(productId);
-
+  
+    // Carga inicial del producto
+    this.loadProduct();
+  
+    // Manejo del modo oscuro
     this.isDarkMode = this.darkModeService.getDarkMode();
-
     this.darkModeService.darkMode$.subscribe((isDarkMode: boolean) => {
       this.isDarkMode = isDarkMode;
     });
-
+  }
+  
+  private loadProduct() {
+    const productId = Number(this.route.snapshot.paramMap.get('id'));
+    this.productService.getById(productId).subscribe(
+      (product) => {
+        this.product = product;
+      },
+      (error) => {
+        console.error('Error al cargar el producto:', error);
+        // Aquí puedes manejar el error, por ejemplo, redirigiendo a una página de error
+      }
+    );
   }
 
 }

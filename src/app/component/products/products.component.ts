@@ -32,9 +32,16 @@ export class ProductsComponent {
   }
 
   getAllProducts() {
-    this.listProduct = this.service.getAll();
-    this.listProduct.sort((a, b) => a.name.localeCompare(b.name));
-    this.setPage(1);
+    this.service.getProducts().subscribe(
+      (products: Product[]) => {
+        this.listProduct = products;
+        this.listProduct.sort((a, b) => a.name.localeCompare(b.name));
+        this.setPage(1);
+      },
+      error => {
+        console.error('Error al obtener productos:', error);
+      }
+    );
   }
 
   setPage(page: number) {

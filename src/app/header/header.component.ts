@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit{
   constructor(private productService: ProductService, private darkModeService: DarkModeService) {}
 
   ngOnInit(): void {
-    this.listProduct = this.productService.getAll();
+    this.listProduct = this.productService.getProducts();
     this.isDarkMode = this.darkModeService.getDarkMode(); 
   }
 
@@ -30,11 +30,13 @@ export class HeaderComponent implements OnInit{
   searchProducts(event: any) {
     const query = event.target.value;
     if (query) {
+      console.log(query)
       this.filteredProducts = this.productService.searchProducts(query);
     } else {
       this.filteredProducts = [];
     }
   }
+
 
   toggleDarkMode(): void {
     this.isDarkMode = !this.isDarkMode;

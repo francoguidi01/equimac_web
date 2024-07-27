@@ -27,7 +27,15 @@ export class HomeComponent {
     window.scrollTo(0, 0); 
     
     let productId = Number(this.route.snapshot.paramMap.get('id'));
-    this.product = this.service.getById(productId);
+    this.service.getById(productId).subscribe(
+      (product) => {
+        this.product = product;
+        console.log(this.product);
+      },
+      (error) => {
+        console.error('Error al obtener el producto:', error);
+      }
+    );
     console.log(this.product)
     this.get_all()
 
@@ -39,10 +47,17 @@ export class HomeComponent {
   }
   
   get_all() {
-    this.listProduct = this.service.getAll();
-    this.listProduct.sort(() => Math.random() - 0.5);
-    this.randomProducts = this.listProduct.slice(0, 5);
-    console.log(this.randomProducts);
+    this.service.getProducts().subscribe(
+      (products) => {
+        this.listProduct = products;
+        this.listProduct.sort(() => Math.random() - 0.5);
+        this.randomProducts = this.listProduct.slice(0, 5);
+        console.log(this.randomProducts);
+      },
+      (error) => {
+        console.error('Error al obtener productos:', error);
+      }
+    );
   }
 
 }
