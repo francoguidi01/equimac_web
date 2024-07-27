@@ -63,8 +63,8 @@ animationState: string = '';
     }
   
     try {
-      emailjs.init('2fZh7gGfm-fiwSFXe');
-      let response = await emailjs.send('service_3sw0g1c', 'template_21w2kzg', {
+      emailjs.init('sqlwR_7WiCR0qK0Ix');
+      let response = await emailjs.send("service_f1ze67q","template_4tue1tq", {
         name: this.contactForm.value.name,
         lastName: this.contactForm.value.lastName,
         email: this.contactForm.value.email,
