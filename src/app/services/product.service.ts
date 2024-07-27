@@ -2227,25 +2227,6 @@ export class ProductService {
     images: ['assets/machines/heladeras_verticales/FRIDER 2 puertas ( 915 lt.) marco aluminio.jpg']
 },
 {
-    id: 151,
-    name: 'Heladera MONDINO 4 puertas (1976 lt.)',
-    description: 'Refrigerador diseñado para mantener todo tipo de productos alimenticios y medicinales. Construido con interior y exterior en acero inoxidable calidad 430, contrafrente en acero galvanizado. Las puertas cuentan con marco de aluminio, fina serigrafía y termo panel de 3 vidrios. El cerramiento de las puertas es automático con bisagras con resortes y cierre magnético. Aislación con densidad de 40 kgs/m3 espuma Bayer bajo norma ABNT, con retardante de llama clasificación R1. Incluye parrillas regulables de alambre con pintura epoxi horneable, patas reforzadas regulables y resistentes a la regulación termomecánica. Ofrece una temperatura de 0°C a 5°C, humedad relativa del 62%, refrigeración forzada, controlador digital de temperatura y descongelamiento automático. Iluminación LED integrada.',
-    details: [
-        'Capacidad: 1976 litros.',
-        'Interior y exterior: Acero inoxidable calidad 430, contrafrente en acero galvanizado.',
-        'Puertas: Marco de aluminio con fina serigrafía, termo panel de 3 vidrios, cerramiento automático con bisagras con resortes y cierre magnético.',
-        'Aislación: Densidad 40 kgs/m3 espuma Bayer bajo norma ABNT, retardante de llama clasificación R1.',
-        'Parrillas: Regulables de alambre con pintura epoxi horneable (5 unidades).',
-        'Patas: Reforzadas regulables, resistentes a la regulación termomecánica.',
-        'Temperatura: 0°C a 5°C.',
-        'Humedad Relativa: 62%.',
-        'Refrigeración: Forzada.',
-        'Controlador: Digital de temperatura y descongelamiento automático.',
-        'Iluminación: LED.'
-    ],
-    images: ['assets/machines/heladeras_verticales/']
-},
-{
     id: 152,
     name: 'Heladera Vertical MONDINO',
     description: 'Exhibidora vertical con construcción en acero negro, diseñada para mantener una temperatura de trabajo de +2°C a +6°C. Cuenta con resistencia anti-empañante en las 4 caras de vidrio triple vidriado y termo panel float. Equipada con sistema de frío italiano que incluye evaporador y forzador de techo, así como iluminación interior LED. Incluye 5 estantes de vidrio regulables más piso, interior revestido en acero inoxidable y puerta de vidrio termopanel de abertura batiente.',
