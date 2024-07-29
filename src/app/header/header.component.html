@@ -11,8 +11,9 @@
           placeholder="🔍 Buscar productos" 
           type="text"
           (input)="searchProducts($event)"
+          (focus)="isSearchActive = true" 
         >
-        <div class="results" type="button">
+        <div class="results" *ngIf="isSearchActive">
           <ul>
             <li *ngFor="let product of filteredProducts" [routerLink]="['/products/view/', product.id]">
               <div>
@@ -26,7 +27,6 @@
     </div>
   </div>
 
-  <!-- Dark mode toggle switch -->
   <div class="dark-mode-toggle" >
     <input type="checkbox" id="darkmode-toggle" (change)="toggleDarkMode()" />
     <label for="darkmode-toggle">

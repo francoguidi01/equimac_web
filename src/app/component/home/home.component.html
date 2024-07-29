@@ -9,9 +9,9 @@
 
     <div class="animate__animated animate__fadeIn" style="margin-bottom: 0%;">
 
-        <div class="object">
+        <div class="object animate__animated animate__pulse">
             <div class="container">
-                <img class="img trust-image" src="assets/misc/trust.png">
+                <img class="img trust-image " src="assets/misc/trust.png">
             </div>
             <div class="profileContainer">
                 <div class="profileText">
@@ -32,7 +32,7 @@
 
     <div class="title animate__animated animate__fadeIn"
         style="display: flex; align-items: center; justify-content: center;">
-        <div class="animated-me">
+        <div >
             <img src="assets/misc/line.png" alt="Línea" class="line-image">
             <span style="margin: 0px;">ALGUNOS PRODUCTOS</span>
             <img src="assets/misc/line.png" alt="Línea" class="line-image">
@@ -40,7 +40,7 @@
     </div>
 
     <div class="products-wrapper animate__animated animate__fadeIn">
-        <div class="animated-me product-row">
+        <div class="product-row">
             <div class="product-container" *ngFor="let product of randomProducts">
                 <a class="nav-link" [routerLink]="['/products/view/', product.id]" routerLinkActive="active" href="#" style="text-decoration: none;">
                     <img [src]="product.images[0]" alt="Imagen" class="product-image">
@@ -54,7 +54,7 @@
     <!--------------------------------Extra-------------------------------->
 
     <div class="containerD animate__animated animate__fadeIn" style="margin-bottom: 5%;">
-        <div class="animated-me row align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center">
             <div class="col-md-4 text-center">
                 <div class="icon containerE">
                     <img src="assets/misc/ship.png" alt="Logo" class="logoP  img-fluid ship">
@@ -80,12 +80,12 @@
     <!--------------------------------Infinite Carousel companies-------------------------------->
 
     <div class="animate__animated animate__fadeIn" style="margin-bottom: 5%;">
-        <div class="animated-me title" style="align-items: center; justify-content: center;">
+        <div class="title" style="align-items: center; justify-content: center;">
             <img src="assets/misc/line.png" alt="Línea" class="line-image">
             <span style="margin: 0 10px;">NUESTROS CLIENTES</span>
             <img src="assets/misc/line.png" alt="Línea" class="line-image">
         </div>
-        <div class="animated-me slider ">
+        <div class="slider ">
             <div class="slide-track  ">
                 <div class="slide">
                     <img src="assets/clients/Batiplane.png" height="100" width="250" alt="" />
@@ -148,7 +148,7 @@
 
     <!--------------------------------Map-------------------------------->
     <div class="containerB animate__animated animate__fadeIn" style="text-align: center;">
-        <div class="animated-me title" style="display: flex; align-items: center; justify-content: center;">
+        <div class="title" style="display: flex; align-items: center; justify-content: center;">
             <img src="assets/misc/line.png" alt="Línea" class="line-image">
             <span style="margin: 0 10px;">DONDE ENCONTRARNOS</span>
             <img src="assets/misc/line.png" alt="Línea" class="line-image">

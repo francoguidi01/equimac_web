@@ -15,7 +15,6 @@ body {
     font-weight: 400;
     letter-spacing: 0;
     padding-top: 200px;
-
 }
 
 body.dark-mode{
@@ -248,6 +247,7 @@ span:after {
     color: #D8D8D8; 
 }
 /*-----------------------------------------*/
+
 .animated-image {
     view-timeline-name: --reveal;
     animation-name: slideIn;

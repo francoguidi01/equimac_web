@@ -8,7 +8,7 @@ body {
     background-color: #d8d8d8;
     padding-top: 150px;
     margin: 0;
-
+overflow: hidden;
 }
 
 .background {
@@ -368,24 +368,6 @@ h2 {
 }
 
 /*-----------------------------------------------*/
-.animated-me {
-    view-timeline-name: --reveal;
-    animation-name: slideIn;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: 25% cover 45%;
-      }
-  
-      @keyframes slideIn {
-      from {
-          opacity: 0%;
-          scale: 20%;
-      }
-      to {
-        opacity: 1;
-        scale: 100%;
-      }
-      }
 
       .products-wrapper {
         display: flex;
@@ -423,3 +405,5 @@ h2 {
     .dark-mode .product-image{
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); 
     }
+
+  
