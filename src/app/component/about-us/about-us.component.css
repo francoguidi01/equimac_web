@@ -192,13 +192,13 @@ h1 {
 
 
 h2 {
-    font: 600 1.2em/1 'Raleway', sans-serif; /* Reducir el tamaño del texto */
+    font: 600 1.2em/1 'Raleway', sans-serif;
     color: #1a1a1abb;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    position: relative; /* Cambiar a relative para evitar la superposición */
-    margin-bottom: 20px; /* Agregar margen inferior para separación */
+    position: relative; 
+    margin-bottom: 20px;
 }
 
 .dark-mode h2{
@@ -221,7 +221,7 @@ span, span:after {
 
 
 span {
-    font-size: 3em; /* Reducir el tamaño del texto */
+    font-size: 3em;
     z-index: 100;
     text-shadow: .04em .04em 0 #657572;
 }

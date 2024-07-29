@@ -49,12 +49,18 @@ export class ProductService {
   private normalize(text: string): string {
     return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   }
-
+  
   searchProducts(query: string): Product[] {
     const normalizedQuery = this.normalize(query);
-    return this.products.filter(product =>
-      product && product.name && this.normalize(product.name).startsWith(normalizedQuery)
-    );
+    const queryWords = normalizedQuery.split(' ');
+  
+    return this.products.filter(product => {
+      if (product && product.name) {
+        const normalizedProductName = this.normalize(product.name);
+        return queryWords.every(word => normalizedProductName.includes(word));
+      }
+      return false;
+    });
   }
 
   

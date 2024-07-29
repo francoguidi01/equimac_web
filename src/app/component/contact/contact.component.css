@@ -288,7 +288,7 @@ span, span:after {
 }
 
 span {
-    font-size: 3em; /* Reducir el tamaño del texto */
+    font-size: 3em;
     z-index: 100;
     text-shadow: .04em .04em 0 #657572;
 }

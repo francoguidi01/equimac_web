@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #531D26; /* Color de fondo del header */
+    background-color: #531D26;
     position: fixed;
     top: 0;
     width: 100%;
@@ -12,7 +12,7 @@
 }
 
 .header.dark-mode {
-    background-color: #1a1a2e; /* Color de fondo del header en modo oscuro */
+    background-color: #1a1a2e;
 }
 
 .logo img {
@@ -59,6 +59,8 @@
     padding: 0;
     margin-top: .5rem;
     border-radius: 1rem;
+    border-top-right-radius: 0.5rem; 
+    border-bottom-right-radius: 0.5px;
     width: 80%; 
     position: absolute;
     top: 100%;
@@ -68,6 +70,19 @@
     overflow-y: auto; 
     z-index: 1001;
 }
+
+.results::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .results::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 2px;
+  }
+  
+  .results::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
 
 .results.dark-mode {
     background: #555;
@@ -110,7 +125,6 @@
     border-radius: 50%;
 }
 
-/* Dark mode toggle switch styles */
 .dark-mode-toggle {
     display: flex;
     align-items: center;
@@ -123,8 +137,8 @@ input[type="checkbox"] {
 }
 
 label {
-    width: 90px; /* Tamaño del ancho del botón */
-    height: 34px; /* Tamaño de la altura del botón */
+    width: 90px; 
+    height: 34px;
     position: relative;
     display: block;
     background: #D8D8D8;
@@ -137,11 +151,11 @@ label {
 
 label:after {
     content: "";
-    width: 30px; /* Tamaño del ancho del círculo dentro del botón */
-    height: 30px; /* Tamaño de la altura del círculo dentro del botón */
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 2px; /* Ajuste vertical del círculo */
-    left: 2px; /* Ajuste horizontal del círculo */
+    top: 2px; 
+    left: 2px;
     background: linear-gradient(180deg, #e79f9f, #b96666);
     border-radius: 28px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -150,8 +164,8 @@ label:after {
 
 label svg {
     position: absolute;
-    width: 28px; /* Tamaño de los íconos */
-    top: 3px; /* Ajuste vertical de los íconos */
+    width: 28px; 
+    top: 3px;
     z-index: 100;
 }
 
@@ -162,7 +176,7 @@ label svg.sun {
 }
 
 label svg.moon {
-    right: 3px; /* Colocar el icono de la luna a la derecha */
+    right: 3px;
     fill: #7e7e7e;
     transition: 0.3s;
 }
@@ -172,8 +186,8 @@ input[type="checkbox"]:checked + label {
 }
 
 input[type="checkbox"]:checked + label:after {
-    left: 58px; /* Ajustar la posición final del círculo */
-    transform: translateX(0); /* Asegurarse de que el círculo se mueva completamente */
+    left: 58px; 
+    transform: translateX(0);
     background: linear-gradient(180deg, #9a9abd, #7b7bc2);
 }
 
