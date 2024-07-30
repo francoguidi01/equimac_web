@@ -24,17 +24,16 @@ export class ProductViewComponent implements OnInit {
   
 
   ngOnInit() {
-    // Maneja los cambios de ruta
+    window.scrollTo(0, 0); 
+
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
       this.loadProduct();
     });
   
-    // Carga inicial del producto
     this.loadProduct();
   
-    // Manejo del modo oscuro
     this.isDarkMode = this.darkModeService.getDarkMode();
     this.darkModeService.darkMode$.subscribe((isDarkMode: boolean) => {
       this.isDarkMode = isDarkMode;
@@ -49,7 +48,6 @@ export class ProductViewComponent implements OnInit {
       },
       (error) => {
         console.error('Error al cargar el producto:', error);
-        // Aquí puedes manejar el error, por ejemplo, redirigiendo a una página de error
       }
     );
   }
