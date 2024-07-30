@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /* Design */
+
 *,
 *::before,
 *::after {
@@ -15,6 +16,7 @@ body {
     font-weight: 400;
     letter-spacing: 0;
     padding-top: 200px;
+    overflow: hidden;
 }
 
 body.dark-mode{
@@ -138,24 +140,8 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.containerE:after {
-    position: absolute;
-    top: 390px;
-}
-
 .containerE:hover {
     transform: scale(1.02);
-}
-
-.containerE-inner {
-    position: relative;
-    transform-origin: 50%;
-    top: -160px;
-    right: 140px;
-}
-
-.containerE:hover .img {
-    transform: translateY(0) scale(1.2);
 }
 
 /*------------------------------------------------------------------------------*/
