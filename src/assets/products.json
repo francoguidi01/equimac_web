@@ -2585,7 +2585,9 @@
             "Bajo consumo de combustible (Gas, electr.)",
             "Intercambiador de calor de alto rendimiento construido íntegramente en acero inoxidable."
         ],
-        "images": ["assets/machines/hornos_indupan/horno_indupan_linea_uno.jpg"]
+        "images": [
+            "assets/machines/hornos_indupan/horno_indupan_linea_uno.jpg"
+        ]
     },
     {
         "id": 161,
@@ -2593,12 +2595,14 @@
         "description": "Este horno de gran diseño visual, ha sido concebido para funcionar a la vista del público de supermercados, panaderías boutique, confiterias, cafeterías, o restaurantes. Equipado con tablero digital logra la total automatización en el proceso de cocción acorde a las necesidades de trabajo de cada empresa. Su amplia campana curva, permite identificar con su marca o logotipo a cada empresa usuaria. Este detalle es posible realizarlo en nuestros talleres con el sistema de corte de gran precisión.",
         "details": [
             "Programación integral de todos los procesos.",
-"Tablero digital programable.",
-"Campana iluminada y prolongada con extractor de vapor.",
-"Doble vidrio con ventilado interior en la puerta.",
-"Excepcional aislación térmica."
+            "Tablero digital programable.",
+            "Campana iluminada y prolongada con extractor de vapor.",
+            "Doble vidrio con ventilado interior en la puerta.",
+            "Excepcional aislación térmica."
         ],
-        "images": ["assets/machines/hornos_indupan/Horno Rotativo INDUPAN Histana 7090-6080.png"]
+        "images": [
+            "assets/machines/hornos_indupan/Horno Rotativo INDUPAN Histana 7090-6080.png"
+        ]
     },
     {
         "id": 162,
@@ -2606,12 +2610,14 @@
         "description": "Por su robusta estructura, facilidad de manejo y su extraordinaria respuesta al uso intensivo, es el horno más vendido de INDUPAN durante los útimos treinta años. Uno de sus elementos vitales es el eficiente tablero electromecánico, de fácil manejo y prácticamente libre de mantenimiento. La amplia y sostenida respuesta del mercado ha levado a INDUPAN a instalar más de 2000 unidades de la línea HT en tres continentes (América, Europa y Africa). Todas estas características lo han transformado en un clásico de la industria panadera argentina.",
         "details": [
             "Novedoso diseño exterior.",
-"Tablero de grandes dimensiones electromecánico o digital programable.",
-"Disponible con quemador de biomasa",
-"Sistema de apertura interna.",
-"Parada de emergencia."
+            "Tablero de grandes dimensiones electromecánico o digital programable.",
+            "Disponible con quemador de biomasa",
+            "Sistema de apertura interna.",
+            "Parada de emergencia."
         ],
-        "images": ["assets/machines/hornos_indupan/Horno Rotativo INDUPAN HT2-7090-6080.png"]
+        "images": [
+            "assets/machines/hornos_indupan/Horno Rotativo INDUPAN HT2-7090-6080.png"
+        ]
     },
     {
         "id": 163,
@@ -2619,30 +2625,48 @@
         "description": "Con todas las características constructivas y de funcionamiento de la línea HT, el 4570 es el horno indicado para lugares donde el espacio disponible es el principal desafio. Totalmente realizado en acero inoxidable garantiza una durabilidad operativa largamente probada desde el inicio de su producción. La extraordinaria respuesta al uso intensivo lo ha transformado en el preferido de panaderías, bares y restaurantes que por su buena proyección comercial manejan volúmenes importantes de producción",
         "details": [
             "Optimo sistema de aislación térmica.",
-"Bisagras y manija para servicio pesado.",
-"Tablero electromécanico totalmente. programable - Disponible también digital.",
-"Alimentación a gas, gas oil, electricidad o biomasa de alto rendimiento.",
-"Sistema de apertura interna."
+            "Bisagras y manija para servicio pesado.",
+            "Tablero electromécanico totalmente. programable - Disponible también digital.",
+            "Alimentación a gas, gas oil, electricidad o biomasa de alto rendimiento.",
+            "Sistema de apertura interna."
         ],
-        "images": ["assets/machines/hornos_indupan/Horno Rotativo INDUPAN ht2-4570.png"]
+        "images": [
+            "assets/machines/hornos_indupan/Horno Rotativo INDUPAN ht2-4570.png"
+        ]
     },
     {
         "id": 164,
         "name": "Horno Rotativo INDUPAN DOBLEMAX",
         "description": "En el horno rotativo DOBLE de INDUPAN converge toda la experiencia adquirida en el desarrollo y diseño de hornos rotativos. Esta destinado a la industria panadera de alta producción con manejo de grandes volúmenes. Su racional diseño interior permite maniobrar fácilmente los dos carros que aloja. Un acabado estudio del flujo de calor garantiza una cocción pareja en ambos carros. El tradicional aislamiento térmico ha sido reforzado atento a la posibili- dad de largas jornadas de producción donde un equilibrado consumo de cualquiera de los combustibles utilizados es de vital importancia. El tablero electromecánico, totalmente programable, viene a sumar eficiencia a un equipo robusto y altamente confiable.",
         "details": [
-  "Hornalla frontal de fácil acceso.","Plataforma giratoria doble.", "Disponible con tablero digital programable."
+            "Hornalla frontal de fácil acceso.",
+            "Plataforma giratoria doble.",
+            "Disponible con tablero digital programable."
         ],
-        "images": ["assets/machines/hornos_indupan/Horno Rotativo INDUPAN DOBLEMAX.png"]
+        "images": [
+            "assets/machines/hornos_indupan/Horno Rotativo INDUPAN DOBLEMAX.png"
+        ]
     },
     {
         "id": 165,
         "name": "Amasadora INDUPAN Omega-Clasica",
         "description": "Gracias a su elaborado diseño optimizan el proceso de amasado asegurando masas homogéneas con humedad optima, reduciendo de esta forma el tiempo de sobado. Construidas a partir de una estructura de acero de gran espesor y equipadas con bateas de acero inoxidable de alta resistencia. Trabajan con dos motores para movimiento de batea y espiral. Este último de dos velocidades (lenta y rápida). El espiral está construido en acero forjado, con un novedoso tratamiento de dureza superficial. Los motores cuentan con protección térmica. Cobertor de batea de diseño. Realizado en acero inoxidable, otorgando mayor rigidez y facilitando la limpieza. Rodillos laterales. Soportan los movimientos axiales de la batea. Construidos en APM. Las tapas de batea viene equipadas con micros de corte para mayor seguridad.",
         "details": [
-             "Panel digital.", "Con programación de tiempos de amasado lento y rápido.","Con selectora de sentido de rotación de la batea.", "Los modelos SR 160 y 240 incluye caudalímetro digital programable", "En el modelo SR 80 el caudalímetro es opcional.", "Los modelos con caudalímetro incluyen giro manual para la cómoda extracción de masa.", "Llave de mando manual. Reemplaza, en caso de desperfecto al panel digital.", "Parada general.","Modelos Disponibles: SR-80 Omega, SR-160 Clasica, SR-240 Omega"
+            "Panel digital.",
+            "Con programación de tiempos de amasado lento y rápido.",
+            "Con selectora de sentido de rotación de la batea.",
+            "Los modelos SR 160 y 240 incluye caudalímetro digital programable",
+            "En el modelo SR 80 el caudalímetro es opcional.",
+            "Los modelos con caudalímetro incluyen giro manual para la cómoda extracción de masa.",
+            "Llave de mando manual. Reemplaza, en caso de desperfecto al panel digital.",
+            "Parada general.",
+            "Modelos Disponibles: SR-80 Omega, SR-160 Clasica, SR-240 Omega"
         ],
-        "images": ["assets/machines/amasadoras_indupan/Amasadora INDUPAN Omega-Clasica 1.png","assets/machines/amasadoras_indupan/Amasadora INDUPAN Omega-Clasica 2.png","assets/machines/amasadoras_indupan/Amasadora INDUPAN Omega-Clasica 3.png"]
+        "images": [
+            "assets/machines/amasadoras_indupan/Amasadora INDUPAN Omega-Clasica 1.png",
+            "assets/machines/amasadoras_indupan/Amasadora INDUPAN Omega-Clasica 2.png",
+            "assets/machines/amasadoras_indupan/Amasadora INDUPAN Omega-Clasica 3.png"
+        ]
     },
     {
         "id": 166,
@@ -2651,7 +2675,11 @@
         "details": [
             "Modelos Disponibles: Trinchadora Compacta Omega, Trinchadora Compacta Linea Clasica, Trinchadora Esitbadora Linea Clasica"
         ],
-        "images": ["assets/machines/trinchadoras_indupan/Trinchadoras INDUPAN 1.png","assets/machines/trinchadoras_indupan/Trinchadoras INDUPAN 2.png","assets/machines/trinchadoras_indupan/Trinchadoras INDUPAN 3.png"]
+        "images": [
+            "assets/machines/trinchadoras_indupan/Trinchadoras INDUPAN 1.png",
+            "assets/machines/trinchadoras_indupan/Trinchadoras INDUPAN 2.png",
+            "assets/machines/trinchadoras_indupan/Trinchadoras INDUPAN 3.png"
+        ]
     },
     {
         "id": 167,
@@ -2660,7 +2688,11 @@
         "details": [
             "Modelos Disponibles: Cortadora de tres canales, Armadora con Calibrador, Armadora sin Calibrador"
         ],
-        "images": ["assets/machines/cortadoras_armadoras_INDUPAN/cortadora INDUPAN 1.png","assets/machines/cortadoras_armadoras_INDUPAN/cortadora INDUPAN 2.png","assets/machines/cortadoras_armadoras_INDUPAN/cortadora INDUPAN 3.png"]
+        "images": [
+            "assets/machines/cortadoras_armadoras_INDUPAN/cortadora INDUPAN 1.png",
+            "assets/machines/cortadoras_armadoras_INDUPAN/cortadora INDUPAN 2.png",
+            "assets/machines/cortadoras_armadoras_INDUPAN/cortadora INDUPAN 3.png"
+        ]
     },
     {
         "id": 168,
@@ -2669,6 +2701,9 @@
         "details": [
             "Modelos Disponibles: Sobadora Pesada Omega, Sobadora Automatica Omega"
         ],
-        "images": ["assets/machines/sobadoras_INDUPAN/sobadora INDUPAN 1.png","assets/machines/sobadoras_INDUPAN/sobadora INDUPAN 2.png"]
+        "images": [
+            "assets/machines/sobadoras_INDUPAN/sobadora INDUPAN 1.png",
+            "assets/machines/sobadoras_INDUPAN/sobadora INDUPAN 2.png"
+        ]
     }
 ]

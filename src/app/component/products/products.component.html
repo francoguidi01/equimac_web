@@ -14,7 +14,7 @@
         
         <ul class="cards">
             <li class="cards_item animate__animated animate__zoomIn" *ngFor="let product of pagedProducts">
-                <div class="card animated-image">
+                <div class="card">
                     <div class="card_image"><img [src]="product.images[0]"></div>
                     <div class="card_content">
                         <h2 class="card_title"><strong>{{product.name}}</strong></h2>
