@@ -5,9 +5,10 @@ import { AboutUsComponent } from './component/about-us/about-us.component';
 import { ProductsComponent } from './component/products/products.component';
 import { ProductViewComponent } from './component/product-view/product-view.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { PasswordComponent } from './component/password/password.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: PasswordComponent},
   {path: 'home', component: HomeComponent},
   {path: 'about-us', component: AboutUsComponent},
   {path: 'products', component: ProductsComponent},

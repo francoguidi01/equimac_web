@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { OverlappingComponent } from './component/overlapping/overlapping.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PasswordComponent } from './component/password/password.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    OverlappingComponent
+    OverlappingComponent,
+    PasswordComponent
   ],
   imports: [
     BrowserModule,
